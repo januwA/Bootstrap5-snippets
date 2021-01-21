@@ -1,0 +1,894 @@
+{
+  "theme primary": {
+    "prefix": ".theme-primary",
+    "body": "primary"
+  },
+  "theme secondary": {
+    "prefix": ".theme-secondary",
+    "body": "secondary"
+  },
+  "theme success": {
+    "prefix": ".theme-success",
+    "body": "success"
+  },
+  "theme danger": {
+    "prefix": ".theme-danger",
+    "body": "danger"
+  },
+  "theme warning": {
+    "prefix": ".theme-warning",
+    "body": "warning"
+  },
+  "theme info": {
+    "prefix": ".theme-info",
+    "body": "info"
+  },
+  "theme light": {
+    "prefix": ".theme-light",
+    "body": "light"
+  },
+  "theme dark": {
+    "prefix": ".theme-dark",
+    "body": "dark"
+  },
+  "theme white": {
+    "prefix": ".theme-white",
+    "body": "white"
+  },
+  "border Additive": {
+    "prefix": ".border-",
+    "body": "border-${0:top}",
+    "description": "top|end|bottom|start|<color>"
+  },
+  "Radius": {
+    "prefix": ".rounded-",
+    "body": "rounded-${0:circle}",
+    "description": "radius"
+  },
+  "Text": {
+    "prefix": ".text-",
+    "body": "text-${0:primary}",
+    "description": "<color>|start|center|end|wrap|nowrap|break|lowercase|uppercase|capitalize|reset"
+  },
+  "Text truncation": {
+    "prefix": ".text-truncate",
+    "body": "text-truncate",
+    "description": "Truncate long strings of text with an ellipsis."
+  },
+  "Text decoration": {
+    "prefix": ".text-decoration-",
+    "body": "text-decoration-${0:underline}",
+    "description": "underline|line-through|none"
+  },
+  "Text decoration 2": {
+    "prefix": ".text-decoration-line-through",
+    "body": "text-decoration-line-through",
+    "description": ""
+  },
+  "Background Color": {
+    "prefix": ".bg-",
+    "body": "bg-${0:primary}",
+    "description": "Background Color"
+  },
+  "Display grid": {
+    "prefix": ".d-grid",
+    "body": "d-grid",
+    "description": "grid"
+  },
+  "Display table": {
+    "prefix": ".d-table",
+    "body": "d-table",
+    "description": "table"
+  },
+  "Display table row": {
+    "prefix": ".d-table-row",
+    "body": "d-table-row",
+    "description": "table-row"
+  },
+  "Display table cell": {
+    "prefix": ".d-table-cell",
+    "body": "d-table-cell",
+    "description": "table-cell"
+  },
+  "Display flex": {
+    "prefix": ".d-flex",
+    "body": "d-flex",
+    "description": "flex"
+  },
+  "Display block": {
+    "prefix": ".d-block",
+    "body": "d-block",
+    "description": "block"
+  },
+  "Display inline": {
+    "prefix": ".d-inline",
+    "body": "d-inline",
+    "description": "inline"
+  },
+  "Display inline block": {
+    "prefix": ".d-inline-block",
+    "body": "d-inline-block",
+    "description": "inline-block"
+  },
+  "Display inline flex": {
+    "prefix": ".d-inline-flex",
+    "body": "d-inline-flex",
+    "description": "inline-flex"
+  },
+  "Display none": {
+    "prefix": ".d-none",
+    "body": "d-none",
+    "description": "none"
+  },
+  "Flex row": {
+    "prefix": ".flex-row",
+    "body": "flex-row"
+  },
+  "Flex column": {
+    "prefix": ".flex-column",
+    "body": "flex-column"
+  },
+  "Flex fill": {
+    "prefix": ".flex-fill",
+    "body": "flex-fill"
+  },
+  "Flex wrap": {
+    "prefix": ".flex-wrap",
+    "body": "flex-wrap"
+  },
+  "Flex nowrap": {
+    "prefix": ".flex-nowrap",
+    "body": "flex-nowrap"
+  },
+  "Flex row reverse": {
+    "prefix": ".flex-row-reverse",
+    "body": "flex-row-reverse"
+  },
+  "Flex column reverse": {
+    "prefix": ".flex-column-reverse",
+    "body": "flex-column-reverse"
+  },
+  "Flex wrap reverse": {
+    "prefix": ".flex-wrap-reverse",
+    "body": "flex-wrap-reverse"
+  },
+  "main Axis Alignment": {
+    "prefix": ".justify-content-",
+    "body": "justify-content-${0:between}",
+    "description": "start|end|center|between|around|evenly"
+  },
+  "cross Axis Alignment": {
+    "prefix": ".align-items-",
+    "body": "align-items-${0:center}",
+    "description": "start|end|center|baseline|stretch"
+  },
+  "Align content": {
+    "prefix": ".align-content-",
+    "body": "align-content-${0:center}",
+    "description": "start|end|center|around|stretch"
+  },
+  "Align self": {
+    "prefix": ".align-self-",
+    "body": "align-self-${0:center}",
+    "description": "start|end|center|baseline|stretch"
+  },
+  "Flex Grow": {
+    "prefix": ".flex-grow-",
+    "body": "flex-grow-${0:1}",
+    "description": "sets the flex grow factor of a flex item's main size."
+  },
+  "Flex Shrink": {
+    "prefix": ".flex-shrink-",
+    "body": "flex-shrink-${0:1}",
+    "description": "The flex-shrink CSS property sets the flex shrink factor of a flex item. If the size of all flex items is larger than the flex container, items shrink to fit according to flex-shrink."
+  },
+  "Change the visual order": {
+    "prefix": ".order-",
+    "body": "order-${0:1}",
+    "description": "Change the visual order of specific flex items with a handful of utilities. We only provide options for making an item first or last, as well as a reset to use the DOM order. As takes any integer value from 0 to 5, add custom CSS for any additional values needed.orderorder"
+  },
+  "Float": {
+    "prefix": ".float-",
+    "body": "float-${0:none}",
+    "description": "start|end|none"
+  },
+  "Text selection": {
+    "prefix": ".user-select-",
+    "body": "user-select-${0:none}",
+    "description": "all|auto|none"
+  },
+  "Pointer events": {
+    "prefix": ".pe-",
+    "body": "pe-${0:none}",
+    "description": "auto|none"
+  },
+  "Overflow": {
+    "prefix": ".overflow-",
+    "body": "overflow-${0:auto}",
+    "description": "auto|hidden|visible|scroll"
+  },
+  "Position": {
+    "prefix": ".position-",
+    "body": "position-${0:relative}",
+    "description": "static|relative|absolute|fixed|sticky"
+  },
+  "Arrange elements top": {
+    "prefix": ".top-",
+    "body": "top-${0:0}",
+    "description": "0|50|100"
+  },
+  "Arrange elements bottom": {
+    "prefix": ".bottom-",
+    "body": "bottom-${0:0}",
+    "description": "0|50|100"
+  },
+  "Arrange elements end": {
+    "prefix": [
+      ".end-",
+      ".right-"
+    ],
+    "body": "end-${0:0}",
+    "description": "0|50|100"
+  },
+  "Arrange elements start": {
+    "prefix": [
+      ".start-",
+      ".left-"
+    ],
+    "body": "start-${0:0}",
+    "description": "0|50|100"
+  },
+  "Center elements": {
+    "prefix": ".translate-middle",
+    "body": "translate-middle",
+    "description": "translate(-50%, -50%)"
+  },
+  "Center elements horizontal or vertical": {
+    "prefix": ".translate-middle-",
+    "body": "translate-middle-${0:x}",
+    "description": "x|y"
+  },
+  "box shadow default sizes": {
+    "prefix": ".shadow",
+    "body": "shadow",
+    "description": ""
+  },
+  "box shadow": {
+    "prefix": ".shadow-",
+    "body": "shadow-${0:none}",
+    "description": "none|sm|lg"
+  },
+  "Sizing Width": {
+    "prefix": ".w-",
+    "body": "w-${0:auto}",
+    "description": "25|50|75|100|auto"
+  },
+  "Sizing Height": {
+    "prefix": ".h-",
+    "body": "h-${0:auto}",
+    "description": "25|50|75|100|auto"
+  },
+  "Sizing max width": {
+    "prefix": ".mw-100",
+    "body": "mw-100",
+    "description": "max-width: 100%"
+  },
+  "Sizing max height": {
+    "prefix": ".mh-100",
+    "body": "mh-100",
+    "description": "max-height: 100%"
+  },
+  "Relative to the min viewport": {
+    "prefix": [
+      ".min-vw-100",
+      ".min-vh-100"
+    ],
+    "body": "min-v${0:w}-100",
+    "description": "Min-width 100vw or Min-height 100vh"
+  },
+  "Relative to the viewport": {
+    "prefix": [
+      ".vw-100",
+      ".vh-100"
+    ],
+    "body": "v${0:w}-100",
+    "description": "Width 100vw or Height 100vh"
+  },
+  "Spacing margin top": {
+    "prefix": ".mt-",
+    "body": "mt-${0:0}",
+    "description": "0|1|2|3|4|5|auto"
+  },
+  "Spacing margin bottom": {
+    "prefix": ".mb-",
+    "body": "mb-${0:0}",
+    "description": "0|1|2|3|4|5|auto"
+  },
+  "Spacing margin left": {
+    "prefix": [
+      ".ms-",
+      ".ml-"
+    ],
+    "body": "ms-${0:0}",
+    "description": "0|1|2|3|4|5|auto"
+  },
+  "Spacing margin right": {
+    "prefix": [
+      ".me-",
+      ".mr-"
+    ],
+    "body": "me-${0:0}",
+    "description": "0|1|2|3|4|5|auto"
+  },
+  "Spacing margin left and right": {
+    "prefix": ".mx-",
+    "body": "mx-${0:0}",
+    "description": "0|1|2|3|4|5|auto"
+  },
+  "Spacing margin top and bottom": {
+    "prefix": ".my-",
+    "body": "my-${0:0}",
+    "description": "0|1|2|3|4|5|auto"
+  },
+  "Spacing padding top": {
+    "prefix": ".pt-",
+    "body": "pt-${0:0}",
+    "description": "0|1|2|3|4|5|auto"
+  },
+  "Spacing padding bottom": {
+    "prefix": ".pb-",
+    "body": "pb-${0:0}",
+    "description": "0|1|2|3|4|5|auto"
+  },
+  "Spacing padding left": {
+    "prefix": [
+      ".ps-",
+      ".pl-"
+    ],
+    "body": "ps-${0:0}",
+    "description": "0|1|2|3|4|5|auto"
+  },
+  "Spacing padding right": {
+    "prefix": [
+      ".pe-",
+      ".pr-"
+    ],
+    "body": "pe-${0:0}",
+    "description": "0|1|2|3|4|5|auto"
+  },
+  "Spacing padding left and right": {
+    "prefix": ".px-",
+    "body": "px-${0:0}",
+    "description": "0|1|2|3|4|5|auto"
+  },
+  "Spacing padding top and bottom": {
+    "prefix": ".py-",
+    "body": "py-${0:0}",
+    "description": "0|1|2|3|4|5|auto"
+  },
+  "Gap": {
+    "prefix": ".grp-",
+    "body": "grp-${0:3}",
+    "description": "0|1|2|3|4|5|auto"
+  },
+  "Font size": {
+    "prefix": ".fs-",
+    "body": "fs-${0:1}",
+    "description": "0|1|2|3|4|5|6"
+  },
+  "Monospace": {
+    "prefix": ".font-monospace",
+    "body": "font-monospace",
+    "description": "Change a selection to our monospace font stack with ..font-monospace"
+  },
+  "Font weight": {
+    "prefix": ".fw-",
+    "body": "fw-${0:normal}",
+    "description": "bold|bolder|normal|light|lighter"
+  },
+  "Font style": {
+    "prefix": ".fst-",
+    "body": "fst-${0:italic}",
+    "description": "italic|normal"
+  },
+  "Line height": {
+    "prefix": ".lh-",
+    "body": "lh-${0:base}",
+    "description": "l|sm|base|lg"
+  },
+  "Vertical alignment": {
+    "prefix": ".align-",
+    "body": "align-${0:middle}",
+    "description": "baseline|top|middle|bottom"
+  },
+  "Vertical alignment text": {
+    "prefix": ".align-text-",
+    "body": "align-text-${0:top}",
+    "description": "top|bottom"
+  },
+  "Visibility visible": {
+    "prefix": ".visible",
+    "body": "visible",
+    "description": "visibility: visible"
+  },
+  "Visibility invisible": {
+    "prefix": ".invisible",
+    "body": "invisible",
+    "description": "visibility: invisible"
+  },
+  "Clearfix": {
+    "prefix": ".clearfix",
+    "body": "clearfix",
+    "description": "Quickly and easily clear floated content within a container"
+  },
+  "Colored links": {
+    "prefix": ".link-",
+    "body": "link-${0:primary}",
+    "description": "Colored links with hover states"
+  },
+  "Aspect ratios": {
+    "prefix": ".ratio-",
+    "body": "ratio-${0:16x9}",
+    "description": "1x1|4x3|16x9|21x9"
+  },
+  "Position Fixed": {
+    "prefix": ".fixed-",
+    "body": "fixed-${0:top}",
+    "description": "top|bottom"
+  },
+  "Position Sticky": {
+    "prefix": ".sticky-",
+    "body": "sticky-${0:top}",
+    "description": "top"
+  },
+  "Visually hidden": {
+    "prefix": ".visually-hidden",
+    "body": "visually-hidden-$0",
+    "description": "focusable"
+  },
+  "Stretched link": {
+    "prefix": ".stretched-link",
+    "body": "stretched-link",
+    "description": "Make any HTML element or Bootstrap component clickable by “stretching” a nested link via CSS."
+  },
+  "Form input": {
+    "prefix": ".form-control",
+    "body": "form-control",
+    "description": "form input"
+  },
+  "Form input plaintext": {
+    "prefix": ".form-control-plaintext",
+    "body": "form-control-plaintext",
+    "description": "form input plaintext"
+  },
+  "Form input color": {
+    "prefix": ".form-control-color",
+    "body": "form-control-color",
+    "description": "form input color picker"
+  },
+  "Form label": {
+    "prefix": ".form-label",
+    "body": "form-label",
+    "description": "form label"
+  },
+  "Form input help text": {
+    "prefix": ".form-text",
+    "body": "form-text",
+    "description": "form input help text"
+  },
+  "Form select": {
+    "prefix": ".form-select",
+    "body": "form-select",
+    "description": "form select"
+  },
+  "Form check": {
+    "prefix": ".form-check",
+    "body": "form-check",
+    "description": "form check"
+  },
+  "Form check inline": {
+    "prefix": ".form-check-inline",
+    "body": "form-check-inline",
+    "description": "form check inline"
+  },
+  "Form switch": {
+    "prefix": ".form-switch",
+    "body": "form-switch",
+    "description": "form switch"
+  },
+  "Form range": {
+    "prefix": ".form-range",
+    "body": "form-range",
+    "description": "form range"
+  },
+  "Form input check": {
+    "prefix": ".form-check-input",
+    "body": "form-check-input",
+    "description": "form check"
+  },
+  "Form input check label": {
+    "prefix": ".form-check-label",
+    "body": "form-check-label",
+    "description": "check label"
+  },
+  "Form input group": {
+    "prefix": ".input-group",
+    "body": "input-group",
+    "description": "input-group"
+  },
+  "Form input group text": {
+    "prefix": ".input-group-text",
+    "body": "input-group-text",
+    "description": "input-group-text"
+  },
+  "Form floating": {
+    "prefix": ".form-floating",
+    "body": "form-floating",
+    "description": "form-floating"
+  },
+  "Display headings": {
+    "prefix": ".display-",
+    "body": "display-${0:1}",
+    "description": "1~6"
+  },
+  "blockquote": {
+    "prefix": ".blockquote",
+    "body": "blockquote"
+  },
+  "blockquote footer": {
+    "prefix": ".blockquote-footer",
+    "body": "blockquote-footer"
+  },
+  "Lists": {
+    "prefix": ".list-",
+    "body": "list-${0:unstyled}",
+    "description": "inline|unstyled"
+  },
+  "List group": {
+    "prefix": ".list-group",
+    "body": "list-group",
+    "description": "List groups are a flexible and powerful component for displaying a series of content. Modify and extend them to support just about any content within."
+  },
+  "List group flush": {
+    "prefix": ".list-group-flush",
+    "body": "list-group-flush"
+  },
+  "List group item": {
+    "prefix": ".list-group-item",
+    "body": "list-group-item"
+  },
+  "List group item action": {
+    "prefix": ".list-group-item-action",
+    "body": "list-group-item-action"
+  },
+  "List group horizontal": {
+    "prefix": ".list-group-horizontal",
+    "body": "list-group-horizontal"
+  },
+  "Images": {
+    "prefix": ".img-",
+    "body": "img-${0:fluid}",
+    "description": "fluid|thumbnail"
+  },
+  "Tables": {
+    "prefix": ".table-",
+    "body": "table-$0",
+    "description": "Documentation and examples for opt-in styling of tables (given their prevalent use in JavaScript plugins) with Bootstrap."
+  },
+  "Figures": {
+    "prefix": ".figure",
+    "body": "figure",
+    "description": ""
+  },
+  "Figures caption": {
+    "prefix": ".figure-caption",
+    "body": "figure-caption",
+    "description": ""
+  },
+  "Containers": {
+    "prefix": ".container",
+    "body": "container",
+    "description": ""
+  },
+  "Containers fluid": {
+    "prefix": ".container-fluid",
+    "body": "container-fluid",
+    "description": ""
+  },
+  "Gutters x and y": {
+    "prefix": ".g-",
+    "body": "g-${0:0}",
+    "description": "Gutters are the padding between your columns, used to responsively space and align content in the Bootstrap grid system."
+  },
+  "Gutters x": {
+    "prefix": ".gx-",
+    "body": "gx-${0:0}",
+    "description": "Gutters are the padding between your columns, used to responsively space and align content in the Bootstrap grid system."
+  },
+  "Gutters y": {
+    "prefix": ".gy-",
+    "body": "gy-${0:0}",
+    "description": "Gutters are the padding between your columns, used to responsively space and align content in the Bootstrap grid system."
+  },
+  "Buttons": {
+    "prefix": ".btn-",
+    "body": "btn btn-${0:primary}",
+    "description": "Use Bootstrap’s custom button styles for actions in forms, dialogs, and more with support for multiple sizes, states, and more."
+  },
+  "Button close": {
+    "prefix": ".btn-close",
+    "body": "btn-close",
+    "description": "A generic close button for dismissing content like modals and alerts."
+  },
+  "Button close white": {
+    "prefix": ".btn-close-white",
+    "body": "btn-close btn-close-white",
+    "description": "A generic close button for dismissing content like modals and alerts."
+  },
+  "Button group": {
+    "prefix": ".btn-group",
+    "body": "btn-group",
+    "description": "Group a series of buttons together on a single line or stack them in a vertical column."
+  },
+  "Outline buttons": {
+    "prefix": ".btn-outline",
+    "body": "btn btn-outline-${0:primary}",
+    "description": "Use Bootstrap’s custom button styles for actions in forms, dialogs, and more with support for multiple sizes, states, and more."
+  },
+  "gap": {
+    "prefix": ".gap-",
+    "body": "gap-${0:2}",
+    "description": "grid gap"
+  },
+  "badge": {
+    "prefix": ".badge",
+    "body": "badge",
+    "description": "badge"
+  },
+  "alert": {
+    "prefix": ".alert-",
+    "body": "alert alert-${0:primary}",
+    "description": "alert"
+  },
+  "accordion": {
+    "prefix": ".accordion-",
+    "body": "accordion",
+    "description": "accordion"
+  },
+  "accordion flush": {
+    "prefix": ".accordion-flush",
+    "body": "accordion-flush",
+    "description": "accordion flush"
+  },
+  "accordion item": {
+    "prefix": ".accordion-item",
+    "body": "accordion-item",
+    "description": "accordion item"
+  },
+  "accordion header": {
+    "prefix": ".accordion-header",
+    "body": "accordion-header",
+    "description": "accordion header"
+  },
+  "accordion body": {
+    "prefix": ".accordion-body",
+    "body": "accordion-body",
+    "description": "accordion body"
+  },
+  "accordion collapse": {
+    "prefix": ".accordion-collapse",
+    "body": "accordion-collapse",
+    "description": "accordion collapse"
+  },
+  "breadcrumb": {
+    "prefix": ".breadcrumb",
+    "body": "breadcrumb",
+    "description": "breadcrumb"
+  },
+  "breadcrumb item": {
+    "prefix": ".breadcrumb-item",
+    "body": "breadcrumb-item",
+    "description": "breadcrumb-item"
+  },
+  "card": {
+    "prefix": ".card",
+    "body": "card",
+    "description": "Bootstrap’s cards provide a flexible and extensible content container with multiple variants and options."
+  },
+  "card body": {
+    "prefix": ".card-body",
+    "body": "card-body"
+  },
+  "card title": {
+    "prefix": ".card-title",
+    "body": "card-title"
+  },
+  "card subtitle": {
+    "prefix": ".card-subtitle",
+    "body": "card-subtitle"
+  },
+  "card text": {
+    "prefix": ".card-text",
+    "body": "card-text"
+  },
+  "card link": {
+    "prefix": ".card-link",
+    "body": "card-link"
+  },
+  "card img top": {
+    "prefix": ".card-img-top",
+    "body": "card-img-top"
+  },
+  "collapse": {
+    "prefix": ".collapse",
+    "body": "collapse",
+    "description": "Toggle the visibility of content across your project with a few classes and our JavaScript plugins."
+  },
+  "multi collapse": {
+    "prefix": ".collapse-multi",
+    "body": "collapse multi-collapse"
+  },
+  "Dropdowns": {
+    "prefix": ".dropdown",
+    "body": "dropdown",
+    "description": "Toggle contextual overlays for displaying lists of links and more with the Bootstrap dropdown plugin."
+  },
+  "dropdown menu": {
+    "prefix": ".dropdown-menu",
+    "body": "dropdown-menu"
+  },
+  "dropdown menu end": {
+    "prefix": ".dropdown-menu-end",
+    "body": "dropdown-menu-end"
+  },
+  "dropdown menu dark": {
+    "prefix": ".dropdown-menu-dark",
+    "body": "dropdown-menu-dark"
+  },
+  "dropdown header": {
+    "prefix": ".dropdown-header",
+    "body": "dropdown-header"
+  },
+  "dropdown item": {
+    "prefix": ".dropdown-item",
+    "body": "dropdown-item"
+  },
+  "dropdown toggle": {
+    "prefix": ".dropdown-toggle",
+    "body": "dropdown-toggle"
+  },
+  "dropdown toggle split": {
+    "prefix": ".dropdown-toggle-split",
+    "body": "dropdown-toggle-split"
+  },
+  "dropdown divider": {
+    "prefix": ".dropdown-divider",
+    "body": "dropdown-divider"
+  },
+  "Modal": {
+    "prefix": ".modal",
+    "body": "modal",
+    "description": "Use Bootstrap’s JavaScript modal plugin to add dialogs to your site for lightboxes, user notifications, or completely custom content."
+  },
+  "Modal dialog": {
+    "prefix": ".modal-dialog",
+    "body": "modal-dialog"
+  },
+  "Modal dialog scrollable": {
+    "prefix": ".modal-dialog-scrollable",
+    "body": "modal-dialog-scrollable"
+  },
+  "Modal dialog centered": {
+    "prefix": ".modal-dialog-centered",
+    "body": "modal-dialog-centered"
+  },
+  "Modal dialog fullscreen": {
+    "prefix": ".modal-dialog-fullscreen",
+    "body": "modal-dialog-fullscreen"
+  },
+  "Modal content": {
+    "prefix": ".modal-content",
+    "body": "modal-content"
+  },
+  "Modal header": {
+    "prefix": ".modal-header",
+    "body": "modal-header"
+  },
+  "Modal title": {
+    "prefix": ".modal-title",
+    "body": "modal-title"
+  },
+  "Modal body": {
+    "prefix": ".modal-body",
+    "body": "modal-body"
+  },
+  "Modal footer": {
+    "prefix": ".modal-footer",
+    "body": "modal-footer"
+  },
+  "Navs": {
+    "prefix": ".nav",
+    "body": "nav",
+    "description": "Documentation and examples for how to use Bootstrap’s included navigation components."
+  },
+  "Navs pills": {
+    "prefix": ".nav-pills",
+    "body": "nav-pills"
+  },
+  "Navs fill": {
+    "prefix": ".nav-fill",
+    "body": "nav-fill"
+  },
+  "Navs item": {
+    "prefix": ".nav-item",
+    "body": "nav-item"
+  },
+  "Navs link": {
+    "prefix": ".nav-link",
+    "body": "nav-link"
+  },
+  "Navs justified": {
+    "prefix": ".nav-justified",
+    "body": "nav-justified"
+  },
+  "Navs tabs": {
+    "prefix": ".nav-tabs",
+    "body": "nav-tabs"
+  },
+  "Pagination": {
+    "prefix": ".pagination",
+    "body": "pagination",
+    "description": "We use a large block of connected links for our pagination, making links hard to miss and easily scalable—all while providing large hit areas. Pagination is built with list HTML elements so screen readers can announce the number of available links. Use a wrapping <nav> element to identify it as a navigation section to screen readers and other assistive technologies."
+  },
+  "Pagination item": {
+    "prefix": ".page-item",
+    "body": "page-item"
+  },
+  "Pagination link": {
+    "prefix": ".page-link",
+    "body": "page-link"
+  },
+  "Progress": {
+    "prefix": ".progress",
+    "body": "progress",
+    "description": "Documentation and examples for using Bootstrap custom progress bars featuring support for stacked bars, animated backgrounds, and text labels."
+  },
+  "Progress bar": {
+    "prefix": ".progress-bar",
+    "body": "progress-bar"
+  },
+  "Progress bar striped": {
+    "prefix": ".progress-bar-striped",
+    "body": "progress-bar-striped"
+  },
+  "Progress bar animated": {
+    "prefix": ".progress-bar-animated",
+    "body": "progress-bar-animated"
+  },
+  "Spinners": {
+    "prefix": ".spinner-border",
+    "body": "spinner-border",
+    "description": "Indicate the loading state of a component or page with Bootstrap spinners, built entirely with HTML, CSS, and no JavaScript."
+  },
+  "Spinners grow": {
+    "prefix": ".spinner-grow",
+    "body": "spinner-grow"
+  },
+  "Toast": {
+    "prefix": ".toast",
+    "body": "toast",
+    "description": "Push notifications to your visitors with a toast, a lightweight and easily customizable alert message."
+  },
+  "Toast header": {
+    "prefix": ".toast-header",
+    "body": "toast-header"
+  },
+  "Toast body": {
+    "prefix": ".toast-body",
+    "body": "toast-body"
+  },
+  "Toast container": {
+    "prefix": ".toast-container",
+    "body": "toast-container"
+  }
+}

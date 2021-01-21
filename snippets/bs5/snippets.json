@@ -1,0 +1,984 @@
+{
+  "Default container": {
+    "prefix": "b5-container",
+    "body": [
+      "<div class=\"container\">$0</div>"
+    ],
+    "description": "https://getbootstrap.com/docs/5.0/layout/containers/"
+  },
+  "Fluid containersr": {
+    "prefix": "b5-container-fluid",
+    "body": [
+      "<div class=\"container-fluid\">$0</div>"
+    ],
+    "description": "https://getbootstrap.com/docs/5.0/layout/containers/"
+  },
+  "Tables": {
+    "prefix": "b5-table",
+    "body": [
+      "<table class=\"table\">",
+      "  <thead>",
+      "    <tr>",
+      "      <th scope=\"col\">#</th>",
+      "      <th scope=\"col\">First</th>",
+      "      <th scope=\"col\">Last</th>",
+      "      <th scope=\"col\">Handle</th>",
+      "    </tr>",
+      "  </thead>",
+      "  <tbody>",
+      "    <tr>",
+      "      <th scope=\"row\">1</th>",
+      "      <td>Mark</td>",
+      "      <td>Otto</td>",
+      "      <td>@mdo</td>",
+      "    </tr>",
+      "    <tr>",
+      "      <th scope=\"row\">2</th>",
+      "      <td>Jacob</td>",
+      "      <td>Thornton</td>",
+      "      <td>@fat</td>",
+      "    </tr>",
+      "    <tr>",
+      "      <th scope=\"row\">3</th>",
+      "      <td colspan=\"2\">Larry the Bird</td>",
+      "      <td>@twitter</td>",
+      "    </tr>",
+      "  </tbody>",
+      "</table>"
+    ],
+    "description": "https://getbootstrap.com/docs/5.0/content/tables/"
+  },
+  "Figures": {
+    "prefix": "b5-figure",
+    "body": [
+      "<figure class=\"figure\">",
+      "  <img src=\"...\" class=\"figure-img img-fluid rounded\" alt=\"...\">",
+      "  <figcaption class=\"figure-caption\">A caption for the above image.</figcaption>",
+      "</figure>"
+    ],
+    "description": "https://getbootstrap.com/docs/5.0/content/figures/"
+  },
+  "Forms": {
+    "prefix": "b5-form",
+    "body": [
+      "<form>",
+      "  <div class=\"mb-3\">",
+      "    <label for=\"exampleInputEmail1\" class=\"form-label\">Email address</label>",
+      "    <input type=\"email\" class=\"form-control\" id=\"exampleInputEmail1\" aria-describedby=\"emailHelp\">",
+      "    <div id=\"emailHelp\" class=\"form-text\">We'll never share your email with anyone else.</div>",
+      "  </div>",
+      "  <div class=\"mb-3\">",
+      "    <label for=\"exampleInputPassword1\" class=\"form-label\">Password</label>",
+      "    <input type=\"password\" class=\"form-control\" id=\"exampleInputPassword1\">",
+      "  </div>",
+      "  <div class=\"mb-3 form-check\">",
+      "    <input type=\"checkbox\" class=\"form-check-input\" id=\"exampleCheck1\">",
+      "    <label class=\"form-check-label\" for=\"exampleCheck1\">Check me out</label>",
+      "  </div>",
+      "  <button type=\"submit\" class=\"btn btn-primary\">Submit</button>",
+      "</form>"
+    ],
+    "description": "https://getbootstrap.com/docs/5.0/forms/overview/"
+  },
+  "File input": {
+    "prefix": "b5-form-file",
+    "body": [
+      "<div class=\"mb-3\">",
+      "  <label for=\"formFileMultiple\" class=\"form-label\">Multiple files input example</label>",
+      "  <input class=\"form-control\" type=\"file\" id=\"formFileMultiple\" multiple>",
+      "</div>"
+    ],
+    "description": "https://getbootstrap.com/docs/5.0/forms/form-control/?#file-input"
+  },
+  "Color": {
+    "prefix": "b5-form-color",
+    "body": [
+      "<label for=\"exampleColorInput\" class=\"form-label\">Color picker</label>",
+      "<input type=\"color\" class=\"form-control form-control-color\" id=\"exampleColorInput\" value=\"#563d7c\" title=\"Choose your color\">"
+    ],
+    "description": "Color"
+  },
+  "Datalists": {
+    "prefix": "b5-form-datalists",
+    "body": [
+      "<label for=\"exampleDataList\" class=\"form-label\">Datalist example</label>",
+      "<input class=\"form-control\" list=\"datalistOptions\" id=\"exampleDataList\" placeholder=\"Type to search...\">",
+      "<datalist id=\"datalistOptions\">",
+      "  <option value=\"San Francisco\">",
+      "  <option value=\"New York\">",
+      "  <option value=\"Seattle\">",
+      "  <option value=\"Los Angeles\">",
+      "  <option value=\"Chicago\">",
+      "</datalist>"
+    ],
+    "description": "https://getbootstrap.com/docs/5.0/forms/form-control/?#datalists"
+  },
+  "Select": {
+    "prefix": "b5-form-select",
+    "body": [
+      "<select class=\"form-select\" aria-label=\"Default select example\">",
+      "  <option selected>Open this select menu</option>",
+      "  <option value=\"1\">One</option>",
+      "  <option value=\"2\">Two</option>",
+      "  <option value=\"3\">Three</option>",
+      "</select>"
+    ],
+    "description": "https://getbootstrap.com/docs/5.0/forms/select/"
+  },
+  "Checks": {
+    "prefix": "b5-form-checkbox",
+    "body": [
+      "<div class=\"form-check\">",
+      "  <input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"flexCheckDefault\">",
+      "  <label class=\"form-check-label\" for=\"flexCheckDefault\">",
+      "    Default checkbox",
+      "  </label>",
+      "</div>",
+      "<div class=\"form-check\">",
+      "  <input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"flexCheckChecked\" checked>",
+      "  <label class=\"form-check-label\" for=\"flexCheckChecked\">",
+      "    Checked checkbox",
+      "  </label>",
+      "</div>"
+    ],
+    "description": "https://getbootstrap.com/docs/5.0/forms/checks-radios/#checks"
+  },
+  "Checks Inline": {
+    "prefix": "b5-form-checkbox-inline",
+    "body": [
+      "<div class=\"form-check form-check-inline\">",
+      "  <input class=\"form-check-input\" type=\"checkbox\" id=\"inlineCheckbox1\" value=\"option1\">",
+      "  <label class=\"form-check-label\" for=\"inlineCheckbox1\">1</label>",
+      "</div>",
+      "<div class=\"form-check form-check-inline\">",
+      "  <input class=\"form-check-input\" type=\"checkbox\" id=\"inlineCheckbox2\" value=\"option2\">",
+      "  <label class=\"form-check-label\" for=\"inlineCheckbox2\">2</label>",
+      "</div>",
+      "<div class=\"form-check form-check-inline\">",
+      "  <input class=\"form-check-input\" type=\"checkbox\" id=\"inlineCheckbox3\" value=\"option3\" disabled>",
+      "  <label class=\"form-check-label\" for=\"inlineCheckbox3\">3 (disabled)</label>",
+      "</div>"
+    ],
+    "description": "https://getbootstrap.com/docs/5.0/forms/checks-radios/#inline"
+  },
+  "Radios": {
+    "prefix": "b5-form-radio",
+    "body": [
+      "<div class=\"form-check\">",
+      "  <input class=\"form-check-input\" type=\"radio\" name=\"flexRadioDefault\" id=\"flexRadioDefault1\">",
+      "  <label class=\"form-check-label\" for=\"flexRadioDefault1\">",
+      "    Default radio",
+      "  </label>",
+      "</div>",
+      "<div class=\"form-check\">",
+      "  <input class=\"form-check-input\" type=\"radio\" name=\"flexRadioDefault\" id=\"flexRadioDefault2\" checked>",
+      "  <label class=\"form-check-label\" for=\"flexRadioDefault2\">",
+      "    Default checked radio",
+      "  </label>",
+      "</div>"
+    ],
+    "description": "https://getbootstrap.com/docs/5.0/forms/checks-radios/#radios"
+  },
+  "Radios Inline": {
+    "prefix": "b5-form-radio-inline",
+    "body": [
+      "<div class=\"form-check form-check-inline\">",
+      "  <input class=\"form-check-input\" type=\"radio\" name=\"inlineRadioOptions\" id=\"inlineRadio1\" value=\"option1\">",
+      "  <label class=\"form-check-label\" for=\"inlineRadio1\">1</label>",
+      "</div>",
+      "<div class=\"form-check form-check-inline\">",
+      "  <input class=\"form-check-input\" type=\"radio\" name=\"inlineRadioOptions\" id=\"inlineRadio2\" value=\"option2\">",
+      "  <label class=\"form-check-label\" for=\"inlineRadio2\">2</label>",
+      "</div>",
+      "<div class=\"form-check form-check-inline\">",
+      "  <input class=\"form-check-input\" type=\"radio\" name=\"inlineRadioOptions\" id=\"inlineRadio3\" value=\"option3\" disabled>",
+      "  <label class=\"form-check-label\" for=\"inlineRadio3\">3 (disabled)</label>",
+      "</div>"
+    ],
+    "description": "https://getbootstrap.com/docs/5.0/forms/checks-radios/#inline"
+  },
+  "Switches": {
+    "prefix": "b5-form-switche",
+    "body": [
+      "<div class=\"form-check form-switch\">",
+      "  <input class=\"form-check-input\" type=\"checkbox\" id=\"flexSwitchCheckChecked\" checked>",
+      "  <label class=\"form-check-label\" for=\"flexSwitchCheckChecked\">Checked switch checkbox input</label>",
+      "</div>"
+    ],
+    "description": "https://getbootstrap.com/docs/5.0/forms/checks-radios/#switches"
+  },
+  "Range": {
+    "prefix": "b5-form-range",
+    "body": [
+      "<input type=\"range\" class=\"form-range\" min=\"0\" max=\"5\" step=\"0.5\">"
+    ],
+    "description": "https://getbootstrap.com/docs/5.0/forms/range/"
+  },
+  "Input group": {
+    "prefix": "b5-form-input-group",
+    "body": [
+      "<div class=\"input-group mb-3\">",
+      "  <span class=\"input-group-text\" id=\"basic-addon1\">@</span>",
+      "  <input type=\"text\" class=\"form-control\" placeholder=\"Username\" aria-label=\"Username\" aria-describedby=\"basic-addon1\">",
+      "</div>",
+      "",
+      "<div class=\"input-group mb-3\">",
+      "  <input type=\"text\" class=\"form-control\" placeholder=\"Recipient's username\" aria-label=\"Recipient's username\" aria-describedby=\"basic-addon2\">",
+      "  <span class=\"input-group-text\" id=\"basic-addon2\">@example.com</span>",
+      "</div>",
+      "",
+      "<label for=\"basic-url\" class=\"form-label\">Your vanity URL</label>",
+      "<div class=\"input-group mb-3\">",
+      "  <span class=\"input-group-text\" id=\"basic-addon3\">https://example.com/users/</span>",
+      "  <input type=\"text\" class=\"form-control\" id=\"basic-url\" aria-describedby=\"basic-addon3\">",
+      "</div>",
+      "",
+      "<div class=\"input-group mb-3\">",
+      "  <span class=\"input-group-text\">\\$</span>",
+      "  <input type=\"text\" class=\"form-control\" aria-label=\"Amount (to the nearest dollar)\">",
+      "  <span class=\"input-group-text\">.00</span>",
+      "</div>",
+      "",
+      "<div class=\"input-group mb-3\">",
+      "  <input type=\"text\" class=\"form-control\" placeholder=\"Username\" aria-label=\"Username\">",
+      "  <span class=\"input-group-text\">@</span>",
+      "  <input type=\"text\" class=\"form-control\" placeholder=\"Server\" aria-label=\"Server\">",
+      "</div>",
+      "",
+      "<div class=\"input-group\">",
+      "  <span class=\"input-group-text\">With textarea</span>",
+      "  <textarea class=\"form-control\" aria-label=\"With textarea\"></textarea>",
+      "</div>"
+    ],
+    "description": "https://getbootstrap.com/docs/5.0/forms/input-group/"
+  },
+  "Floating labels": {
+    "prefix": "b5-form-floating",
+    "body": [
+      "<div class=\"form-floating mb-3\">",
+      "  <input type=\"email\" class=\"form-control\" id=\"floatingInput\" placeholder=\"name@example.com\">",
+      "  <label for=\"floatingInput\">Email address</label>",
+      "</div>",
+      "<div class=\"form-floating\">",
+      "  <input type=\"password\" class=\"form-control\" id=\"floatingPassword\" placeholder=\"Password\">",
+      "  <label for=\"floatingPassword\">Password</label>",
+      "</div>"
+    ],
+    "description": "https://getbootstrap.com/docs/5.0/forms/floating-labels/"
+  },
+  "validation custom styles ": {
+    "prefix": "b5-form-validation-custom ",
+    "body": [
+      "<form class=\"row g-3 needs-validation\" novalidate>",
+      "  <div class=\"col-md-4\">",
+      "    <label for=\"validationCustom01\" class=\"form-label\">First name</label>",
+      "    <input type=\"text\" class=\"form-control\" id=\"validationCustom01\" value=\"Mark\" required>",
+      "    <div class=\"valid-feedback\">",
+      "      Looks good!",
+      "    </div>",
+      "  </div>",
+      "  <div class=\"col-md-4\">",
+      "    <label for=\"validationCustom02\" class=\"form-label\">Last name</label>",
+      "    <input type=\"text\" class=\"form-control\" id=\"validationCustom02\" value=\"Otto\" required>",
+      "    <div class=\"valid-feedback\">",
+      "      Looks good!",
+      "    </div>",
+      "  </div>",
+      "  <div class=\"col-md-4\">",
+      "    <label for=\"validationCustomUsername\" class=\"form-label\">Username</label>",
+      "    <div class=\"input-group has-validation\">",
+      "      <span class=\"input-group-text\" id=\"inputGroupPrepend\">@</span>",
+      "      <input type=\"text\" class=\"form-control\" id=\"validationCustomUsername\" aria-describedby=\"inputGroupPrepend\" required>",
+      "      <div class=\"invalid-feedback\">",
+      "        Please choose a username.",
+      "      </div>",
+      "    </div>",
+      "  </div>",
+      "  <div class=\"col-md-6\">",
+      "    <label for=\"validationCustom03\" class=\"form-label\">City</label>",
+      "    <input type=\"text\" class=\"form-control\" id=\"validationCustom03\" required>",
+      "    <div class=\"invalid-feedback\">",
+      "      Please provide a valid city.",
+      "    </div>",
+      "  </div>",
+      "  <div class=\"col-md-3\">",
+      "    <label for=\"validationCustom04\" class=\"form-label\">State</label>",
+      "    <select class=\"form-select\" id=\"validationCustom04\" required>",
+      "      <option selected disabled value=\"\">Choose...</option>",
+      "      <option>...</option>",
+      "    </select>",
+      "    <div class=\"invalid-feedback\">",
+      "      Please select a valid state.",
+      "    </div>",
+      "  </div>",
+      "  <div class=\"col-md-3\">",
+      "    <label for=\"validationCustom05\" class=\"form-label\">Zip</label>",
+      "    <input type=\"text\" class=\"form-control\" id=\"validationCustom05\" required>",
+      "    <div class=\"invalid-feedback\">",
+      "      Please provide a valid zip.",
+      "    </div>",
+      "  </div>",
+      "  <div class=\"col-12\">",
+      "    <div class=\"form-check\">",
+      "      <input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"invalidCheck\" required>",
+      "      <label class=\"form-check-label\" for=\"invalidCheck\">",
+      "        Agree to terms and conditions",
+      "      </label>",
+      "      <div class=\"invalid-feedback\">",
+      "        You must agree before submitting.",
+      "      </div>",
+      "    </div>",
+      "  </div>",
+      "  <div class=\"col-12\">",
+      "    <button class=\"btn btn-primary\" type=\"submit\">Submit form</button>",
+      "  </div>",
+      "</form>",
+      "<script>",
+      "// Example starter JavaScript for disabling form submissions if there are invalid fields",
+      "(function () {",
+      "  'use strict'",
+      "",
+      "  // Fetch all the forms we want to apply custom Bootstrap validation styles to",
+      "  var forms = document.querySelectorAll('.needs-validation')",
+      "",
+      "  // Loop over them and prevent submission",
+      "  Array.prototype.slice.call(forms)",
+      "    .forEach(function (form) {",
+      "      form.addEventListener('submit', function (event) {",
+      "        if (!form.checkValidity()) {",
+      "          event.preventDefault()",
+      "          event.stopPropagation()",
+      "        }",
+      "",
+      "        form.classList.add('was-validated')",
+      "      }, false)",
+      "    })",
+      "})()",
+      "</script>"
+    ],
+    "description": "https://getbootstrap.com/docs/5.0/forms/validation/"
+  },
+  "validation browser defaults": {
+    "prefix": "b5-form-validation",
+    "body": [
+      "<form class=\"row g-3\">",
+      "  <div class=\"col-md-4\">",
+      "    <label for=\"validationDefault01\" class=\"form-label\">First name</label>",
+      "    <input type=\"text\" class=\"form-control\" id=\"validationDefault01\" value=\"Mark\" required>",
+      "  </div>",
+      "  <div class=\"col-md-4\">",
+      "    <label for=\"validationDefault02\" class=\"form-label\">Last name</label>",
+      "    <input type=\"text\" class=\"form-control\" id=\"validationDefault02\" value=\"Otto\" required>",
+      "  </div>",
+      "  <div class=\"col-md-4\">",
+      "    <label for=\"validationDefaultUsername\" class=\"form-label\">Username</label>",
+      "    <div class=\"input-group\">",
+      "      <span class=\"input-group-text\" id=\"inputGroupPrepend2\">@</span>",
+      "      <input type=\"text\" class=\"form-control\" id=\"validationDefaultUsername\"  aria-describedby=\"inputGroupPrepend2\" required>",
+      "    </div>",
+      "  </div>",
+      "  <div class=\"col-md-6\">",
+      "    <label for=\"validationDefault03\" class=\"form-label\">City</label>",
+      "    <input type=\"text\" class=\"form-control\" id=\"validationDefault03\" required>",
+      "  </div>",
+      "  <div class=\"col-md-3\">",
+      "    <label for=\"validationDefault04\" class=\"form-label\">State</label>",
+      "    <select class=\"form-select\" id=\"validationDefault04\" required>",
+      "      <option selected disabled value=\"\">Choose...</option>",
+      "      <option>...</option>",
+      "    </select>",
+      "  </div>",
+      "  <div class=\"col-md-3\">",
+      "    <label for=\"validationDefault05\" class=\"form-label\">Zip</label>",
+      "    <input type=\"text\" class=\"form-control\" id=\"validationDefault05\" required>",
+      "  </div>",
+      "  <div class=\"col-12\">",
+      "    <div class=\"form-check\">",
+      "      <input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"invalidCheck2\" required>",
+      "      <label class=\"form-check-label\" for=\"invalidCheck2\">",
+      "        Agree to terms and conditions",
+      "      </label>",
+      "    </div>",
+      "  </div>",
+      "  <div class=\"col-12\">",
+      "    <button class=\"btn btn-primary\" type=\"submit\">Submit form</button>",
+      "  </div>",
+      "</form>"
+    ],
+    "description": "https://getbootstrap.com/docs/5.0/forms/validation/#browser-defaults"
+  },
+  "Accordion": {
+    "prefix": "b5-accordion",
+    "body": [
+      "<div class=\"accordion\" id=\"accordionExample\">",
+      "  <div class=\"accordion-item\">",
+      "    <h2 class=\"accordion-header\" id=\"headingOne\">",
+      "      <button class=\"accordion-button\" type=\"button\" data-bs-toggle=\"collapse\" data-bs-target=\"#collapseOne\" aria-expanded=\"true\" aria-controls=\"collapseOne\">",
+      "        Accordion Item #1",
+      "      </button>",
+      "    </h2>",
+      "    <div id=\"collapseOne\" class=\"accordion-collapse collapse show\" aria-labelledby=\"headingOne\" data-bs-parent=\"#accordionExample\">",
+      "      <div class=\"accordion-body\">",
+      "        <strong>This is the first item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.",
+      "      </div>",
+      "    </div>",
+      "  </div>",
+      "  <div class=\"accordion-item\">",
+      "    <h2 class=\"accordion-header\" id=\"headingTwo\">",
+      "      <button class=\"accordion-button collapsed\" type=\"button\" data-bs-toggle=\"collapse\" data-bs-target=\"#collapseTwo\" aria-expanded=\"false\" aria-controls=\"collapseTwo\">",
+      "        Accordion Item #2",
+      "      </button>",
+      "    </h2>",
+      "    <div id=\"collapseTwo\" class=\"accordion-collapse collapse\" aria-labelledby=\"headingTwo\" data-bs-parent=\"#accordionExample\">",
+      "      <div class=\"accordion-body\">",
+      "        <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.",
+      "      </div>",
+      "    </div>",
+      "  </div>",
+      "  <div class=\"accordion-item\">",
+      "    <h2 class=\"accordion-header\" id=\"headingThree\">",
+      "      <button class=\"accordion-button collapsed\" type=\"button\" data-bs-toggle=\"collapse\" data-bs-target=\"#collapseThree\" aria-expanded=\"false\" aria-controls=\"collapseThree\">",
+      "        Accordion Item #3",
+      "      </button>",
+      "    </h2>",
+      "    <div id=\"collapseThree\" class=\"accordion-collapse collapse\" aria-labelledby=\"headingThree\" data-bs-parent=\"#accordionExample\">",
+      "      <div class=\"accordion-body\">",
+      "        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.",
+      "      </div>",
+      "    </div>",
+      "  </div>",
+      "</div>"
+    ],
+    "description": "https://getbootstrap.com/docs/5.0/components/accordion/"
+  },
+  "Alerts": {
+    "prefix": "b5-alert",
+    "body": [
+      "<div class=\"alert alert-warning alert-dismissible fade show\" role=\"alert\">",
+      "  <strong>Holy guacamole!</strong> You should check in on some of those fields below.",
+      "  <button type=\"button\" class=\"btn-close\" data-bs-dismiss=\"alert\" aria-label=\"Close\"></button>",
+      "</div>"
+    ],
+    "description": "https://getbootstrap.com/docs/5.0/components/alerts/"
+  },
+  "Badges": {
+    "prefix": "b5-badge",
+    "body": [
+      "<h1>Example heading <span class=\"badge bg-secondary\">New</span></h1>",
+      "<span class=\"badge bg-primary\">Primary</span>",
+      "<span class=\"badge rounded-pill bg-primary\">Primary</span>"
+    ],
+    "description": "https://getbootstrap.com/docs/5.0/components/badge/"
+  },
+  "Breadcrumb": {
+    "prefix": "b5-breadcrumb",
+    "body": [
+      "<nav aria-label=\"breadcrumb\">",
+      "  <ol class=\"breadcrumb\">",
+      "    <li class=\"breadcrumb-item\"><a href=\"#\">Home</a></li>",
+      "    <li class=\"breadcrumb-item\"><a href=\"#\">Library</a></li>",
+      "    <li class=\"breadcrumb-item active\" aria-current=\"page\">Data</li>",
+      "  </ol>",
+      "</nav>"
+    ],
+    "description": "https://getbootstrap.com/docs/5.0/components/breadcrumb/"
+  },
+  "Button": {
+    "prefix": "b5-button",
+    "body": [
+      "<button type=\"button\" class=\"btn btn-outline-primary\">Primary</button>"
+    ],
+    "description": "https://getbootstrap.com/docs/5.0/components/buttons/"
+  },
+  "Button group": {
+    "prefix": "b5-button-group",
+    "body": [
+      "<div class=\"btn-group\" role=\"group\" aria-label=\"Basic example\">",
+      "  <button type=\"button\" class=\"btn btn-primary\">Left</button>",
+      "  <button type=\"button\" class=\"btn btn-primary\">Middle</button>",
+      "  <button type=\"button\" class=\"btn btn-primary\">Right</button>",
+      "</div>"
+    ],
+    "description": "https://getbootstrap.com/docs/5.0/components/button-group/"
+  },
+  "Card": {
+    "prefix": "b5-card",
+    "body": [
+      "<div class=\"card\" style=\"width: 18rem;\">",
+      "  <img src=\"...\" class=\"card-img-top\" alt=\"...\">",
+      "  <div class=\"card-body\">",
+      "    <h5 class=\"card-title\">Card title</h5>",
+      "    <p class=\"card-text\">Some quick example text to build on the card title and make up the bulk of the card's content.</p>",
+      "    <a href=\"#\" class=\"btn btn-primary\">Go somewhere</a>",
+      "  </div>",
+      "</div>"
+    ],
+    "description": "https://getbootstrap.com/docs/5.0/components/card/"
+  },
+  "Carousel": {
+    "prefix": "b5-carousel",
+    "body": [
+      "<div id=\"carouselExampleCaptions\" class=\"carousel slide\" data-bs-ride=\"carousel\">",
+      "  <ol class=\"carousel-indicators\">",
+      "    <li data-bs-target=\"#carouselExampleCaptions\" data-bs-slide-to=\"0\" class=\"active\"></li>",
+      "    <li data-bs-target=\"#carouselExampleCaptions\" data-bs-slide-to=\"1\"></li>",
+      "    <li data-bs-target=\"#carouselExampleCaptions\" data-bs-slide-to=\"2\"></li>",
+      "  </ol>",
+      "  <div class=\"carousel-inner\">",
+      "    <div class=\"carousel-item active\">",
+      "      <img src=\"...\" class=\"d-block w-100\" alt=\"...\">",
+      "      <div class=\"carousel-caption d-none d-md-block\">",
+      "        <h5>First slide label</h5>",
+      "        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>",
+      "      </div>",
+      "    </div>",
+      "    <div class=\"carousel-item\">",
+      "      <img src=\"...\" class=\"d-block w-100\" alt=\"...\">",
+      "      <div class=\"carousel-caption d-none d-md-block\">",
+      "        <h5>Second slide label</h5>",
+      "        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>",
+      "      </div>",
+      "    </div>",
+      "    <div class=\"carousel-item\">",
+      "      <img src=\"...\" class=\"d-block w-100\" alt=\"...\">",
+      "      <div class=\"carousel-caption d-none d-md-block\">",
+      "        <h5>Third slide label</h5>",
+      "        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>",
+      "      </div>",
+      "    </div>",
+      "  </div>",
+      "  <a class=\"carousel-control-prev\" href=\"#carouselExampleCaptions\" role=\"button\" data-bs-slide=\"prev\">",
+      "    <span class=\"carousel-control-prev-icon\" aria-hidden=\"true\"></span>",
+      "    <span class=\"visually-hidden\">Previous</span>",
+      "  </a>",
+      "  <a class=\"carousel-control-next\" href=\"#carouselExampleCaptions\" role=\"button\" data-bs-slide=\"next\">",
+      "    <span class=\"carousel-control-next-icon\" aria-hidden=\"true\"></span>",
+      "    <span class=\"visually-hidden\">Next</span>",
+      "  </a>",
+      "</div>"
+    ],
+    "description": "Carousel"
+  },
+  "Close button": {
+    "prefix": "b5-button-close",
+    "body": [
+      "<button type=\"button\" class=\"btn-close\" aria-label=\"Close\"></button>"
+    ],
+    "description": "https://getbootstrap.com/docs/5.0/components/close-button/"
+  },
+  "Collapse": {
+    "prefix": "b5-collapse",
+    "body": [
+      "<p>",
+      "  <a class=\"btn btn-primary\" data-bs-toggle=\"collapse\" href=\"#collapseExample\" role=\"button\" aria-expanded=\"false\" aria-controls=\"collapseExample\">",
+      "    Link with href",
+      "  </a>",
+      "  <button class=\"btn btn-primary\" type=\"button\" data-bs-toggle=\"collapse\" data-bs-target=\"#collapseExample\" aria-expanded=\"false\" aria-controls=\"collapseExample\">",
+      "    Button with data-bs-target",
+      "  </button>",
+      "</p>",
+      "<div class=\"collapse\" id=\"collapseExample\">",
+      "  <div class=\"card card-body\">",
+      "    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.",
+      "  </div>",
+      "</div>"
+    ],
+    "description": "https://getbootstrap.com/docs/5.0/components/collapse/"
+  },
+  "Dropdowns": {
+    "prefix": "b5-dropdown",
+    "body": [
+      "<div class=\"dropdown\">",
+      "  <button class=\"btn btn-secondary dropdown-toggle\" type=\"button\" id=\"dropdownMenuButton\" data-bs-toggle=\"dropdown\" aria-expanded=\"false\">",
+      "    Dropdown button",
+      "  </button>",
+      "  <ul class=\"dropdown-menu\" aria-labelledby=\"dropdownMenuButton\">",
+      "    <li><a class=\"dropdown-item\" href=\"#\">Action</a></li>",
+      "    <li><a class=\"dropdown-item\" href=\"#\">Another action</a></li>",
+      "    <li><a class=\"dropdown-item\" href=\"#\">Something else here</a></li>",
+      "  </ul>",
+      "</div>"
+    ],
+    "description": "https://getbootstrap.com/docs/5.0/components/dropdowns/"
+  },
+  "List group": {
+    "prefix": "b5-list-group",
+    "body": [
+      "<ul class=\"list-group\">",
+      "  <li class=\"list-group-item active\" aria-current=\"true\">Cras justo odio</li>",
+      "  <li class=\"list-group-item disabled\" aria-disabled=\"true\">Cras justo odio</li>",
+      "  <a href=\"#\" class=\"list-group-item list-group-item-action active\" aria-current=\"true\">",
+      "    Cras justo odio",
+      "  </a>",
+      "  <button type=\"button\" class=\"list-group-item list-group-item-action active\" aria-current=\"true\">",
+      "    Cras justo odio",
+      "  </button>",
+      "  <li class=\"list-group-item d-flex justify-content-between align-items-center\">",
+      "    Cras justo odio",
+      "    <span class=\"badge bg-primary rounded-pill\">14</span>",
+      "  </li>",
+      "  <li class=\"list-group-item\">",
+      "    <input class=\"form-check-input me-1\" type=\"checkbox\" value=\"\" aria-label=\"...\">",
+      "    Cras justo odio",
+      "  </li>",
+      " <label class=\"list-group-item\">",
+      "    <input class=\"form-check-input me-1\" type=\"checkbox\" value=\"\">",
+      "    Cras justo odio",
+      "  </label>",
+      "</ul>"
+    ],
+    "description": "https://getbootstrap.com/docs/5.0/components/list-group/"
+  },
+  "List group flush": {
+    "prefix": "b5-list-group-flush",
+    "body": [
+      "<ul class=\"list-group list-group-flush\">",
+      "  <li class=\"list-group-item\">Cras justo odio</li>",
+      "  <li class=\"list-group-item\">Dapibus ac facilisis in</li>",
+      "  <li class=\"list-group-item\">Morbi leo risus</li>",
+      "  <li class=\"list-group-item\">Porta ac consectetur ac</li>",
+      "  <li class=\"list-group-item\">Vestibulum at eros</li>",
+      "</ul>"
+    ],
+    "description": "https://getbootstrap.com/docs/5.0/components/list-group/#flush"
+  },
+  "Modal Static backdrop": {
+    "prefix": "b5-modal-static",
+    "body": [
+      "<!-- Button trigger modal -->",
+      "<button type=\"button\" class=\"btn btn-primary\" data-bs-toggle=\"modal\" data-bs-target=\"#staticBackdrop\">",
+      "  Launch static backdrop modal",
+      "</button>",
+      "",
+      "<!-- Modal -->",
+      "<div class=\"modal fade\" id=\"staticBackdrop\" data-bs-backdrop=\"static\" data-bs-keyboard=\"false\" tabindex=\"-1\" aria-labelledby=\"staticBackdropLabel\" aria-hidden=\"true\">",
+      "  <div class=\"modal-dialog\">",
+      "    <div class=\"modal-content\">",
+      "      <div class=\"modal-header\">",
+      "        <h5 class=\"modal-title\" id=\"staticBackdropLabel\">Modal title</h5>",
+      "        <button type=\"button\" class=\"btn-close\" data-bs-dismiss=\"modal\" aria-label=\"Close\"></button>",
+      "      </div>",
+      "      <div class=\"modal-body\">",
+      "        ...",
+      "      </div>",
+      "      <div class=\"modal-footer\">",
+      "        <button type=\"button\" class=\"btn btn-secondary\" data-bs-dismiss=\"modal\">Close</button>",
+      "        <button type=\"button\" class=\"btn btn-primary\">Understood</button>",
+      "      </div>",
+      "    </div>",
+      "  </div>",
+      "</div>"
+    ],
+    "description": "https://getbootstrap.com/docs/5.0/components/modal/#static-backdrop"
+  },
+  "Navs": {
+    "prefix": "b5-nav",
+    "body": [
+      "<ul class=\"nav\">",
+      "  <li class=\"nav-item\">",
+      "    <a class=\"nav-link active\" aria-current=\"page\" href=\"#\">Active</a>",
+      "  </li>",
+      "  <li class=\"nav-item\">",
+      "    <a class=\"nav-link\" href=\"#\">Link</a>",
+      "  </li>",
+      "  <li class=\"nav-item\">",
+      "    <a class=\"nav-link\" href=\"#\">Link</a>",
+      "  </li>",
+      "  <li class=\"nav-item\">",
+      "    <a class=\"nav-link disabled\" href=\"#\" tabindex=\"-1\" aria-disabled=\"true\">Disabled</a>",
+      "  </li>",
+      "</ul>"
+    ],
+    "description": "https://getbootstrap.com/docs/5.0/components/navs-tabs/"
+  },
+  "Navs pills": {
+    "prefix": "b5-nav-pills",
+    "body": [
+      "<ul class=\"nav nav-pills\">",
+      "  <li class=\"nav-item\">",
+      "    <a class=\"nav-link active\" aria-current=\"page\" href=\"#\">Active</a>",
+      "  </li>",
+      "  <li class=\"nav-item\">",
+      "    <a class=\"nav-link\" href=\"#\">Link</a>",
+      "  </li>",
+      "  <li class=\"nav-item\">",
+      "    <a class=\"nav-link\" href=\"#\">Link</a>",
+      "  </li>",
+      "  <li class=\"nav-item\">",
+      "    <a class=\"nav-link disabled\" href=\"#\" tabindex=\"-1\" aria-disabled=\"true\">Disabled</a>",
+      "  </li>",
+      "</ul>"
+    ],
+    "description": "https://getbootstrap.com/docs/5.0/components/navs-tabs/#pills"
+  },
+  "Navs Tabs": {
+    "prefix": "b5-nav-tabs",
+    "body": [
+      "<ul class=\"nav nav-tabs\">",
+      "  <li class=\"nav-item\">",
+      "    <a class=\"nav-link active\" aria-current=\"page\" href=\"#\">Active</a>",
+      "  </li>",
+      "  <li class=\"nav-item\">",
+      "    <a class=\"nav-link\" href=\"#\">Link</a>",
+      "  </li>",
+      "  <li class=\"nav-item\">",
+      "    <a class=\"nav-link\" href=\"#\">Link</a>",
+      "  </li>",
+      "  <li class=\"nav-item\">",
+      "    <a class=\"nav-link disabled\" href=\"#\" tabindex=\"-1\" aria-disabled=\"true\">Disabled</a>",
+      "  </li>",
+      "</ul>"
+    ],
+    "description": "https://getbootstrap.com/docs/5.0/components/navs-tabs/#tabs"
+  },
+  "Navbar": {
+    "prefix": "b5-navbar",
+    "body": [
+      "<nav class=\"navbar navbar-expand-lg navbar-light bg-light\">",
+      "  <div class=\"container-fluid\">",
+      "    <a class=\"navbar-brand\" href=\"#\">Navbar</a>",
+      "    <button class=\"navbar-toggler\" type=\"button\" data-bs-toggle=\"collapse\" data-bs-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">",
+      "      <span class=\"navbar-toggler-icon\"></span>",
+      "    </button>",
+      "    <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">",
+      "      <ul class=\"navbar-nav me-auto mb-2 mb-lg-0\">",
+      "        <li class=\"nav-item\">",
+      "          <a class=\"nav-link active\" aria-current=\"page\" href=\"#\">Home</a>",
+      "        </li>",
+      "        <li class=\"nav-item\">",
+      "          <a class=\"nav-link\" href=\"#\">Link</a>",
+      "        </li>",
+      "        <li class=\"nav-item dropdown\">",
+      "          <a class=\"nav-link dropdown-toggle\" href=\"#\" id=\"navbarDropdown\" role=\"button\" data-bs-toggle=\"dropdown\" aria-expanded=\"false\">",
+      "            Dropdown",
+      "          </a>",
+      "          <ul class=\"dropdown-menu\" aria-labelledby=\"navbarDropdown\">",
+      "            <li><a class=\"dropdown-item\" href=\"#\">Action</a></li>",
+      "            <li><a class=\"dropdown-item\" href=\"#\">Another action</a></li>",
+      "            <li><hr class=\"dropdown-divider\"></li>",
+      "            <li><a class=\"dropdown-item\" href=\"#\">Something else here</a></li>",
+      "          </ul>",
+      "        </li>",
+      "        <li class=\"nav-item\">",
+      "          <a class=\"nav-link disabled\" href=\"#\" tabindex=\"-1\" aria-disabled=\"true\">Disabled</a>",
+      "        </li>",
+      "      </ul>",
+      "      <form class=\"d-flex\">",
+      "        <input class=\"form-control me-2\" type=\"search\" placeholder=\"Search\" aria-label=\"Search\">",
+      "        <button class=\"btn btn-outline-success\" type=\"submit\">Search</button>",
+      "      </form>",
+      "    </div>",
+      "  </div>",
+      "</nav>"
+    ],
+    "description": "https://getbootstrap.com/docs/5.0/components/navbar/"
+  },
+  "Navbar External content": {
+    "prefix": "b5-navbar-external",
+    "body": [
+      "<div class=\"collapse\" id=\"navbarToggleExternalContent\">",
+      "  <div class=\"bg-dark p-4\">",
+      "    <h5 class=\"text-white h4\">Collapsed content</h5>",
+      "    <span class=\"text-muted\">Toggleable via the navbar brand.</span>",
+      "  </div>",
+      "</div>",
+      "<nav class=\"navbar navbar-dark bg-dark\">",
+      "  <div class=\"container-fluid\">",
+      "    <button class=\"navbar-toggler\" type=\"button\" data-bs-toggle=\"collapse\" data-bs-target=\"#navbarToggleExternalContent\" aria-controls=\"navbarToggleExternalContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">",
+      "      <span class=\"navbar-toggler-icon\"></span>",
+      "    </button>",
+      "  </div>",
+      "</nav>"
+    ],
+    "description": "https://getbootstrap.com/docs/5.0/components/navbar/#external-content"
+  },
+  "Pagination": {
+    "prefix": "b5-pagination",
+    "body": [
+      "<nav aria-label=\"Page navigation example\">",
+      "  <ul class=\"pagination\">",
+      "    <li class=\"page-item\">",
+      "      <a class=\"page-link\" href=\"#\" aria-label=\"Previous\">",
+      "        <span aria-hidden=\"true\">&laquo;</span>",
+      "      </a>",
+      "    </li>",
+      "    <li class=\"page-item active\"><a class=\"page-link\" href=\"#\">1</a></li>",
+      "    <li class=\"page-item\"><a class=\"page-link\" href=\"#\">2</a></li>",
+      "    <li class=\"page-item\"><a class=\"page-link\" href=\"#\">3</a></li>",
+      "    <li class=\"page-item\">",
+      "      <a class=\"page-link\" href=\"#\" aria-label=\"Next\">",
+      "        <span aria-hidden=\"true\">&raquo;</span>",
+      "      </a>",
+      "    </li>",
+      "  </ul>",
+      "</nav>"
+    ],
+    "description": "https://getbootstrap.com/docs/5.0/components/pagination/"
+  },
+  "Popovers": {
+    "prefix": "b5-popovers",
+    "body": [
+      "<button type=\"button\" class=\"btn btn-secondary\" data-bs-container=\"body\" data-bs-toggle=\"popover\" data-bs-placement=\"top\" data-bs-content=\"Vivamus sagittis lacus vel augue laoreet rutrum faucibus.\">",
+      "  Popover on top",
+      "</button>"
+    ],
+    "description": "https://getbootstrap.com/docs/5.0/components/popovers/"
+  },
+  "Progress": {
+    "prefix": "b5-progress",
+    "body": [
+      "<div class=\"progress\">",
+      "  <div class=\"progress-bar\" role=\"progressbar\" aria-valuenow=\"0\" aria-valuemin=\"0\" aria-valuemax=\"100\"></div>",
+      "</div>"
+    ],
+    "description": "https://getbootstrap.com/docs/5.0/components/progress/"
+  },
+  "Progress Striped": {
+    "prefix": "b5-progress-striped",
+    "body": [
+      "<div class=\"progress\">",
+      "  <div class=\"progress-bar progress-bar-striped\" role=\"progressbar\" style=\"width: 10%\" aria-valuenow=\"10\" aria-valuemin=\"0\" aria-valuemax=\"100\"></div>",
+      "</div>"
+    ],
+    "description": "https://getbootstrap.com/docs/5.0/components/progress/#striped"
+  },
+  "Progress Striped Animated": {
+    "prefix": "b5-progress-striped-animated",
+    "body": [
+      "<div class=\"progress\">",
+      "  <div class=\"progress-bar progress-bar-striped progress-bar-animated\" role=\"progressbar\" aria-valuenow=\"75\" aria-valuemin=\"0\" aria-valuemax=\"100\" style=\"width: 75%\"></div>",
+      "</div>"
+    ],
+    "description": "https://getbootstrap.com/docs/5.0/components/progress/#striped"
+  },
+  "Scrollspy": {
+    "prefix": "b5-scrollspy",
+    "body": [
+      "<nav id=\"navbar-example2\" class=\"navbar navbar-light bg-light px-3\">",
+      "  <a class=\"navbar-brand\" href=\"#\">Navbar</a>",
+      "  <ul class=\"nav nav-pills\">",
+      "    <li class=\"nav-item\">",
+      "      <a class=\"nav-link\" href=\"#fat\">@fat</a>",
+      "    </li>",
+      "    <li class=\"nav-item\">",
+      "      <a class=\"nav-link\" href=\"#mdo\">@mdo</a>",
+      "    </li>",
+      "    <li class=\"nav-item dropdown\">",
+      "      <a class=\"nav-link dropdown-toggle\" data-bs-toggle=\"dropdown\" href=\"#\" role=\"button\" aria-expanded=\"false\">Dropdown</a>",
+      "      <ul class=\"dropdown-menu dropdown-menu-end\">",
+      "        <li><a class=\"dropdown-item\" href=\"#one\">one</a></li>",
+      "        <li><a class=\"dropdown-item\" href=\"#two\">two</a></li>",
+      "        <li><hr class=\"dropdown-divider\"></li>",
+      "        <li><a class=\"dropdown-item\" href=\"#three\">three</a></li>",
+      "      </ul>",
+      "    </li>",
+      "  </ul>",
+      "</nav>",
+      "<div data-bs-spy=\"scroll\" data-bs-target=\"#navbar-example2\" data-bs-offset=\"0\" tabindex=\"0\">",
+      "  <h4 id=\"fat\">@fat</h4>",
+      "  <p>...</p>",
+      "  <h4 id=\"mdo\">@mdo</h4>",
+      "  <p>...</p>",
+      "  <h4 id=\"one\">one</h4>",
+      "  <p>...</p>",
+      "  <h4 id=\"two\">two</h4>",
+      "  <p>...</p>",
+      "  <h4 id=\"three\">three</h4>",
+      "  <p>...</p>",
+      "</div>"
+    ],
+    "description": "https://getbootstrap.com/docs/5.0/components/scrollspy/#two"
+  },
+  "Scrollspy list-group": {
+    "prefix": "b5-scrollspy-list",
+    "body": [
+      "<div id=\"list-example\" class=\"list-group\">",
+      "  <a class=\"list-group-item list-group-item-action\" href=\"#list-item-1\">Item 1</a>",
+      "  <a class=\"list-group-item list-group-item-action\" href=\"#list-item-2\">Item 2</a>",
+      "  <a class=\"list-group-item list-group-item-action\" href=\"#list-item-3\">Item 3</a>",
+      "  <a class=\"list-group-item list-group-item-action\" href=\"#list-item-4\">Item 4</a>",
+      "</div>",
+      "<div data-bs-spy=\"scroll\" data-bs-target=\"#list-example\" data-bs-offset=\"0\" class=\"scrollspy-example\" tabindex=\"0\">",
+      "  <h4 id=\"list-item-1\">Item 1</h4>",
+      "  <p>...</p>",
+      "  <h4 id=\"list-item-2\">Item 2</h4>",
+      "  <p>...</p>",
+      "  <h4 id=\"list-item-3\">Item 3</h4>",
+      "  <p>...</p>",
+      "  <h4 id=\"list-item-4\">Item 4</h4>",
+      "  <p>...</p>",
+      "</div>"
+    ],
+    "description": "https://getbootstrap.com/docs/5.0/components/scrollspy/#list-item-3"
+  },
+  "Spinners": {
+    "prefix": "b5-spinner",
+    "body": [
+      "<div class=\"spinner-border text-primary\" role=\"status\">",
+      "  <span class=\"visually-hidden\">Loading...</span>",
+      "</div>"
+    ],
+    "description": "https://getbootstrap.com/docs/5.0/components/spinners/"
+  },
+  "Growing spinner": {
+    "prefix": "b5-spinner-growing",
+    "body": [
+      "<div class=\"spinner-grow text-primary\" role=\"status\">",
+      "  <span class=\"visually-hidden\">Loading...</span>",
+      "</div>"
+    ],
+    "description": "https://getbootstrap.com/docs/5.0/components/spinners/#growing-spinner"
+  },
+  "Growing Button": {
+    "prefix": "b5-spinner-button",
+    "body": [
+      "<button class=\"btn btn-primary\" type=\"button\" disabled>",
+      "  <span class=\"spinner-border spinner-border-sm\" role=\"status\" aria-hidden=\"true\"></span>",
+      "  Loading...",
+      "</button>"
+    ],
+    "description": "https://getbootstrap.com/docs/5.0/components/spinners/#buttons"
+  },
+  "Toasts": {
+    "prefix": "b5-toast",
+    "body": [
+      "<div class=\"toast position-absolute top-0 end-0\" role=\"alert\" aria-live=\"assertive\" aria-atomic=\"true\">",
+      "  <div class=\"toast-header\">",
+      "    <img src=\"...\" class=\"rounded me-2\" alt=\"...\">",
+      "    <strong class=\"me-auto\">Bootstrap</strong>",
+      "    <small>11 mins ago</small>",
+      "    <button type=\"button\" class=\"btn-close\" data-bs-dismiss=\"toast\" aria-label=\"Close\"></button>",
+      "  </div>",
+      "  <div class=\"toast-body\">",
+      "    Hello, world! This is a toast message.",
+      "  </div>",
+      "</div>"
+    ],
+    "description": "https://getbootstrap.com/docs/5.0/components/toasts/"
+  },
+  "Tooltips": {
+    "prefix": "b5-tooltip",
+    "body": [
+      "<button type=\"button\" class=\"btn btn-secondary\" data-bs-toggle=\"tooltip\" data-bs-placement=\"top\" title=\"Tooltip on top\">",
+      "  Tooltip on top",
+      "</button>"
+    ],
+    "description": "https://getbootstrap.com/docs/5.0/components/tooltips/"
+  },
+  "Colored links": {
+    "prefix": "b5-colore-link",
+    "body": [
+      "<a href=\"#\" class=\"link-primary\">Primary link</a>"
+    ],
+    "description": "Colored links"
+  },
+  "Ratios": {
+    "prefix": "b5-ratio",
+    "body": [
+      "<div class=\"ratio ratio-16x9\">",
+      "  <iframe src=\"...\" title=\"YouTube video\" allowfullscreen></iframe>",
+      "</div>"
+    ],
+    "description": "https://getbootstrap.com/docs/5.0/helpers/ratio/"
+  }
+}
