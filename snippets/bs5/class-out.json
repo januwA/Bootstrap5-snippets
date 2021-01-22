@@ -1,0 +1,2300 @@
+{
+  "main Axis Alignment between": {
+    "prefix": ".justify-content-between",
+    "body": "justify-content-between",
+    "description": ""
+  },
+  "main Axis Alignment start": {
+    "prefix": ".justify-content-start",
+    "body": "justify-content-start",
+    "description": ""
+  },
+  "main Axis Alignment end": {
+    "prefix": ".justify-content-end",
+    "body": "justify-content-end",
+    "description": ""
+  },
+  "main Axis Alignment center": {
+    "prefix": ".justify-content-center",
+    "body": "justify-content-center",
+    "description": ""
+  },
+  "main Axis Alignment around": {
+    "prefix": ".justify-content-around",
+    "body": "justify-content-around",
+    "description": ""
+  },
+  "main Axis Alignment evenly": {
+    "prefix": ".justify-content-evenly",
+    "body": "justify-content-evenly",
+    "description": ""
+  },
+  "cross Axis Alignment start": {
+    "prefix": ".align-items-start",
+    "body": "align-items-start",
+    "description": ""
+  },
+  "cross Axis Alignment end": {
+    "prefix": ".align-items-end",
+    "body": "align-items-end",
+    "description": ""
+  },
+  "cross Axis Alignment center": {
+    "prefix": ".align-items-center",
+    "body": "align-items-center",
+    "description": ""
+  },
+  "cross Axis Alignment baseline": {
+    "prefix": ".align-items-baseline",
+    "body": "align-items-baseline",
+    "description": ""
+  },
+  "cross Axis Alignment stretch": {
+    "prefix": ".align-items-stretch",
+    "body": "align-items-stretch",
+    "description": ""
+  },
+  "Align content start": {
+    "prefix": ".align-content-start",
+    "body": "align-content-start",
+    "description": ""
+  },
+  "Align content end": {
+    "prefix": ".align-content-end",
+    "body": "align-content-end",
+    "description": ""
+  },
+  "Align content center": {
+    "prefix": ".align-content-center",
+    "body": "align-content-center",
+    "description": ""
+  },
+  "Align content around": {
+    "prefix": ".align-content-around",
+    "body": "align-content-around",
+    "description": ""
+  },
+  "Align content stretch": {
+    "prefix": ".align-content-stretch",
+    "body": "align-content-stretch",
+    "description": ""
+  },
+  "Align self start": {
+    "prefix": ".align-self-start",
+    "body": "align-self-start",
+    "description": ""
+  },
+  "Align self end": {
+    "prefix": ".align-self-end",
+    "body": "align-self-end",
+    "description": ""
+  },
+  "Align self center": {
+    "prefix": ".align-self-center",
+    "body": "align-self-center",
+    "description": ""
+  },
+  "Align self baseline": {
+    "prefix": ".align-self-baseline",
+    "body": "align-self-baseline",
+    "description": ""
+  },
+  "Align self stretch": {
+    "prefix": ".align-self-stretch",
+    "body": "align-self-stretch",
+    "description": ""
+  },
+  "Flex Grow": {
+    "prefix": ".flex-grow-",
+    "body": "flex-grow-${0:1}",
+    "description": "sets the flex grow factor of a flex item's main size."
+  },
+  "Flex Shrink": {
+    "prefix": ".flex-shrink-",
+    "body": "flex-shrink-${0:1}",
+    "description": "The flex-shrink CSS property sets the flex shrink factor of a flex item. If the size of all flex items is larger than the flex container, items shrink to fit according to flex-shrink."
+  },
+  "Change the visual order": {
+    "prefix": ".order-",
+    "body": "order-${0:1}",
+    "description": "Change the visual order of specific flex items with a handful of utilities. We only provide options for making an item first or last, as well as a reset to use the DOM order. As takes any integer value from 0 to 5, add custom CSS for any additional values needed.orderorder"
+  },
+  "Position static": {
+    "prefix": ".position-static",
+    "body": "position-static",
+    "description": ""
+  },
+  "Position relative": {
+    "prefix": ".position-relative",
+    "body": "position-relative",
+    "description": ""
+  },
+  "Position absolute": {
+    "prefix": ".position-absolute",
+    "body": "position-absolute",
+    "description": ""
+  },
+  "Position fixed": {
+    "prefix": ".position-fixed",
+    "body": "position-fixed",
+    "description": "fixed"
+  },
+  "Position sticky": {
+    "prefix": ".position-sticky",
+    "body": "position-sticky",
+    "description": ""
+  },
+  "Center elements": {
+    "prefix": ".translate-middle",
+    "body": "translate-middle",
+    "description": "translate(-50%, -50%)"
+  },
+  "box shadow default sizes": {
+    "prefix": ".shadow",
+    "body": "shadow",
+    "description": ""
+  },
+  "Sizing max width": {
+    "prefix": ".mw-100",
+    "body": "mw-100",
+    "description": "max-width: 100%"
+  },
+  "Sizing max height": {
+    "prefix": ".mh-100",
+    "body": "mh-100",
+    "description": "max-height: 100%"
+  },
+  "Relative to the viewport": {
+    "prefix": [
+      ".vw-100",
+      ".vh-100"
+    ],
+    "body": "v${0:w}-100",
+    "description": "Width 100vw or Height 100vh"
+  },
+  "Monospace": {
+    "prefix": ".font-monospace",
+    "body": "font-monospace",
+    "description": "Change a selection to our monospace font stack with ..font-monospace"
+  },
+  "Visibility visible": {
+    "prefix": ".visible",
+    "body": "visible",
+    "description": "visibility: visible"
+  },
+  "Visibility invisible": {
+    "prefix": ".invisible",
+    "body": "invisible",
+    "description": "visibility: invisible"
+  },
+  "Clearfix": {
+    "prefix": ".clearfix",
+    "body": "clearfix",
+    "description": "Quickly and easily clear floated content within a container"
+  },
+  "Position Sticky": {
+    "prefix": ".sticky-top",
+    "body": "sticky-top",
+    "description": ""
+  },
+  "Stretched link": {
+    "prefix": ".stretched-link",
+    "body": "stretched-link",
+    "description": "Make any HTML element or Bootstrap component clickable by “stretching” a nested link via CSS."
+  },
+  "Form input": {
+    "prefix": ".form-control",
+    "body": "form-control",
+    "description": "form input"
+  },
+  "Form input plaintext": {
+    "prefix": ".form-control-plaintext",
+    "body": "form-control-plaintext",
+    "description": "form input plaintext"
+  },
+  "Form input color": {
+    "prefix": ".form-control-color",
+    "body": "form-control-color",
+    "description": "form input color picker"
+  },
+  "Form label": {
+    "prefix": ".form-label",
+    "body": "form-label",
+    "description": "form label"
+  },
+  "Form input help text": {
+    "prefix": ".form-text",
+    "body": "form-text",
+    "description": "form input help text"
+  },
+  "Form select": {
+    "prefix": ".form-select",
+    "body": "form-select",
+    "description": "form select"
+  },
+  "Form check": {
+    "prefix": ".form-check",
+    "body": "form-check",
+    "description": "form check"
+  },
+  "Form check inline": {
+    "prefix": ".form-check-inline",
+    "body": "form-check-inline",
+    "description": "form check inline"
+  },
+  "Form switch": {
+    "prefix": ".form-switch",
+    "body": "form-switch",
+    "description": "form switch"
+  },
+  "Form range": {
+    "prefix": ".form-range",
+    "body": "form-range",
+    "description": "form range"
+  },
+  "Form input check": {
+    "prefix": ".form-check-input",
+    "body": "form-check-input",
+    "description": "form check"
+  },
+  "Form input check label": {
+    "prefix": ".form-check-label",
+    "body": "form-check-label",
+    "description": "check label"
+  },
+  "Form input group": {
+    "prefix": ".input-group",
+    "body": "input-group",
+    "description": "input-group"
+  },
+  "Form input group text": {
+    "prefix": ".input-group-text",
+    "body": "input-group-text",
+    "description": "input-group-text"
+  },
+  "Form floating": {
+    "prefix": ".form-floating",
+    "body": "form-floating",
+    "description": "form-floating"
+  },
+  "blockquote": {
+    "prefix": ".blockquote",
+    "body": "blockquote"
+  },
+  "blockquote footer": {
+    "prefix": ".blockquote-footer",
+    "body": "blockquote-footer"
+  },
+  "List group": {
+    "prefix": ".list-group",
+    "body": "list-group",
+    "description": "List groups are a flexible and powerful component for displaying a series of content. Modify and extend them to support just about any content within."
+  },
+  "Figures": {
+    "prefix": ".figure",
+    "body": "figure",
+    "description": ""
+  },
+  "Figures caption": {
+    "prefix": ".figure-caption",
+    "body": "figure-caption",
+    "description": ""
+  },
+  "Containers": {
+    "prefix": ".container",
+    "body": "container",
+    "description": ""
+  },
+  "Containers fluid": {
+    "prefix": ".container-fluid",
+    "body": "container-fluid",
+    "description": ""
+  },
+  "badge": {
+    "prefix": ".badge",
+    "body": "badge",
+    "description": "badge"
+  },
+  "collapse": {
+    "prefix": ".collapse",
+    "body": "collapse",
+    "description": "Toggle the visibility of content across your project with a few classes and our JavaScript plugins."
+  },
+  "multi collapse": {
+    "prefix": ".collapse-multi",
+    "body": "collapse multi-collapse"
+  },
+  "Modal": {
+    "prefix": ".modal",
+    "body": "modal",
+    "description": "Use Bootstrap’s JavaScript modal plugin to add dialogs to your site for lightboxes, user notifications, or completely custom content."
+  },
+  "Modal dialog": {
+    "prefix": ".modal-dialog",
+    "body": "modal-dialog"
+  },
+  "Modal dialog scrollable": {
+    "prefix": ".modal-dialog-scrollable",
+    "body": "modal-dialog-scrollable"
+  },
+  "Modal dialog centered": {
+    "prefix": ".modal-dialog-centered",
+    "body": "modal-dialog-centered"
+  },
+  "Modal dialog fullscreen": {
+    "prefix": ".modal-dialog-fullscreen",
+    "body": "modal-dialog-fullscreen"
+  },
+  "Modal content": {
+    "prefix": ".modal-content",
+    "body": "modal-content"
+  },
+  "Modal header": {
+    "prefix": ".modal-header",
+    "body": "modal-header"
+  },
+  "Modal title": {
+    "prefix": ".modal-title",
+    "body": "modal-title"
+  },
+  "Modal body": {
+    "prefix": ".modal-body",
+    "body": "modal-body"
+  },
+  "Modal footer": {
+    "prefix": ".modal-footer",
+    "body": "modal-footer"
+  },
+  "Navs": {
+    "prefix": ".nav",
+    "body": "nav",
+    "description": "Documentation and examples for how to use Bootstrap’s included navigation components."
+  },
+  "Navs pills": {
+    "prefix": ".nav-pills",
+    "body": "nav-pills"
+  },
+  "Navs fill": {
+    "prefix": ".nav-fill",
+    "body": "nav-fill"
+  },
+  "Navs item": {
+    "prefix": ".nav-item",
+    "body": "nav-item"
+  },
+  "Navs link": {
+    "prefix": ".nav-link",
+    "body": "nav-link"
+  },
+  "Navs justified": {
+    "prefix": ".nav-justified",
+    "body": "nav-justified"
+  },
+  "Navs tabs": {
+    "prefix": ".nav-tabs",
+    "body": "nav-tabs"
+  },
+  "Pagination": {
+    "prefix": ".pagination",
+    "body": "pagination",
+    "description": "We use a large block of connected links for our pagination, making links hard to miss and easily scalable—all while providing large hit areas. Pagination is built with list HTML elements so screen readers can announce the number of available links. Use a wrapping <nav> element to identify it as a navigation section to screen readers and other assistive technologies."
+  },
+  "Pagination item": {
+    "prefix": ".page-item",
+    "body": "page-item"
+  },
+  "Pagination link": {
+    "prefix": ".page-link",
+    "body": "page-link"
+  },
+  "theme primary": {
+    "prefix": ".theme-primary",
+    "body": "primary",
+    "description": ""
+  },
+  "theme secondary": {
+    "prefix": ".theme-secondary",
+    "body": "secondary",
+    "description": ""
+  },
+  "theme success": {
+    "prefix": ".theme-success",
+    "body": "success",
+    "description": ""
+  },
+  "theme danger": {
+    "prefix": ".theme-danger",
+    "body": "danger",
+    "description": ""
+  },
+  "theme warning": {
+    "prefix": ".theme-warning",
+    "body": "warning",
+    "description": ""
+  },
+  "theme info": {
+    "prefix": ".theme-info",
+    "body": "info",
+    "description": ""
+  },
+  "theme light": {
+    "prefix": ".theme-light",
+    "body": "light",
+    "description": ""
+  },
+  "theme dark": {
+    "prefix": ".theme-dark",
+    "body": "dark",
+    "description": ""
+  },
+  "theme white": {
+    "prefix": ".theme-white",
+    "body": "white",
+    "description": ""
+  },
+  "border top": {
+    "prefix": ".border-top",
+    "body": "border-top",
+    "description": ""
+  },
+  "border top-0": {
+    "prefix": ".border-top-0",
+    "body": "border-top-0",
+    "description": ""
+  },
+  "border end": {
+    "prefix": ".border-end",
+    "body": "border-end",
+    "description": ""
+  },
+  "border end-0": {
+    "prefix": ".border-end-0",
+    "body": "border-end-0",
+    "description": ""
+  },
+  "border bottom": {
+    "prefix": ".border-bottom",
+    "body": "border-bottom",
+    "description": ""
+  },
+  "border bottom-0": {
+    "prefix": ".border-bottom-0",
+    "body": "border-bottom-0",
+    "description": ""
+  },
+  "border start": {
+    "prefix": ".border-start",
+    "body": "border-start",
+    "description": ""
+  },
+  "border start-0": {
+    "prefix": ".border-start-0",
+    "body": "border-start-0",
+    "description": ""
+  },
+  "border primary": {
+    "prefix": ".border-primary",
+    "body": "border-primary",
+    "description": ""
+  },
+  "border secondary": {
+    "prefix": ".border-secondary",
+    "body": "border-secondary",
+    "description": ""
+  },
+  "border success": {
+    "prefix": ".border-success",
+    "body": "border-success",
+    "description": ""
+  },
+  "border danger": {
+    "prefix": ".border-danger",
+    "body": "border-danger",
+    "description": ""
+  },
+  "border warning": {
+    "prefix": ".border-warning",
+    "body": "border-warning",
+    "description": ""
+  },
+  "border info": {
+    "prefix": ".border-info",
+    "body": "border-info",
+    "description": ""
+  },
+  "border light": {
+    "prefix": ".border-light",
+    "body": "border-light",
+    "description": ""
+  },
+  "border dark": {
+    "prefix": ".border-dark",
+    "body": "border-dark",
+    "description": ""
+  },
+  "border white": {
+    "prefix": ".border-white",
+    "body": "border-white",
+    "description": ""
+  },
+  "border 0": {
+    "prefix": ".border-0",
+    "body": "border-0",
+    "description": ""
+  },
+  "border 1": {
+    "prefix": ".border-1",
+    "body": "border-1",
+    "description": ""
+  },
+  "border 2": {
+    "prefix": ".border-2",
+    "body": "border-2",
+    "description": ""
+  },
+  "border 3": {
+    "prefix": ".border-3",
+    "body": "border-3",
+    "description": ""
+  },
+  "border 4": {
+    "prefix": ".border-4",
+    "body": "border-4",
+    "description": ""
+  },
+  "border 5": {
+    "prefix": ".border-5",
+    "body": "border-5",
+    "description": ""
+  },
+  "Radius circle": {
+    "prefix": ".rounded-circle",
+    "body": "rounded-circle",
+    "description": ""
+  },
+  "Radius radius": {
+    "prefix": ".rounded-radius",
+    "body": "rounded-radius",
+    "description": ""
+  },
+  "Text primary": {
+    "prefix": ".text-primary",
+    "body": "text-primary",
+    "description": ""
+  },
+  "Text secondary": {
+    "prefix": ".text-secondary",
+    "body": "text-secondary",
+    "description": ""
+  },
+  "Text success": {
+    "prefix": ".text-success",
+    "body": "text-success",
+    "description": ""
+  },
+  "Text danger": {
+    "prefix": ".text-danger",
+    "body": "text-danger",
+    "description": ""
+  },
+  "Text warning": {
+    "prefix": ".text-warning",
+    "body": "text-warning",
+    "description": ""
+  },
+  "Text info": {
+    "prefix": ".text-info",
+    "body": "text-info",
+    "description": ""
+  },
+  "Text light": {
+    "prefix": ".text-light",
+    "body": "text-light",
+    "description": ""
+  },
+  "Text dark": {
+    "prefix": ".text-dark",
+    "body": "text-dark",
+    "description": ""
+  },
+  "Text white": {
+    "prefix": ".text-white",
+    "body": "text-white",
+    "description": ""
+  },
+  "Text start": {
+    "prefix": ".text-start",
+    "body": "text-start",
+    "description": ""
+  },
+  "Text center": {
+    "prefix": ".text-center",
+    "body": "text-center",
+    "description": ""
+  },
+  "Text end": {
+    "prefix": ".text-end",
+    "body": "text-end",
+    "description": ""
+  },
+  "Text wrap": {
+    "prefix": ".text-wrap",
+    "body": "text-wrap",
+    "description": ""
+  },
+  "Text nowrap": {
+    "prefix": ".text-nowrap",
+    "body": "text-nowrap",
+    "description": ""
+  },
+  "Text break": {
+    "prefix": ".text-break",
+    "body": "text-break",
+    "description": ""
+  },
+  "Text lowercase": {
+    "prefix": ".text-lowercase",
+    "body": "text-lowercase",
+    "description": ""
+  },
+  "Text uppercase": {
+    "prefix": ".text-uppercase",
+    "body": "text-uppercase",
+    "description": ""
+  },
+  "Text capitalize": {
+    "prefix": ".text-capitalize",
+    "body": "text-capitalize",
+    "description": ""
+  },
+  "Text reset": {
+    "prefix": ".text-reset",
+    "body": "text-reset",
+    "description": ""
+  },
+  "Text truncate": {
+    "prefix": ".text-truncate",
+    "body": "text-truncate",
+    "description": ""
+  },
+  "Text black-50": {
+    "prefix": ".text-black-50",
+    "body": "text-black-50",
+    "description": ""
+  },
+  "Text white-50": {
+    "prefix": ".text-white-50",
+    "body": "text-white-50",
+    "description": ""
+  },
+  "Text decoration underline": {
+    "prefix": ".text-decoration-underline",
+    "body": "text-decoration-underline",
+    "description": ""
+  },
+  "Text decoration line-through": {
+    "prefix": ".text-decoration-line-through",
+    "body": "text-decoration-line-through",
+    "description": ""
+  },
+  "Text decoration none": {
+    "prefix": ".text-decoration-none",
+    "body": "text-decoration-none",
+    "description": ""
+  },
+  "Background Color primary": {
+    "prefix": ".bg-primary",
+    "body": "bg-primary",
+    "description": ""
+  },
+  "Background Color secondary": {
+    "prefix": ".bg-secondary",
+    "body": "bg-secondary",
+    "description": ""
+  },
+  "Background Color success": {
+    "prefix": ".bg-success",
+    "body": "bg-success",
+    "description": ""
+  },
+  "Background Color danger": {
+    "prefix": ".bg-danger",
+    "body": "bg-danger",
+    "description": ""
+  },
+  "Background Color warning": {
+    "prefix": ".bg-warning",
+    "body": "bg-warning",
+    "description": ""
+  },
+  "Background Color info": {
+    "prefix": ".bg-info",
+    "body": "bg-info",
+    "description": ""
+  },
+  "Background Color light": {
+    "prefix": ".bg-light",
+    "body": "bg-light",
+    "description": ""
+  },
+  "Background Color dark": {
+    "prefix": ".bg-dark",
+    "body": "bg-dark",
+    "description": ""
+  },
+  "Background Color white": {
+    "prefix": ".bg-white",
+    "body": "bg-white",
+    "description": ""
+  },
+  "Display grid": {
+    "prefix": ".d-grid",
+    "body": "d-grid",
+    "description": ""
+  },
+  "Display table": {
+    "prefix": ".d-table",
+    "body": "d-table",
+    "description": ""
+  },
+  "Display table-row": {
+    "prefix": ".d-table-row",
+    "body": "d-table-row",
+    "description": ""
+  },
+  "Display table-cell": {
+    "prefix": ".d-table-cell",
+    "body": "d-table-cell",
+    "description": ""
+  },
+  "Display flex": {
+    "prefix": ".d-flex",
+    "body": "d-flex",
+    "description": ""
+  },
+  "Display block": {
+    "prefix": ".d-block",
+    "body": "d-block",
+    "description": ""
+  },
+  "Display inline": {
+    "prefix": ".d-inline",
+    "body": "d-inline",
+    "description": ""
+  },
+  "Display inline-block": {
+    "prefix": ".d-inline-block",
+    "body": "d-inline-block",
+    "description": ""
+  },
+  "Display inline-flex": {
+    "prefix": ".d-inline-flex",
+    "body": "d-inline-flex",
+    "description": ""
+  },
+  "Display none": {
+    "prefix": ".d-none",
+    "body": "d-none",
+    "description": ""
+  },
+  "Flex row": {
+    "prefix": ".flex-row",
+    "body": "flex-row",
+    "description": ""
+  },
+  "Flex column": {
+    "prefix": ".flex-column",
+    "body": "flex-column",
+    "description": ""
+  },
+  "Flex fill": {
+    "prefix": ".flex-fill",
+    "body": "flex-fill",
+    "description": ""
+  },
+  "Flex wrap": {
+    "prefix": ".flex-wrap",
+    "body": "flex-wrap",
+    "description": ""
+  },
+  "Flex nowrap": {
+    "prefix": ".flex-nowrap",
+    "body": "flex-nowrap",
+    "description": ""
+  },
+  "Flex row-reverse": {
+    "prefix": ".flex-row-reverse",
+    "body": "flex-row-reverse",
+    "description": ""
+  },
+  "Flex column-reverse": {
+    "prefix": ".flex-column-reverse",
+    "body": "flex-column-reverse",
+    "description": ""
+  },
+  "Flex wrap-reverse": {
+    "prefix": ".flex-wrap-reverse",
+    "body": "flex-wrap-reverse",
+    "description": ""
+  },
+  "Float start": {
+    "prefix": ".float-start",
+    "body": "float-start",
+    "description": ""
+  },
+  "Float end": {
+    "prefix": ".float-end",
+    "body": "float-end",
+    "description": ""
+  },
+  "Float none": {
+    "prefix": ".float-none",
+    "body": "float-none",
+    "description": ""
+  },
+  "Text selection all": {
+    "prefix": ".user-select-all",
+    "body": "user-select-all",
+    "description": ""
+  },
+  "Text selection auto": {
+    "prefix": ".user-select-auto",
+    "body": "user-select-auto",
+    "description": ""
+  },
+  "Text selection none": {
+    "prefix": ".user-select-none",
+    "body": "user-select-none",
+    "description": ""
+  },
+  "Pointer events auto": {
+    "prefix": ".pe-auto",
+    "body": "pe-auto",
+    "description": ""
+  },
+  "Pointer events none": {
+    "prefix": ".pe-none",
+    "body": "pe-none",
+    "description": ""
+  },
+  "Overflow auto": {
+    "prefix": ".overflow-auto",
+    "body": "overflow-auto",
+    "description": ""
+  },
+  "Overflow hidden": {
+    "prefix": ".overflow-hidden",
+    "body": "overflow-hidden",
+    "description": ""
+  },
+  "Overflow visible": {
+    "prefix": ".overflow-visible",
+    "body": "overflow-visible",
+    "description": ""
+  },
+  "Overflow scroll": {
+    "prefix": ".overflow-scroll",
+    "body": "overflow-scroll",
+    "description": ""
+  },
+  "Arrange elements top 0": {
+    "prefix": ".top-0",
+    "body": "top-0",
+    "description": ""
+  },
+  "Arrange elements top 50": {
+    "prefix": ".top-50",
+    "body": "top-50",
+    "description": ""
+  },
+  "Arrange elements top 100": {
+    "prefix": ".top-100",
+    "body": "top-100",
+    "description": ""
+  },
+  "Arrange elements bottom 0": {
+    "prefix": ".bottom-0",
+    "body": "bottom-0",
+    "description": ""
+  },
+  "Arrange elements bottom 50": {
+    "prefix": ".bottom-50",
+    "body": "bottom-50",
+    "description": ""
+  },
+  "Arrange elements bottom 100": {
+    "prefix": ".bottom-100",
+    "body": "bottom-100",
+    "description": ""
+  },
+  "Arrange elements end 0": {
+    "prefix": ".end-0",
+    "body": "end-0",
+    "description": ""
+  },
+  "Arrange elements end 50": {
+    "prefix": ".end-50",
+    "body": "end-50",
+    "description": ""
+  },
+  "Arrange elements end 100": {
+    "prefix": ".end-100",
+    "body": "end-100",
+    "description": ""
+  },
+  "Arrange elements start 0": {
+    "prefix": ".start-0",
+    "body": "start-0",
+    "description": ""
+  },
+  "Arrange elements start 50": {
+    "prefix": ".start-50",
+    "body": "start-50",
+    "description": ""
+  },
+  "Arrange elements start 100": {
+    "prefix": ".start-100",
+    "body": "start-100",
+    "description": ""
+  },
+  "Center elements horizontal or vertical x": {
+    "prefix": ".translate-middle-x",
+    "body": "translate-middle-x",
+    "description": ""
+  },
+  "Center elements horizontal or vertical y": {
+    "prefix": ".translate-middle-y",
+    "body": "translate-middle-y",
+    "description": ""
+  },
+  "box shadow none": {
+    "prefix": ".shadow-none",
+    "body": "shadow-none",
+    "description": ""
+  },
+  "box shadow sm": {
+    "prefix": ".shadow-sm",
+    "body": "shadow-sm",
+    "description": ""
+  },
+  "box shadow lg": {
+    "prefix": ".shadow-lg",
+    "body": "shadow-lg",
+    "description": ""
+  },
+  "Sizing Width 25": {
+    "prefix": ".w-25",
+    "body": "w-25",
+    "description": ""
+  },
+  "Sizing Width 50": {
+    "prefix": ".w-50",
+    "body": "w-50",
+    "description": ""
+  },
+  "Sizing Width 75": {
+    "prefix": ".w-75",
+    "body": "w-75",
+    "description": ""
+  },
+  "Sizing Width 100": {
+    "prefix": ".w-100",
+    "body": "w-100",
+    "description": ""
+  },
+  "Sizing Width auto": {
+    "prefix": ".w-auto",
+    "body": "w-auto",
+    "description": ""
+  },
+  "Sizing Height 25": {
+    "prefix": ".h-25",
+    "body": "h-25",
+    "description": ""
+  },
+  "Sizing Height 50": {
+    "prefix": ".h-50",
+    "body": "h-50",
+    "description": ""
+  },
+  "Sizing Height 75": {
+    "prefix": ".h-75",
+    "body": "h-75",
+    "description": ""
+  },
+  "Sizing Height 100": {
+    "prefix": ".h-100",
+    "body": "h-100",
+    "description": ""
+  },
+  "Sizing Height auto": {
+    "prefix": ".h-auto",
+    "body": "h-auto",
+    "description": ""
+  },
+  "Relative to the min viewport vw-100": {
+    "prefix": ".min-vw-100",
+    "body": "min-vw-100",
+    "description": ""
+  },
+  "Relative to the min viewport vh-100": {
+    "prefix": ".min-vh-100",
+    "body": "min-vh-100",
+    "description": ""
+  },
+  "Spacing margin top 0": {
+    "prefix": ".mt-0",
+    "body": "mt-0",
+    "description": ""
+  },
+  "Spacing margin top 1": {
+    "prefix": ".mt-1",
+    "body": "mt-1",
+    "description": ""
+  },
+  "Spacing margin top 2": {
+    "prefix": ".mt-2",
+    "body": "mt-2",
+    "description": ""
+  },
+  "Spacing margin top 3": {
+    "prefix": ".mt-3",
+    "body": "mt-3",
+    "description": ""
+  },
+  "Spacing margin top 4": {
+    "prefix": ".mt-4",
+    "body": "mt-4",
+    "description": ""
+  },
+  "Spacing margin top 5": {
+    "prefix": ".mt-5",
+    "body": "mt-5",
+    "description": ""
+  },
+  "Spacing margin top auto": {
+    "prefix": ".mt-auto",
+    "body": "mt-auto",
+    "description": ""
+  },
+  "Spacing margin bottom 0": {
+    "prefix": ".mb-0",
+    "body": "mb-0",
+    "description": ""
+  },
+  "Spacing margin bottom 1": {
+    "prefix": ".mb-1",
+    "body": "mb-1",
+    "description": ""
+  },
+  "Spacing margin bottom 2": {
+    "prefix": ".mb-2",
+    "body": "mb-2",
+    "description": ""
+  },
+  "Spacing margin bottom 3": {
+    "prefix": ".mb-3",
+    "body": "mb-3",
+    "description": ""
+  },
+  "Spacing margin bottom 4": {
+    "prefix": ".mb-4",
+    "body": "mb-4",
+    "description": ""
+  },
+  "Spacing margin bottom 5": {
+    "prefix": ".mb-5",
+    "body": "mb-5",
+    "description": ""
+  },
+  "Spacing margin bottom auto": {
+    "prefix": ".mb-auto",
+    "body": "mb-auto",
+    "description": ""
+  },
+  "Spacing margin left 0": {
+    "prefix": ".ms-0",
+    "body": "ms-0",
+    "description": ""
+  },
+  "Spacing margin left 1": {
+    "prefix": ".ms-1",
+    "body": "ms-1",
+    "description": ""
+  },
+  "Spacing margin left 2": {
+    "prefix": ".ms-2",
+    "body": "ms-2",
+    "description": ""
+  },
+  "Spacing margin left 3": {
+    "prefix": ".ms-3",
+    "body": "ms-3",
+    "description": ""
+  },
+  "Spacing margin left 4": {
+    "prefix": ".ms-4",
+    "body": "ms-4",
+    "description": ""
+  },
+  "Spacing margin left 5": {
+    "prefix": ".ms-5",
+    "body": "ms-5",
+    "description": ""
+  },
+  "Spacing margin left auto": {
+    "prefix": ".ms-auto",
+    "body": "ms-auto",
+    "description": ""
+  },
+  "Spacing margin right 0": {
+    "prefix": ".me-0",
+    "body": "me-0",
+    "description": ""
+  },
+  "Spacing margin right 1": {
+    "prefix": ".me-1",
+    "body": "me-1",
+    "description": ""
+  },
+  "Spacing margin right 2": {
+    "prefix": ".me-2",
+    "body": "me-2",
+    "description": ""
+  },
+  "Spacing margin right 3": {
+    "prefix": ".me-3",
+    "body": "me-3",
+    "description": ""
+  },
+  "Spacing margin right 4": {
+    "prefix": ".me-4",
+    "body": "me-4",
+    "description": ""
+  },
+  "Spacing margin right 5": {
+    "prefix": ".me-5",
+    "body": "me-5",
+    "description": ""
+  },
+  "Spacing margin right auto": {
+    "prefix": ".me-auto",
+    "body": "me-auto",
+    "description": ""
+  },
+  "Spacing margin left and right 0": {
+    "prefix": ".mx-0",
+    "body": "mx-0",
+    "description": ""
+  },
+  "Spacing margin left and right 1": {
+    "prefix": ".mx-1",
+    "body": "mx-1",
+    "description": ""
+  },
+  "Spacing margin left and right 2": {
+    "prefix": ".mx-2",
+    "body": "mx-2",
+    "description": ""
+  },
+  "Spacing margin left and right 3": {
+    "prefix": ".mx-3",
+    "body": "mx-3",
+    "description": ""
+  },
+  "Spacing margin left and right 4": {
+    "prefix": ".mx-4",
+    "body": "mx-4",
+    "description": ""
+  },
+  "Spacing margin left and right 5": {
+    "prefix": ".mx-5",
+    "body": "mx-5",
+    "description": ""
+  },
+  "Spacing margin left and right auto": {
+    "prefix": ".mx-auto",
+    "body": "mx-auto",
+    "description": ""
+  },
+  "Spacing margin top and bottom 0": {
+    "prefix": ".my-0",
+    "body": "my-0",
+    "description": ""
+  },
+  "Spacing margin top and bottom 1": {
+    "prefix": ".my-1",
+    "body": "my-1",
+    "description": ""
+  },
+  "Spacing margin top and bottom 2": {
+    "prefix": ".my-2",
+    "body": "my-2",
+    "description": ""
+  },
+  "Spacing margin top and bottom 3": {
+    "prefix": ".my-3",
+    "body": "my-3",
+    "description": ""
+  },
+  "Spacing margin top and bottom 4": {
+    "prefix": ".my-4",
+    "body": "my-4",
+    "description": ""
+  },
+  "Spacing margin top and bottom 5": {
+    "prefix": ".my-5",
+    "body": "my-5",
+    "description": ""
+  },
+  "Spacing margin top and bottom auto": {
+    "prefix": ".my-auto",
+    "body": "my-auto",
+    "description": ""
+  },
+  "Spacing padding top 0": {
+    "prefix": ".pt-0",
+    "body": "pt-0",
+    "description": ""
+  },
+  "Spacing padding top 1": {
+    "prefix": ".pt-1",
+    "body": "pt-1",
+    "description": ""
+  },
+  "Spacing padding top 2": {
+    "prefix": ".pt-2",
+    "body": "pt-2",
+    "description": ""
+  },
+  "Spacing padding top 3": {
+    "prefix": ".pt-3",
+    "body": "pt-3",
+    "description": ""
+  },
+  "Spacing padding top 4": {
+    "prefix": ".pt-4",
+    "body": "pt-4",
+    "description": ""
+  },
+  "Spacing padding top 5": {
+    "prefix": ".pt-5",
+    "body": "pt-5",
+    "description": ""
+  },
+  "Spacing padding top auto": {
+    "prefix": ".pt-auto",
+    "body": "pt-auto",
+    "description": ""
+  },
+  "Spacing padding bottom 0": {
+    "prefix": ".pb-0",
+    "body": "pb-0",
+    "description": ""
+  },
+  "Spacing padding bottom 1": {
+    "prefix": ".pb-1",
+    "body": "pb-1",
+    "description": ""
+  },
+  "Spacing padding bottom 2": {
+    "prefix": ".pb-2",
+    "body": "pb-2",
+    "description": ""
+  },
+  "Spacing padding bottom 3": {
+    "prefix": ".pb-3",
+    "body": "pb-3",
+    "description": ""
+  },
+  "Spacing padding bottom 4": {
+    "prefix": ".pb-4",
+    "body": "pb-4",
+    "description": ""
+  },
+  "Spacing padding bottom 5": {
+    "prefix": ".pb-5",
+    "body": "pb-5",
+    "description": ""
+  },
+  "Spacing padding bottom auto": {
+    "prefix": ".pb-auto",
+    "body": "pb-auto",
+    "description": ""
+  },
+  "Spacing padding left 0": {
+    "prefix": ".ps-0",
+    "body": "ps-0",
+    "description": ""
+  },
+  "Spacing padding left 1": {
+    "prefix": ".ps-1",
+    "body": "ps-1",
+    "description": ""
+  },
+  "Spacing padding left 2": {
+    "prefix": ".ps-2",
+    "body": "ps-2",
+    "description": ""
+  },
+  "Spacing padding left 3": {
+    "prefix": ".ps-3",
+    "body": "ps-3",
+    "description": ""
+  },
+  "Spacing padding left 4": {
+    "prefix": ".ps-4",
+    "body": "ps-4",
+    "description": ""
+  },
+  "Spacing padding left 5": {
+    "prefix": ".ps-5",
+    "body": "ps-5",
+    "description": ""
+  },
+  "Spacing padding left auto": {
+    "prefix": ".ps-auto",
+    "body": "ps-auto",
+    "description": ""
+  },
+  "Spacing padding right 0": {
+    "prefix": ".pe-0",
+    "body": "pe-0",
+    "description": ""
+  },
+  "Spacing padding right 1": {
+    "prefix": ".pe-1",
+    "body": "pe-1",
+    "description": ""
+  },
+  "Spacing padding right 2": {
+    "prefix": ".pe-2",
+    "body": "pe-2",
+    "description": ""
+  },
+  "Spacing padding right 3": {
+    "prefix": ".pe-3",
+    "body": "pe-3",
+    "description": ""
+  },
+  "Spacing padding right 4": {
+    "prefix": ".pe-4",
+    "body": "pe-4",
+    "description": ""
+  },
+  "Spacing padding right 5": {
+    "prefix": ".pe-5",
+    "body": "pe-5",
+    "description": ""
+  },
+  "Spacing padding right auto": {
+    "prefix": ".pe-auto",
+    "body": "pe-auto",
+    "description": ""
+  },
+  "Spacing padding left and right 0": {
+    "prefix": ".px-0",
+    "body": "px-0",
+    "description": ""
+  },
+  "Spacing padding left and right 1": {
+    "prefix": ".px-1",
+    "body": "px-1",
+    "description": ""
+  },
+  "Spacing padding left and right 2": {
+    "prefix": ".px-2",
+    "body": "px-2",
+    "description": ""
+  },
+  "Spacing padding left and right 3": {
+    "prefix": ".px-3",
+    "body": "px-3",
+    "description": ""
+  },
+  "Spacing padding left and right 4": {
+    "prefix": ".px-4",
+    "body": "px-4",
+    "description": ""
+  },
+  "Spacing padding left and right 5": {
+    "prefix": ".px-5",
+    "body": "px-5",
+    "description": ""
+  },
+  "Spacing padding left and right auto": {
+    "prefix": ".px-auto",
+    "body": "px-auto",
+    "description": ""
+  },
+  "Spacing padding top and bottom 0": {
+    "prefix": ".py-0",
+    "body": "py-0",
+    "description": ""
+  },
+  "Spacing padding top and bottom 1": {
+    "prefix": ".py-1",
+    "body": "py-1",
+    "description": ""
+  },
+  "Spacing padding top and bottom 2": {
+    "prefix": ".py-2",
+    "body": "py-2",
+    "description": ""
+  },
+  "Spacing padding top and bottom 3": {
+    "prefix": ".py-3",
+    "body": "py-3",
+    "description": ""
+  },
+  "Spacing padding top and bottom 4": {
+    "prefix": ".py-4",
+    "body": "py-4",
+    "description": ""
+  },
+  "Spacing padding top and bottom 5": {
+    "prefix": ".py-5",
+    "body": "py-5",
+    "description": ""
+  },
+  "Spacing padding top and bottom auto": {
+    "prefix": ".py-auto",
+    "body": "py-auto",
+    "description": ""
+  },
+  "Gap 0": {
+    "prefix": ".grp-0",
+    "body": "grp-0",
+    "description": ""
+  },
+  "Gap 1": {
+    "prefix": ".grp-1",
+    "body": "grp-1",
+    "description": ""
+  },
+  "Gap 2": {
+    "prefix": ".grp-2",
+    "body": "grp-2",
+    "description": ""
+  },
+  "Gap 3": {
+    "prefix": ".grp-3",
+    "body": "grp-3",
+    "description": ""
+  },
+  "Gap 4": {
+    "prefix": ".grp-4",
+    "body": "grp-4",
+    "description": ""
+  },
+  "Gap 5": {
+    "prefix": ".grp-5",
+    "body": "grp-5",
+    "description": ""
+  },
+  "Gap auto": {
+    "prefix": ".grp-auto",
+    "body": "grp-auto",
+    "description": ""
+  },
+  "Font size 1": {
+    "prefix": ".fs-1",
+    "body": "fs-1",
+    "description": ""
+  },
+  "Font size 2": {
+    "prefix": ".fs-2",
+    "body": "fs-2",
+    "description": ""
+  },
+  "Font size 3": {
+    "prefix": ".fs-3",
+    "body": "fs-3",
+    "description": ""
+  },
+  "Font size 4": {
+    "prefix": ".fs-4",
+    "body": "fs-4",
+    "description": ""
+  },
+  "Font size 5": {
+    "prefix": ".fs-5",
+    "body": "fs-5",
+    "description": ""
+  },
+  "Font size 6": {
+    "prefix": ".fs-6",
+    "body": "fs-6",
+    "description": ""
+  },
+  "Font weight bold": {
+    "prefix": ".fw-bold",
+    "body": "fw-bold",
+    "description": ""
+  },
+  "Font weight bolder": {
+    "prefix": ".fw-bolder",
+    "body": "fw-bolder",
+    "description": ""
+  },
+  "Font weight normal": {
+    "prefix": ".fw-normal",
+    "body": "fw-normal",
+    "description": ""
+  },
+  "Font weight light": {
+    "prefix": ".fw-light",
+    "body": "fw-light",
+    "description": ""
+  },
+  "Font weight lighter": {
+    "prefix": ".fw-lighter",
+    "body": "fw-lighter",
+    "description": ""
+  },
+  "Font style italic": {
+    "prefix": ".fst-italic",
+    "body": "fst-italic",
+    "description": ""
+  },
+  "Font style normal": {
+    "prefix": ".fst-normal",
+    "body": "fst-normal",
+    "description": ""
+  },
+  "Line height l": {
+    "prefix": ".lh-l",
+    "body": "lh-l",
+    "description": ""
+  },
+  "Line height sm": {
+    "prefix": ".lh-sm",
+    "body": "lh-sm",
+    "description": ""
+  },
+  "Line height base": {
+    "prefix": ".lh-base",
+    "body": "lh-base",
+    "description": ""
+  },
+  "Line height lg": {
+    "prefix": ".lh-lg",
+    "body": "lh-lg",
+    "description": ""
+  },
+  "Vertical alignment baseline": {
+    "prefix": ".align-baseline",
+    "body": "align-baseline",
+    "description": ""
+  },
+  "Vertical alignment top": {
+    "prefix": ".align-top",
+    "body": "align-top",
+    "description": ""
+  },
+  "Vertical alignment middle": {
+    "prefix": ".align-middle",
+    "body": "align-middle",
+    "description": ""
+  },
+  "Vertical alignment bottom": {
+    "prefix": ".align-bottom",
+    "body": "align-bottom",
+    "description": ""
+  },
+  "Vertical alignment text-bottom": {
+    "prefix": ".align-text-bottom",
+    "body": "align-text-bottom",
+    "description": ""
+  },
+  "Vertical alignment text-top": {
+    "prefix": ".align-text-top",
+    "body": "align-text-top",
+    "description": ""
+  },
+  "Colored links primary": {
+    "prefix": ".link-primary",
+    "body": "link-primary",
+    "description": ""
+  },
+  "Colored links secondary": {
+    "prefix": ".link-secondary",
+    "body": "link-secondary",
+    "description": ""
+  },
+  "Colored links success": {
+    "prefix": ".link-success",
+    "body": "link-success",
+    "description": ""
+  },
+  "Colored links danger": {
+    "prefix": ".link-danger",
+    "body": "link-danger",
+    "description": ""
+  },
+  "Colored links warning": {
+    "prefix": ".link-warning",
+    "body": "link-warning",
+    "description": ""
+  },
+  "Colored links info": {
+    "prefix": ".link-info",
+    "body": "link-info",
+    "description": ""
+  },
+  "Colored links light": {
+    "prefix": ".link-light",
+    "body": "link-light",
+    "description": ""
+  },
+  "Colored links dark": {
+    "prefix": ".link-dark",
+    "body": "link-dark",
+    "description": ""
+  },
+  "Colored links white": {
+    "prefix": ".link-white",
+    "body": "link-white",
+    "description": ""
+  },
+  "Aspect ratios 1x1": {
+    "prefix": ".ratio-1x1",
+    "body": "ratio-1x1",
+    "description": ""
+  },
+  "Aspect ratios 4x3": {
+    "prefix": ".ratio-4x3",
+    "body": "ratio-4x3",
+    "description": ""
+  },
+  "Aspect ratios 16x9": {
+    "prefix": ".ratio-16x9",
+    "body": "ratio-16x9",
+    "description": ""
+  },
+  "Aspect ratios 21x9": {
+    "prefix": ".ratio-21x9",
+    "body": "ratio-21x9",
+    "description": ""
+  },
+  "Position Fixed top": {
+    "prefix": ".fixed-top",
+    "body": "fixed-top",
+    "description": ""
+  },
+  "Position Fixed bottom": {
+    "prefix": ".fixed-bottom",
+    "body": "fixed-bottom",
+    "description": ""
+  },
+  "Visually hidden hidden": {
+    "prefix": ".visually-hidden",
+    "body": "visually-hidden",
+    "description": ""
+  },
+  "Visually hidden hidden-focusable": {
+    "prefix": ".visually-hidden-focusable",
+    "body": "visually-hidden-focusable",
+    "description": ""
+  },
+  "Display headings 1": {
+    "prefix": ".display-1",
+    "body": "display-1",
+    "description": ""
+  },
+  "Display headings 2": {
+    "prefix": ".display-2",
+    "body": "display-2",
+    "description": ""
+  },
+  "Display headings 3": {
+    "prefix": ".display-3",
+    "body": "display-3",
+    "description": ""
+  },
+  "Display headings 4": {
+    "prefix": ".display-4",
+    "body": "display-4",
+    "description": ""
+  },
+  "Display headings 5": {
+    "prefix": ".display-5",
+    "body": "display-5",
+    "description": ""
+  },
+  "Display headings 6": {
+    "prefix": ".display-6",
+    "body": "display-6",
+    "description": ""
+  },
+  "Lists inline": {
+    "prefix": ".list-inline",
+    "body": "list-inline",
+    "description": ""
+  },
+  "Lists unstyled": {
+    "prefix": ".list-unstyled",
+    "body": "list-unstyled",
+    "description": ""
+  },
+  "List group  flush": {
+    "prefix": ".list-group-flush",
+    "body": "list-group-flush",
+    "description": ""
+  },
+  "List group  item": {
+    "prefix": ".list-group-item",
+    "body": "list-group-item",
+    "description": ""
+  },
+  "List group  item-action": {
+    "prefix": ".list-group-item-action",
+    "body": "list-group-item-action",
+    "description": ""
+  },
+  "List group  horizontal": {
+    "prefix": ".list-group-horizontal",
+    "body": "list-group-horizontal",
+    "description": ""
+  },
+  "Images fluid": {
+    "prefix": ".img-fluid",
+    "body": "img-fluid",
+    "description": ""
+  },
+  "Images thumbnail": {
+    "prefix": ".img-thumbnail",
+    "body": "img-thumbnail",
+    "description": ""
+  },
+  "Table primary": {
+    "prefix": ".table-primary",
+    "body": "table-primary",
+    "description": ""
+  },
+  "Table secondary": {
+    "prefix": ".table-secondary",
+    "body": "table-secondary",
+    "description": ""
+  },
+  "Table success": {
+    "prefix": ".table-success",
+    "body": "table-success",
+    "description": ""
+  },
+  "Table danger": {
+    "prefix": ".table-danger",
+    "body": "table-danger",
+    "description": ""
+  },
+  "Table warning": {
+    "prefix": ".table-warning",
+    "body": "table-warning",
+    "description": ""
+  },
+  "Table info": {
+    "prefix": ".table-info",
+    "body": "table-info",
+    "description": ""
+  },
+  "Table light": {
+    "prefix": ".table-light",
+    "body": "table-light",
+    "description": ""
+  },
+  "Table dark": {
+    "prefix": ".table-dark",
+    "body": "table-dark",
+    "description": ""
+  },
+  "Table white": {
+    "prefix": ".table-white",
+    "body": "table-white",
+    "description": ""
+  },
+  "Table bordered": {
+    "prefix": ".table-bordered",
+    "body": "table-bordered",
+    "description": ""
+  },
+  "Table striped": {
+    "prefix": ".table-striped",
+    "body": "table-striped",
+    "description": ""
+  },
+  "Table active": {
+    "prefix": ".table-active",
+    "body": "table-active",
+    "description": ""
+  },
+  "Table hover": {
+    "prefix": ".table-hover",
+    "body": "table-hover",
+    "description": ""
+  },
+  "Table borderless": {
+    "prefix": ".table-borderless",
+    "body": "table-borderless",
+    "description": ""
+  },
+  "Gutters x and y 0": {
+    "prefix": ".g-0",
+    "body": "g-0",
+    "description": ""
+  },
+  "Gutters x and y 1": {
+    "prefix": ".g-1",
+    "body": "g-1",
+    "description": ""
+  },
+  "Gutters x and y 2": {
+    "prefix": ".g-2",
+    "body": "g-2",
+    "description": ""
+  },
+  "Gutters x and y 3": {
+    "prefix": ".g-3",
+    "body": "g-3",
+    "description": ""
+  },
+  "Gutters x and y 4": {
+    "prefix": ".g-4",
+    "body": "g-4",
+    "description": ""
+  },
+  "Gutters x and y 5": {
+    "prefix": ".g-5",
+    "body": "g-5",
+    "description": ""
+  },
+  "Gutters x 0": {
+    "prefix": ".gx-0",
+    "body": "gx-0",
+    "description": ""
+  },
+  "Gutters x 1": {
+    "prefix": ".gx-1",
+    "body": "gx-1",
+    "description": ""
+  },
+  "Gutters x 2": {
+    "prefix": ".gx-2",
+    "body": "gx-2",
+    "description": ""
+  },
+  "Gutters x 3": {
+    "prefix": ".gx-3",
+    "body": "gx-3",
+    "description": ""
+  },
+  "Gutters x 4": {
+    "prefix": ".gx-4",
+    "body": "gx-4",
+    "description": ""
+  },
+  "Gutters x 5": {
+    "prefix": ".gx-5",
+    "body": "gx-5",
+    "description": ""
+  },
+  "Gutters y 0": {
+    "prefix": ".gy-0",
+    "body": "gy-0",
+    "description": ""
+  },
+  "Gutters y 1": {
+    "prefix": ".gy-1",
+    "body": "gy-1",
+    "description": ""
+  },
+  "Gutters y 2": {
+    "prefix": ".gy-2",
+    "body": "gy-2",
+    "description": ""
+  },
+  "Gutters y 3": {
+    "prefix": ".gy-3",
+    "body": "gy-3",
+    "description": ""
+  },
+  "Gutters y 4": {
+    "prefix": ".gy-4",
+    "body": "gy-4",
+    "description": ""
+  },
+  "Gutters y 5": {
+    "prefix": ".gy-5",
+    "body": "gy-5",
+    "description": ""
+  },
+  "Button primary": {
+    "prefix": ".btn-primary",
+    "body": "btn-primary",
+    "description": ""
+  },
+  "Button secondary": {
+    "prefix": ".btn-secondary",
+    "body": "btn-secondary",
+    "description": ""
+  },
+  "Button success": {
+    "prefix": ".btn-success",
+    "body": "btn-success",
+    "description": ""
+  },
+  "Button danger": {
+    "prefix": ".btn-danger",
+    "body": "btn-danger",
+    "description": ""
+  },
+  "Button warning": {
+    "prefix": ".btn-warning",
+    "body": "btn-warning",
+    "description": ""
+  },
+  "Button info": {
+    "prefix": ".btn-info",
+    "body": "btn-info",
+    "description": ""
+  },
+  "Button light": {
+    "prefix": ".btn-light",
+    "body": "btn-light",
+    "description": ""
+  },
+  "Button dark": {
+    "prefix": ".btn-dark",
+    "body": "btn-dark",
+    "description": ""
+  },
+  "Button white": {
+    "prefix": ".btn-white",
+    "body": "btn-white",
+    "description": ""
+  },
+  "Button close": {
+    "prefix": ".btn-close",
+    "body": "btn-close",
+    "description": ""
+  },
+  "Button close-white": {
+    "prefix": ".btn-close-white",
+    "body": "btn-close-white",
+    "description": ""
+  },
+  "Button group": {
+    "prefix": ".btn-group",
+    "body": "btn-group",
+    "description": ""
+  },
+  "Button lg": {
+    "prefix": ".btn-lg",
+    "body": "btn-lg",
+    "description": ""
+  },
+  "Button sm": {
+    "prefix": ".btn-sm",
+    "body": "btn-sm",
+    "description": ""
+  },
+  "Button check": {
+    "prefix": ".btn-check",
+    "body": "btn-check",
+    "description": ""
+  },
+  "Button toolbar": {
+    "prefix": ".btn-toolbar",
+    "body": "btn-toolbar",
+    "description": ""
+  },
+  "Button group-vertical": {
+    "prefix": ".btn-group-vertical",
+    "body": "btn-group-vertical",
+    "description": ""
+  },
+  "Outline button primary": {
+    "prefix": ".btn-outline-primary",
+    "body": "btn-outline-primary",
+    "description": ""
+  },
+  "Outline button secondary": {
+    "prefix": ".btn-outline-secondary",
+    "body": "btn-outline-secondary",
+    "description": ""
+  },
+  "Outline button success": {
+    "prefix": ".btn-outline-success",
+    "body": "btn-outline-success",
+    "description": ""
+  },
+  "Outline button danger": {
+    "prefix": ".btn-outline-danger",
+    "body": "btn-outline-danger",
+    "description": ""
+  },
+  "Outline button warning": {
+    "prefix": ".btn-outline-warning",
+    "body": "btn-outline-warning",
+    "description": ""
+  },
+  "Outline button info": {
+    "prefix": ".btn-outline-info",
+    "body": "btn-outline-info",
+    "description": ""
+  },
+  "Outline button light": {
+    "prefix": ".btn-outline-light",
+    "body": "btn-outline-light",
+    "description": ""
+  },
+  "Outline button dark": {
+    "prefix": ".btn-outline-dark",
+    "body": "btn-outline-dark",
+    "description": ""
+  },
+  "Outline button white": {
+    "prefix": ".btn-outline-white",
+    "body": "btn-outline-white",
+    "description": ""
+  },
+  "gap 0": {
+    "prefix": ".gap-0",
+    "body": "gap-0",
+    "description": ""
+  },
+  "gap 1": {
+    "prefix": ".gap-1",
+    "body": "gap-1",
+    "description": ""
+  },
+  "gap 2": {
+    "prefix": ".gap-2",
+    "body": "gap-2",
+    "description": ""
+  },
+  "gap 3": {
+    "prefix": ".gap-3",
+    "body": "gap-3",
+    "description": ""
+  },
+  "gap 4": {
+    "prefix": ".gap-4",
+    "body": "gap-4",
+    "description": ""
+  },
+  "gap 5": {
+    "prefix": ".gap-5",
+    "body": "gap-5",
+    "description": ""
+  },
+  "alert primary": {
+    "prefix": ".alert-primary",
+    "body": "alert alert-primary",
+    "description": ""
+  },
+  "alert secondary": {
+    "prefix": ".alert-secondary",
+    "body": "alert alert-secondary",
+    "description": ""
+  },
+  "alert success": {
+    "prefix": ".alert-success",
+    "body": "alert alert-success",
+    "description": ""
+  },
+  "alert danger": {
+    "prefix": ".alert-danger",
+    "body": "alert alert-danger",
+    "description": ""
+  },
+  "alert warning": {
+    "prefix": ".alert-warning",
+    "body": "alert alert-warning",
+    "description": ""
+  },
+  "alert info": {
+    "prefix": ".alert-info",
+    "body": "alert alert-info",
+    "description": ""
+  },
+  "alert light": {
+    "prefix": ".alert-light",
+    "body": "alert alert-light",
+    "description": ""
+  },
+  "alert dark": {
+    "prefix": ".alert-dark",
+    "body": "alert alert-dark",
+    "description": ""
+  },
+  "alert white": {
+    "prefix": ".alert-white",
+    "body": "alert alert-white",
+    "description": ""
+  },
+  "alert heading": {
+    "prefix": ".alert-heading",
+    "body": "alert alert-heading",
+    "description": ""
+  },
+  "alert link": {
+    "prefix": ".alert-link",
+    "body": "alert alert-link",
+    "description": ""
+  },
+  "alert dismissible": {
+    "prefix": ".alert-dismissible",
+    "body": "alert alert-dismissible",
+    "description": ""
+  },
+  "accordion accordion": {
+    "prefix": ".accordion-accordion",
+    "body": "accordion-accordion",
+    "description": ""
+  },
+  "accordion flush": {
+    "prefix": ".accordion-flush",
+    "body": "accordion-flush",
+    "description": ""
+  },
+  "accordion item": {
+    "prefix": ".accordion-item",
+    "body": "accordion-item",
+    "description": ""
+  },
+  "accordion header": {
+    "prefix": ".accordion-header",
+    "body": "accordion-header",
+    "description": ""
+  },
+  "accordion body": {
+    "prefix": ".accordion-body",
+    "body": "accordion-body",
+    "description": ""
+  },
+  "accordion collapse": {
+    "prefix": ".accordion-collapse",
+    "body": "accordion-collapse",
+    "description": ""
+  },
+  "breadcrumb breadcrumb": {
+    "prefix": ".breadcrumb-breadcrumb",
+    "body": "breadcrumb-breadcrumb",
+    "description": ""
+  },
+  "breadcrumb item": {
+    "prefix": ".breadcrumb-item",
+    "body": "breadcrumb-item",
+    "description": ""
+  },
+  "card body": {
+    "prefix": ".card-body",
+    "body": "card-body",
+    "description": ""
+  },
+  "card title": {
+    "prefix": ".card-title",
+    "body": "card-title",
+    "description": ""
+  },
+  "card subtitle": {
+    "prefix": ".card-subtitle",
+    "body": "card-subtitle",
+    "description": ""
+  },
+  "card text": {
+    "prefix": ".card-text",
+    "body": "card-text",
+    "description": ""
+  },
+  "card link": {
+    "prefix": ".card-link",
+    "body": "card-link",
+    "description": ""
+  },
+  "card img-top": {
+    "prefix": ".card-img-top",
+    "body": "card-img-top",
+    "description": ""
+  },
+  "Dropdowns menu": {
+    "prefix": ".dropdown-menu",
+    "body": "dropdown-menu",
+    "description": ""
+  },
+  "Dropdowns menu-end": {
+    "prefix": ".dropdown-menu-end",
+    "body": "dropdown-menu-end",
+    "description": ""
+  },
+  "Dropdowns menu-dark": {
+    "prefix": ".dropdown-menu-dark",
+    "body": "dropdown-menu-dark",
+    "description": ""
+  },
+  "Dropdowns header": {
+    "prefix": ".dropdown-header",
+    "body": "dropdown-header",
+    "description": ""
+  },
+  "Dropdowns item": {
+    "prefix": ".dropdown-item",
+    "body": "dropdown-item",
+    "description": ""
+  },
+  "Dropdowns toggle": {
+    "prefix": ".dropdown-toggle",
+    "body": "dropdown-toggle",
+    "description": ""
+  },
+  "Dropdowns toggle-split": {
+    "prefix": ".dropdown-toggle-split",
+    "body": "dropdown-toggle-split",
+    "description": ""
+  },
+  "Dropdowns divider": {
+    "prefix": ".dropdown-divider",
+    "body": "dropdown-divider",
+    "description": ""
+  },
+  "Progress bar": {
+    "prefix": ".progress-bar",
+    "body": "progress-bar",
+    "description": ""
+  },
+  "Progress bar-striped": {
+    "prefix": ".progress-bar-striped",
+    "body": "progress-bar-striped",
+    "description": ""
+  },
+  "Progress bar-animated": {
+    "prefix": ".progress-bar-animated",
+    "body": "progress-bar-animated",
+    "description": ""
+  },
+  "Spinners border": {
+    "prefix": ".spinner-border",
+    "body": "spinner-border",
+    "description": ""
+  },
+  "Spinners grow": {
+    "prefix": ".spinner-grow",
+    "body": "spinner-grow",
+    "description": ""
+  },
+  "Toast header": {
+    "prefix": ".toast-header",
+    "body": "toast-header",
+    "description": ""
+  },
+  "Toast body": {
+    "prefix": ".toast-body",
+    "body": "toast-body",
+    "description": ""
+  },
+  "Toast container": {
+    "prefix": ".toast-container",
+    "body": "toast-container",
+    "description": ""
+  }
+}

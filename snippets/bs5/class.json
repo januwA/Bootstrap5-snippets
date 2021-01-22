@@ -1,176 +1,148 @@
 {
-  "theme primary": {
-    "prefix": ".theme-primary",
-    "body": "primary"
+  "theme": {
+    "prefix": ".theme-",
+    "body": "${0:primary}",
+    "description": "primary|secondary|success|danger|warning|info|light|dark|white"
   },
-  "theme secondary": {
-    "prefix": ".theme-secondary",
-    "body": "secondary"
-  },
-  "theme success": {
-    "prefix": ".theme-success",
-    "body": "success"
-  },
-  "theme danger": {
-    "prefix": ".theme-danger",
-    "body": "danger"
-  },
-  "theme warning": {
-    "prefix": ".theme-warning",
-    "body": "warning"
-  },
-  "theme info": {
-    "prefix": ".theme-info",
-    "body": "info"
-  },
-  "theme light": {
-    "prefix": ".theme-light",
-    "body": "light"
-  },
-  "theme dark": {
-    "prefix": ".theme-dark",
-    "body": "dark"
-  },
-  "theme white": {
-    "prefix": ".theme-white",
-    "body": "white"
-  },
-  "border Additive": {
+  "border": {
     "prefix": ".border-",
     "body": "border-${0:top}",
-    "description": "top|end|bottom|start|<color>"
+    "description": "top|top-0|end|end-0|bottom|bottom-0|start|start-0|<color>|0~5"
   },
   "Radius": {
     "prefix": ".rounded-",
     "body": "rounded-${0:circle}",
-    "description": "radius"
+    "description": "circle|radius"
   },
   "Text": {
     "prefix": ".text-",
     "body": "text-${0:primary}",
-    "description": "<color>|start|center|end|wrap|nowrap|break|lowercase|uppercase|capitalize|reset"
-  },
-  "Text truncation": {
-    "prefix": ".text-truncate",
-    "body": "text-truncate",
-    "description": "Truncate long strings of text with an ellipsis."
+    "description": "<color>|start|center|end|wrap|nowrap|break|lowercase|uppercase|capitalize|reset|truncate|black-50|white-50"
   },
   "Text decoration": {
     "prefix": ".text-decoration-",
     "body": "text-decoration-${0:underline}",
     "description": "underline|line-through|none"
   },
-  "Text decoration 2": {
-    "prefix": ".text-decoration-line-through",
-    "body": "text-decoration-line-through",
-    "description": ""
-  },
   "Background Color": {
     "prefix": ".bg-",
     "body": "bg-${0:primary}",
-    "description": "Background Color"
+    "description": "<color>"
   },
-  "Display grid": {
-    "prefix": ".d-grid",
-    "body": "d-grid",
-    "description": "grid"
+  "Display": {
+    "prefix": ".d-",
+    "body": "d-${0:flex}",
+    "description": "grid|table|table-row|table-cell|flex|block|inline|inline-block|inline-flex|none"
   },
-  "Display table": {
-    "prefix": ".d-table",
-    "body": "d-table",
-    "description": "table"
+  "Flex": {
+    "prefix": ".flex-",
+    "body": "flex-${0:row}",
+    "description": "row|column|fill|wrap|nowrap|row-reverse|column-reverse|wrap-reverse"
   },
-  "Display table row": {
-    "prefix": ".d-table-row",
-    "body": "d-table-row",
-    "description": "table-row"
+  "main Axis Alignment between": {
+    "prefix": ".justify-content-between",
+    "body": "justify-content-between",
+    "description": ""
   },
-  "Display table cell": {
-    "prefix": ".d-table-cell",
-    "body": "d-table-cell",
-    "description": "table-cell"
+  "main Axis Alignment start": {
+    "prefix": ".justify-content-start",
+    "body": "justify-content-start",
+    "description": ""
   },
-  "Display flex": {
-    "prefix": ".d-flex",
-    "body": "d-flex",
-    "description": "flex"
+  "main Axis Alignment end": {
+    "prefix": ".justify-content-end",
+    "body": "justify-content-end",
+    "description": ""
   },
-  "Display block": {
-    "prefix": ".d-block",
-    "body": "d-block",
-    "description": "block"
+  "main Axis Alignment center": {
+    "prefix": ".justify-content-center",
+    "body": "justify-content-center",
+    "description": ""
   },
-  "Display inline": {
-    "prefix": ".d-inline",
-    "body": "d-inline",
-    "description": "inline"
+  "main Axis Alignment around": {
+    "prefix": ".justify-content-around",
+    "body": "justify-content-around",
+    "description": ""
   },
-  "Display inline block": {
-    "prefix": ".d-inline-block",
-    "body": "d-inline-block",
-    "description": "inline-block"
+  "main Axis Alignment evenly": {
+    "prefix": ".justify-content-evenly",
+    "body": "justify-content-evenly",
+    "description": ""
   },
-  "Display inline flex": {
-    "prefix": ".d-inline-flex",
-    "body": "d-inline-flex",
-    "description": "inline-flex"
+  "cross Axis Alignment start": {
+    "prefix": ".align-items-start",
+    "body": "align-items-start",
+    "description": ""
   },
-  "Display none": {
-    "prefix": ".d-none",
-    "body": "d-none",
-    "description": "none"
+  "cross Axis Alignment end": {
+    "prefix": ".align-items-end",
+    "body": "align-items-end",
+    "description": ""
   },
-  "Flex row": {
-    "prefix": ".flex-row",
-    "body": "flex-row"
+  "cross Axis Alignment center": {
+    "prefix": ".align-items-center",
+    "body": "align-items-center",
+    "description": ""
   },
-  "Flex column": {
-    "prefix": ".flex-column",
-    "body": "flex-column"
+  "cross Axis Alignment baseline": {
+    "prefix": ".align-items-baseline",
+    "body": "align-items-baseline",
+    "description": ""
   },
-  "Flex fill": {
-    "prefix": ".flex-fill",
-    "body": "flex-fill"
+  "cross Axis Alignment stretch": {
+    "prefix": ".align-items-stretch",
+    "body": "align-items-stretch",
+    "description": ""
   },
-  "Flex wrap": {
-    "prefix": ".flex-wrap",
-    "body": "flex-wrap"
+  "Align content start": {
+    "prefix": ".align-content-start",
+    "body": "align-content-start",
+    "description": ""
   },
-  "Flex nowrap": {
-    "prefix": ".flex-nowrap",
-    "body": "flex-nowrap"
+  "Align content end": {
+    "prefix": ".align-content-end",
+    "body": "align-content-end",
+    "description": ""
   },
-  "Flex row reverse": {
-    "prefix": ".flex-row-reverse",
-    "body": "flex-row-reverse"
+  "Align content center": {
+    "prefix": ".align-content-center",
+    "body": "align-content-center",
+    "description": ""
   },
-  "Flex column reverse": {
-    "prefix": ".flex-column-reverse",
-    "body": "flex-column-reverse"
+  "Align content around": {
+    "prefix": ".align-content-around",
+    "body": "align-content-around",
+    "description": ""
   },
-  "Flex wrap reverse": {
-    "prefix": ".flex-wrap-reverse",
-    "body": "flex-wrap-reverse"
+  "Align content stretch": {
+    "prefix": ".align-content-stretch",
+    "body": "align-content-stretch",
+    "description": ""
   },
-  "main Axis Alignment": {
-    "prefix": ".justify-content-",
-    "body": "justify-content-${0:between}",
-    "description": "start|end|center|between|around|evenly"
+  "Align self start": {
+    "prefix": ".align-self-start",
+    "body": "align-self-start",
+    "description": ""
   },
-  "cross Axis Alignment": {
-    "prefix": ".align-items-",
-    "body": "align-items-${0:center}",
-    "description": "start|end|center|baseline|stretch"
+  "Align self end": {
+    "prefix": ".align-self-end",
+    "body": "align-self-end",
+    "description": ""
   },
-  "Align content": {
-    "prefix": ".align-content-",
-    "body": "align-content-${0:center}",
-    "description": "start|end|center|around|stretch"
+  "Align self center": {
+    "prefix": ".align-self-center",
+    "body": "align-self-center",
+    "description": ""
   },
-  "Align self": {
-    "prefix": ".align-self-",
-    "body": "align-self-${0:center}",
-    "description": "start|end|center|baseline|stretch"
+  "Align self baseline": {
+    "prefix": ".align-self-baseline",
+    "body": "align-self-baseline",
+    "description": ""
+  },
+  "Align self stretch": {
+    "prefix": ".align-self-stretch",
+    "body": "align-self-stretch",
+    "description": ""
   },
   "Flex Grow": {
     "prefix": ".flex-grow-",
@@ -207,10 +179,30 @@
     "body": "overflow-${0:auto}",
     "description": "auto|hidden|visible|scroll"
   },
-  "Position": {
-    "prefix": ".position-",
-    "body": "position-${0:relative}",
-    "description": "static|relative|absolute|fixed|sticky"
+  "Position static": {
+    "prefix": ".position-static",
+    "body": "position-static",
+    "description": ""
+  },
+  "Position relative": {
+    "prefix": ".position-relative",
+    "body": "position-relative",
+    "description": ""
+  },
+  "Position absolute": {
+    "prefix": ".position-absolute",
+    "body": "position-absolute",
+    "description": ""
+  },
+  "Position fixed": {
+    "prefix": ".position-fixed",
+    "body": "position-fixed",
+    "description": "fixed"
+  },
+  "Position sticky": {
+    "prefix": ".position-sticky",
+    "body": "position-sticky",
+    "description": ""
   },
   "Arrange elements top": {
     "prefix": ".top-",
@@ -223,18 +215,12 @@
     "description": "0|50|100"
   },
   "Arrange elements end": {
-    "prefix": [
-      ".end-",
-      ".right-"
-    ],
+    "prefix": ".end-",
     "body": "end-${0:0}",
     "description": "0|50|100"
   },
   "Arrange elements start": {
-    "prefix": [
-      ".start-",
-      ".left-"
-    ],
+    "prefix": ".start-",
     "body": "start-${0:0}",
     "description": "0|50|100"
   },
@@ -279,12 +265,9 @@
     "description": "max-height: 100%"
   },
   "Relative to the min viewport": {
-    "prefix": [
-      ".min-vw-100",
-      ".min-vh-100"
-    ],
-    "body": "min-v${0:w}-100",
-    "description": "Min-width 100vw or Min-height 100vh"
+    "prefix": ".min-",
+    "body": "min-${0:w}",
+    "description": "vw-100|vh-100"
   },
   "Relative to the viewport": {
     "prefix": [
@@ -297,84 +280,72 @@
   "Spacing margin top": {
     "prefix": ".mt-",
     "body": "mt-${0:0}",
-    "description": "0|1|2|3|4|5|auto"
+    "description": "0~5|auto"
   },
   "Spacing margin bottom": {
     "prefix": ".mb-",
     "body": "mb-${0:0}",
-    "description": "0|1|2|3|4|5|auto"
+    "description": "0~5|auto"
   },
   "Spacing margin left": {
-    "prefix": [
-      ".ms-",
-      ".ml-"
-    ],
+    "prefix": ".ms-",
     "body": "ms-${0:0}",
-    "description": "0|1|2|3|4|5|auto"
+    "description": "0~5|auto"
   },
   "Spacing margin right": {
-    "prefix": [
-      ".me-",
-      ".mr-"
-    ],
+    "prefix": ".me-",
     "body": "me-${0:0}",
-    "description": "0|1|2|3|4|5|auto"
+    "description": "0~5|auto"
   },
   "Spacing margin left and right": {
     "prefix": ".mx-",
     "body": "mx-${0:0}",
-    "description": "0|1|2|3|4|5|auto"
+    "description": "0~5|auto"
   },
   "Spacing margin top and bottom": {
     "prefix": ".my-",
     "body": "my-${0:0}",
-    "description": "0|1|2|3|4|5|auto"
+    "description": "0~5|auto"
   },
   "Spacing padding top": {
     "prefix": ".pt-",
     "body": "pt-${0:0}",
-    "description": "0|1|2|3|4|5|auto"
+    "description": "0~5|auto"
   },
   "Spacing padding bottom": {
     "prefix": ".pb-",
     "body": "pb-${0:0}",
-    "description": "0|1|2|3|4|5|auto"
+    "description": "0~5|auto"
   },
   "Spacing padding left": {
-    "prefix": [
-      ".ps-",
-      ".pl-"
-    ],
+    "prefix": ".ps-",
     "body": "ps-${0:0}",
-    "description": "0|1|2|3|4|5|auto"
+    "description": "0~5|auto"
   },
   "Spacing padding right": {
-    "prefix": [
-      ".pe-",
-      ".pr-"
-    ],
+    "prefix": ".pe-",
     "body": "pe-${0:0}",
-    "description": "0|1|2|3|4|5|auto"
+    "description": "0~5|auto"
   },
   "Spacing padding left and right": {
     "prefix": ".px-",
     "body": "px-${0:0}",
-    "description": "0|1|2|3|4|5|auto"
+    "description": "0~5|auto"
   },
   "Spacing padding top and bottom": {
     "prefix": ".py-",
     "body": "py-${0:0}",
-    "description": "0|1|2|3|4|5|auto"
+    "description": "0~5|auto"
   },
   "Gap": {
     "prefix": ".grp-",
     "body": "grp-${0:3}",
-    "description": "0|1|2|3|4|5|auto"
+    "description": "0~5|auto"
   },
   "Font size": {
     "prefix": ".fs-",
     "body": "fs-${0:1}",
-    "description": "0|1|2|3|4|5|6"
+    "description": "1~6"
   },
   "Monospace": {
     "prefix": ".font-monospace",
@@ -399,12 +370,7 @@
   "Vertical alignment": {
     "prefix": ".align-",
     "body": "align-${0:middle}",
-    "description": "baseline|top|middle|bottom"
-  },
-  "Vertical alignment text": {
-    "prefix": ".align-text-",
-    "body": "align-text-${0:top}",
-    "description": "top|bottom"
+    "description": "baseline|top|middle|bottom|text-bottom|text-top"
   },
   "Visibility visible": {
     "prefix": ".visible",
@@ -424,7 +390,7 @@
   "Colored links": {
     "prefix": ".link-",
     "body": "link-${0:primary}",
-    "description": "Colored links with hover states"
+    "description": "<color>"
   },
   "Aspect ratios": {
     "prefix": ".ratio-",
@@ -437,14 +403,14 @@
     "description": "top|bottom"
   },
   "Position Sticky": {
-    "prefix": ".sticky-",
-    "body": "sticky-${0:top}",
-    "description": "top"
+    "prefix": ".sticky-top",
+    "body": "sticky-top",
+    "description": ""
   },
   "Visually hidden": {
-    "prefix": ".visually-hidden",
-    "body": "visually-hidden-$0",
-    "description": "focusable"
+    "prefix": ".visually-",
+    "body": "visually-${0:hidden}",
+    "description": "hidden|hidden-focusable"
   },
   "Stretched link": {
     "prefix": ".stretched-link",
@@ -549,31 +515,20 @@
     "body": "list-group",
     "description": "List groups are a flexible and powerful component for displaying a series of content. Modify and extend them to support just about any content within."
   },
-  "List group flush": {
-    "prefix": ".list-group-flush",
-    "body": "list-group-flush"
-  },
-  "List group item": {
-    "prefix": ".list-group-item",
-    "body": "list-group-item"
-  },
-  "List group item action": {
-    "prefix": ".list-group-item-action",
-    "body": "list-group-item-action"
-  },
-  "List group horizontal": {
-    "prefix": ".list-group-horizontal",
-    "body": "list-group-horizontal"
+  "List group ": {
+    "prefix": ".list-group-",
+    "body": "list-group-${0:flush}",
+    "description": "flush|item|item-action|horizontal"
   },
   "Images": {
     "prefix": ".img-",
     "body": "img-${0:fluid}",
     "description": "fluid|thumbnail"
   },
-  "Tables": {
+  "Table": {
     "prefix": ".table-",
-    "body": "table-$0",
-    "description": "Documentation and examples for opt-in styling of tables (given their prevalent use in JavaScript plugins) with Bootstrap."
+    "body": "table-${0:bordered}",
+    "description": "<color>|bordered|striped|active|hover|borderless"
   },
   "Figures": {
     "prefix": ".figure",
@@ -598,47 +553,32 @@
   "Gutters x and y": {
     "prefix": ".g-",
     "body": "g-${0:0}",
-    "description": "Gutters are the padding between your columns, used to responsively space and align content in the Bootstrap grid system."
+    "description": "0~5"
   },
   "Gutters x": {
     "prefix": ".gx-",
     "body": "gx-${0:0}",
-    "description": "Gutters are the padding between your columns, used to responsively space and align content in the Bootstrap grid system."
+    "description": "0~5"
   },
   "Gutters y": {
     "prefix": ".gy-",
     "body": "gy-${0:0}",
-    "description": "Gutters are the padding between your columns, used to responsively space and align content in the Bootstrap grid system."
+    "description": "0~5"
   },
-  "Buttons": {
+  "Button": {
     "prefix": ".btn-",
-    "body": "btn btn-${0:primary}",
-    "description": "Use Bootstrap’s custom button styles for actions in forms, dialogs, and more with support for multiple sizes, states, and more."
+    "body": "btn-${0:primary}",
+    "description": "<color>|close|close-white|group|lg|sm|check|toolbar|group-vertical"
   },
-  "Button close": {
-    "prefix": ".btn-close",
-    "body": "btn-close",
-    "description": "A generic close button for dismissing content like modals and alerts."
-  },
-  "Button close white": {
-    "prefix": ".btn-close-white",
-    "body": "btn-close btn-close-white",
-    "description": "A generic close button for dismissing content like modals and alerts."
-  },
-  "Button group": {
-    "prefix": ".btn-group",
-    "body": "btn-group",
-    "description": "Group a series of buttons together on a single line or stack them in a vertical column."
-  },
-  "Outline buttons": {
-    "prefix": ".btn-outline",
-    "body": "btn btn-outline-${0:primary}",
-    "description": "Use Bootstrap’s custom button styles for actions in forms, dialogs, and more with support for multiple sizes, states, and more."
+  "Outline button": {
+    "prefix": ".btn-outline-",
+    "body": "btn-outline-${0:primary}",
+    "description": "<color>"
   },
   "gap": {
     "prefix": ".gap-",
     "body": "gap-${0:2}",
-    "description": "grid gap"
+    "description": "0~5"
   },
   "badge": {
     "prefix": ".badge",
@@ -648,76 +588,22 @@
   "alert": {
     "prefix": ".alert-",
     "body": "alert alert-${0:primary}",
-    "description": "alert"
+    "description": "<color>|heading|link|dismissible"
   },
   "accordion": {
     "prefix": ".accordion-",
-    "body": "accordion",
-    "description": "accordion"
-  },
-  "accordion flush": {
-    "prefix": ".accordion-flush",
-    "body": "accordion-flush",
-    "description": "accordion flush"
-  },
-  "accordion item": {
-    "prefix": ".accordion-item",
-    "body": "accordion-item",
-    "description": "accordion item"
-  },
-  "accordion header": {
-    "prefix": ".accordion-header",
-    "body": "accordion-header",
-    "description": "accordion header"
-  },
-  "accordion body": {
-    "prefix": ".accordion-body",
-    "body": "accordion-body",
-    "description": "accordion body"
-  },
-  "accordion collapse": {
-    "prefix": ".accordion-collapse",
-    "body": "accordion-collapse",
-    "description": "accordion collapse"
+    "body": "accordion-${0:flush}",
+    "description": "accordion|flush|item|header|body|collapse"
   },
   "breadcrumb": {
-    "prefix": ".breadcrumb",
-    "body": "breadcrumb",
-    "description": "breadcrumb"
-  },
-  "breadcrumb item": {
-    "prefix": ".breadcrumb-item",
-    "body": "breadcrumb-item",
-    "description": "breadcrumb-item"
+    "prefix": ".breadcrumb-",
+    "body": "breadcrumb-${0:item}",
+    "description": "breadcrumb|item"
   },
   "card": {
-    "prefix": ".card",
-    "body": "card",
-    "description": "Bootstrap’s cards provide a flexible and extensible content container with multiple variants and options."
-  },
-  "card body": {
-    "prefix": ".card-body",
-    "body": "card-body"
-  },
-  "card title": {
-    "prefix": ".card-title",
-    "body": "card-title"
-  },
-  "card subtitle": {
-    "prefix": ".card-subtitle",
-    "body": "card-subtitle"
-  },
-  "card text": {
-    "prefix": ".card-text",
-    "body": "card-text"
-  },
-  "card link": {
-    "prefix": ".card-link",
-    "body": "card-link"
-  },
-  "card img top": {
-    "prefix": ".card-img-top",
-    "body": "card-img-top"
+    "prefix": ".card-",
+    "body": "card-${0:body}",
+    "description": "body|title|subtitle|text|link|img-top"
   },
   "collapse": {
     "prefix": ".collapse",
@@ -729,41 +615,9 @@
     "body": "collapse multi-collapse"
   },
   "Dropdowns": {
-    "prefix": ".dropdown",
-    "body": "dropdown",
-    "description": "Toggle contextual overlays for displaying lists of links and more with the Bootstrap dropdown plugin."
-  },
-  "dropdown menu": {
-    "prefix": ".dropdown-menu",
-    "body": "dropdown-menu"
-  },
-  "dropdown menu end": {
-    "prefix": ".dropdown-menu-end",
-    "body": "dropdown-menu-end"
-  },
-  "dropdown menu dark": {
-    "prefix": ".dropdown-menu-dark",
-    "body": "dropdown-menu-dark"
-  },
-  "dropdown header": {
-    "prefix": ".dropdown-header",
-    "body": "dropdown-header"
-  },
-  "dropdown item": {
-    "prefix": ".dropdown-item",
-    "body": "dropdown-item"
-  },
-  "dropdown toggle": {
-    "prefix": ".dropdown-toggle",
-    "body": "dropdown-toggle"
-  },
-  "dropdown toggle split": {
-    "prefix": ".dropdown-toggle-split",
-    "body": "dropdown-toggle-split"
-  },
-  "dropdown divider": {
-    "prefix": ".dropdown-divider",
-    "body": "dropdown-divider"
+    "prefix": ".dropdown-",
+    "body": "dropdown-${0:menu}",
+    "description": "menu|menu-end|menu-dark|header|item|toggle|toggle-split|divider"
   },
   "Modal": {
     "prefix": ".modal",
@@ -849,46 +703,18 @@
     "body": "page-link"
   },
   "Progress": {
-    "prefix": ".progress",
-    "body": "progress",
-    "description": "Documentation and examples for using Bootstrap custom progress bars featuring support for stacked bars, animated backgrounds, and text labels."
-  },
-  "Progress bar": {
-    "prefix": ".progress-bar",
-    "body": "progress-bar"
-  },
-  "Progress bar striped": {
-    "prefix": ".progress-bar-striped",
-    "body": "progress-bar-striped"
-  },
-  "Progress bar animated": {
-    "prefix": ".progress-bar-animated",
-    "body": "progress-bar-animated"
+    "prefix": ".progress-",
+    "body": "progress-${0:bar}",
+    "description": "bar|bar-striped|bar-animated"
   },
   "Spinners": {
-    "prefix": ".spinner-border",
-    "body": "spinner-border",
-    "description": "Indicate the loading state of a component or page with Bootstrap spinners, built entirely with HTML, CSS, and no JavaScript."
-  },
-  "Spinners grow": {
-    "prefix": ".spinner-grow",
-    "body": "spinner-grow"
+    "prefix": ".spinner-",
+    "body": "spinner-${0:border}",
+    "description": "border|grow"
   },
   "Toast": {
-    "prefix": ".toast",
-    "body": "toast",
-    "description": "Push notifications to your visitors with a toast, a lightweight and easily customizable alert message."
-  },
-  "Toast header": {
-    "prefix": ".toast-header",
-    "body": "toast-header"
-  },
-  "Toast body": {
-    "prefix": ".toast-body",
-    "body": "toast-body"
-  },
-  "Toast container": {
-    "prefix": ".toast-container",
-    "body": "toast-container"
+    "prefix": ".toast-",
+    "body": "toast-${0:header}",
+    "description": "header|body|container"
   }
 }

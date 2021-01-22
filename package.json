@@ -2,7 +2,7 @@
 	"name": "bs5",
 	"displayName": "Bootstrap5",
 	"description": "Bootstrap5 snippets",
-	"version": "0.1.0",
+	"version": "0.2.0",
 	"author": "Ajanuw",
 	"icon": "logo/bootstrap-logo.png",
 	"publisher": "ajanuw",
@@ -34,7 +34,7 @@
 			},
 			{
 				"language": "html",
-				"path": "./snippets/bs5/class.json"
+				"path": "./snippets/bs5/class-out.json"
 			},
 			{
 				"language": "scss",
