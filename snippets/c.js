@@ -1,7 +1,6 @@
-const path = require("path");
 const fs = require("fs");
 
-const json = require("./class.json");
+const json = require("./bs5/class.json");
 
 const themes = [
   "primary",
@@ -80,4 +79,4 @@ for (const k of keys) {
   }
 }
 
-fs.writeFileSync("./class-out.json", JSON.stringify(json));
+fs.writeFileSync("./bs5/class-out.json", JSON.stringify(json));
