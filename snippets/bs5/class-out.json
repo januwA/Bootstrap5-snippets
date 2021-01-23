@@ -1,157 +1,177 @@
 {
-  "main Axis Alignment between": {
-    "prefix": ".justify-content-between",
-    "body": "justify-content-between",
+  "row": {
+    "prefix": ".row",
+    "body": "row",
     "description": ""
   },
-  "main Axis Alignment start": {
-    "prefix": ".justify-content-start",
-    "body": "justify-content-start",
+  "row cols": {
+    "prefix": ".row-cols-",
+    "body": "row-cols-${1|auto,1,2,3,4,5,6|}",
     "description": ""
   },
-  "main Axis Alignment end": {
-    "prefix": ".justify-content-end",
-    "body": "justify-content-end",
+  "col base": {
+    "prefix": ".col",
+    "body": "col",
     "description": ""
   },
-  "main Axis Alignment center": {
-    "prefix": ".justify-content-center",
-    "body": "justify-content-center",
+  "col": {
+    "prefix": ".col-",
+    "body": "col-${1|1,2,3,4,5,6,7,8,9,10,11,auto|}",
     "description": ""
   },
-  "main Axis Alignment around": {
-    "prefix": ".justify-content-around",
-    "body": "justify-content-around",
+  "offset": {
+    "prefix": ".offset-",
+    "body": "offset-${1|1,2,3,4,5,6,7,8,9,10,11|}",
     "description": ""
   },
-  "main Axis Alignment evenly": {
-    "prefix": ".justify-content-evenly",
-    "body": "justify-content-evenly",
+  "border": {
+    "prefix": ".border-",
+    "body": "border-${1|top,top-0,end,end-0,bottom,bottom-0,start,start-0,0,1,2,3,4,5|}",
     "description": ""
   },
-  "cross Axis Alignment start": {
-    "prefix": ".align-items-start",
-    "body": "align-items-start",
+  "border color": {
+    "prefix": ".border-",
+    "body": "border-${1|primary,secondary,success,danger,warning,info,light,dark,white|}",
     "description": ""
   },
-  "cross Axis Alignment end": {
-    "prefix": ".align-items-end",
-    "body": "align-items-end",
+  "Radius": {
+    "prefix": ".rounded-",
+    "body": "rounded-${1|circle,radius|}",
     "description": ""
   },
-  "cross Axis Alignment center": {
-    "prefix": ".align-items-center",
-    "body": "align-items-center",
+  "Text": {
+    "prefix": ".text-",
+    "body": "text-${1|wrap,nowrap,break,reset,truncate|}",
     "description": ""
   },
-  "cross Axis Alignment baseline": {
-    "prefix": ".align-items-baseline",
-    "body": "align-items-baseline",
+  "Text transform": {
+    "prefix": ".text-",
+    "body": "text-${1|lowercase,uppercase,capitalize|}",
     "description": ""
   },
-  "cross Axis Alignment stretch": {
-    "prefix": ".align-items-stretch",
-    "body": "align-items-stretch",
+  "Text color": {
+    "prefix": ".text-",
+    "body": "text-${1|primary,secondary,success,danger,warning,info,light,dark,body,muted,white,black-50,white-50|}",
     "description": ""
   },
-  "Align content start": {
-    "prefix": ".align-content-start",
-    "body": "align-content-start",
+  "Text align": {
+    "prefix": ".text-",
+    "body": "text-${1|start,center,end|}",
     "description": ""
   },
-  "Align content end": {
-    "prefix": ".align-content-end",
-    "body": "align-content-end",
+  "Text decoration": {
+    "prefix": ".text-decoration-",
+    "body": "text-decoration-${1|underline,line-through,none|}",
     "description": ""
   },
-  "Align content center": {
-    "prefix": ".align-content-center",
-    "body": "align-content-center",
+  "Background Color": {
+    "prefix": ".bg-",
+    "body": "bg-${1|primary,secondary,success,danger,warning,info,light,dark,white,transparent,gradient|}",
     "description": ""
   },
-  "Align content around": {
-    "prefix": ".align-content-around",
-    "body": "align-content-around",
+  "Display": {
+    "prefix": ".d-",
+    "body": "d-${1|grid,table,table-row,table-cell,flex,block,inline,inline-block,inline-flex,none|}",
     "description": ""
   },
-  "Align content stretch": {
-    "prefix": ".align-content-stretch",
-    "body": "align-content-stretch",
+  "Flex": {
+    "prefix": ".flex-",
+    "body": "flex-${1|row,column,fill,wrap,nowrap,row-reverse,column-reverse,wrap-reverse,grow-0,grow-1,shrink-0,shrink-1|}",
     "description": ""
   },
-  "Align self start": {
-    "prefix": ".align-self-start",
-    "body": "align-self-start",
+  "main Axis Alignment": {
+    "prefix": ".justify-content-",
+    "body": "justify-content-${1|start,end,center,around,evenly,between|}",
     "description": ""
   },
-  "Align self end": {
-    "prefix": ".align-self-end",
-    "body": "align-self-end",
+  "cross Axis Alignment": {
+    "prefix": ".align-items-",
+    "body": "align-items-${1|start,end,center,baseline,stretch|}",
     "description": ""
   },
-  "Align self center": {
-    "prefix": ".align-self-center",
-    "body": "align-self-center",
+  "Align content": {
+    "prefix": ".align-content-",
+    "body": "align-content-${1|start,end,center,around,stretch|}",
     "description": ""
   },
-  "Align self baseline": {
-    "prefix": ".align-self-baseline",
-    "body": "align-self-baseline",
+  "Align self": {
+    "prefix": ".align-self-",
+    "body": "align-self-${1|start,end,center,baseline,stretch|}",
     "description": ""
-  },
-  "Align self stretch": {
-    "prefix": ".align-self-stretch",
-    "body": "align-self-stretch",
-    "description": ""
-  },
-  "Flex Grow": {
-    "prefix": ".flex-grow-",
-    "body": "flex-grow-${0:1}",
-    "description": "sets the flex grow factor of a flex item's main size."
-  },
-  "Flex Shrink": {
-    "prefix": ".flex-shrink-",
-    "body": "flex-shrink-${0:1}",
-    "description": "The flex-shrink CSS property sets the flex shrink factor of a flex item. If the size of all flex items is larger than the flex container, items shrink to fit according to flex-shrink."
   },
   "Change the visual order": {
     "prefix": ".order-",
-    "body": "order-${0:1}",
-    "description": "Change the visual order of specific flex items with a handful of utilities. We only provide options for making an item first or last, as well as a reset to use the DOM order. As takes any integer value from 0 to 5, add custom CSS for any additional values needed.orderorder"
-  },
-  "Position static": {
-    "prefix": ".position-static",
-    "body": "position-static",
+    "body": "order-${1|0,1,2,3,4,5,first,last|}",
     "description": ""
   },
-  "Position relative": {
-    "prefix": ".position-relative",
-    "body": "position-relative",
+  "Float": {
+    "prefix": ".float-",
+    "body": "float-${1|start,end,none|}",
     "description": ""
   },
-  "Position absolute": {
-    "prefix": ".position-absolute",
-    "body": "position-absolute",
+  "Text selection": {
+    "prefix": ".user-select-",
+    "body": "user-select-${1|all,auto,none|}",
     "description": ""
   },
-  "Position fixed": {
-    "prefix": ".position-fixed",
-    "body": "position-fixed",
-    "description": "fixed"
+  "Pointer events": {
+    "prefix": ".pe-",
+    "body": "pe-${1|auto,none|}",
+    "description": ""
   },
-  "Position sticky": {
-    "prefix": ".position-sticky",
-    "body": "position-sticky",
+  "Overflow": {
+    "prefix": ".overflow-",
+    "body": "overflow-${1|auto,hidden,visible,scroll|}",
+    "description": ""
+  },
+  "Position": {
+    "prefix": ".position-",
+    "body": "position-${1|static,relative,absolute,fixed,sticky|}",
+    "description": ""
+  },
+  "Arrange elements top": {
+    "prefix": ".top-",
+    "body": "top-${1|0,50,100|}",
+    "description": ""
+  },
+  "Arrange elements bottom": {
+    "prefix": ".bottom-",
+    "body": "bottom-${1|0,50,100|}",
+    "description": ""
+  },
+  "Arrange elements end": {
+    "prefix": ".end-",
+    "body": "end-${1|0,50,100|}",
+    "description": ""
+  },
+  "Arrange elements start": {
+    "prefix": ".start-",
+    "body": "start-${1|0,50,100|}",
     "description": ""
   },
   "Center elements": {
     "prefix": ".translate-middle",
-    "body": "translate-middle",
-    "description": "translate(-50%, -50%)"
+    "body": "translate-${1|middle,middle-x,middle-y|}",
+    "description": ""
   },
   "box shadow default sizes": {
     "prefix": ".shadow",
     "body": "shadow",
+    "description": ""
+  },
+  "box shadow": {
+    "prefix": ".shadow-",
+    "body": "shadow-${1|none,sm,lg|}",
+    "description": ""
+  },
+  "Sizing Width": {
+    "prefix": ".w-",
+    "body": "w-${1|25,50,75,100,auto|}",
+    "description": ""
+  },
+  "Sizing Height": {
+    "prefix": ".h-",
+    "body": "h-${1|25,50,75,100,auto|}",
     "description": ""
   },
   "Sizing max width": {
@@ -164,6 +184,11 @@
     "body": "mh-100",
     "description": "max-height: 100%"
   },
+  "Relative to the min viewport": {
+    "prefix": ".min-",
+    "body": "min-${1|vw-100,vh-100|}",
+    "description": ""
+  },
   "Relative to the viewport": {
     "prefix": [
       ".vw-100",
@@ -172,10 +197,110 @@
     "body": "v${0:w}-100",
     "description": "Width 100vw or Height 100vh"
   },
+  "Spacing margin": {
+    "prefix": ".m-",
+    "body": "m-${1|0,1,2,3,4,5,auto|}",
+    "description": ""
+  },
+  "Spacing margin top": {
+    "prefix": ".mt-",
+    "body": "mt-${1|0,1,2,3,4,5,auto|}",
+    "description": ""
+  },
+  "Spacing margin bottom": {
+    "prefix": ".mb-",
+    "body": "mb-${1|0,1,2,3,4,5,auto|}",
+    "description": ""
+  },
+  "Spacing margin left": {
+    "prefix": ".ms-",
+    "body": "ms-${1|0,1,2,3,4,5,auto|}",
+    "description": ""
+  },
+  "Spacing margin right": {
+    "prefix": ".me-",
+    "body": "me-${1|0,1,2,3,4,5,auto|}",
+    "description": ""
+  },
+  "Spacing margin left and right": {
+    "prefix": ".mx-",
+    "body": "mx-${1|0,1,2,3,4,5,auto|}",
+    "description": ""
+  },
+  "Spacing margin top and bottom": {
+    "prefix": ".my-",
+    "body": "my-${1|0,1,2,3,4,5,auto|}",
+    "description": ""
+  },
+  "Spacing padding": {
+    "prefix": ".p-",
+    "body": "p-${1|0,1,2,3,4,5,auto|}",
+    "description": ""
+  },
+  "Spacing padding top": {
+    "prefix": ".pt-",
+    "body": "pt-${1|0,1,2,3,4,5,auto|}",
+    "description": ""
+  },
+  "Spacing padding bottom": {
+    "prefix": ".pb-",
+    "body": "pb-${1|0,1,2,3,4,5,auto|}",
+    "description": ""
+  },
+  "Spacing padding left": {
+    "prefix": ".ps-",
+    "body": "ps-${1|0,1,2,3,4,5,auto|}",
+    "description": ""
+  },
+  "Spacing padding right": {
+    "prefix": ".pe-",
+    "body": "pe-${1|0,1,2,3,4,5,auto|}",
+    "description": ""
+  },
+  "Spacing padding left and right": {
+    "prefix": ".px-",
+    "body": "px-${1|0,1,2,3,4,5,auto|}",
+    "description": ""
+  },
+  "Spacing padding top and bottom": {
+    "prefix": ".py-",
+    "body": "py-${1|0,1,2,3,4,5,auto|}",
+    "description": ""
+  },
+  "Gap": {
+    "prefix": ".grp-",
+    "body": "grp-${1|0,1,2,3,4,5,auto|}",
+    "description": ""
+  },
+  "Font size": {
+    "prefix": ".fs-",
+    "body": "fs-${1|1,2,3,4|}",
+    "description": ""
+  },
   "Monospace": {
     "prefix": ".font-monospace",
     "body": "font-monospace",
     "description": "Change a selection to our monospace font stack with ..font-monospace"
+  },
+  "Font weight": {
+    "prefix": ".fw-",
+    "body": "fw-${1|bold,bolder,normal,light,lighter|}",
+    "description": ""
+  },
+  "Font style": {
+    "prefix": ".fst-",
+    "body": "fst-${1|italic,normal|}",
+    "description": ""
+  },
+  "Line height": {
+    "prefix": ".lh-",
+    "body": "lh-${1|l,sm,base,lg|}",
+    "description": ""
+  },
+  "Vertical alignment": {
+    "prefix": ".align-",
+    "body": "align-${1|baseline,top,middle,bottom,text-bottom,text-top|}",
+    "description": ""
   },
   "Visibility visible": {
     "prefix": ".visible",
@@ -192,9 +317,29 @@
     "body": "clearfix",
     "description": "Quickly and easily clear floated content within a container"
   },
+  "Colored links": {
+    "prefix": ".link-",
+    "body": "link-${1|primary,secondary,success,danger,warning,info,light,dark|}",
+    "description": ""
+  },
+  "Aspect ratios": {
+    "prefix": ".ratio-",
+    "body": "ratio-${1|1x1,4x3,16x9,21x9|}",
+    "description": ""
+  },
+  "Position Fixed": {
+    "prefix": ".fixed-",
+    "body": "fixed-${1|top,bottom|}",
+    "description": ""
+  },
   "Position Sticky": {
     "prefix": ".sticky-top",
     "body": "sticky-top",
+    "description": ""
+  },
+  "Visually hidden": {
+    "prefix": ".visually-",
+    "body": "visually-${1|hidden,hidden-focusable|}",
     "description": ""
   },
   "Stretched link": {
@@ -202,80 +347,25 @@
     "body": "stretched-link",
     "description": "Make any HTML element or Bootstrap component clickable by “stretching” a nested link via CSS."
   },
-  "Form input": {
-    "prefix": ".form-control",
-    "body": "form-control",
-    "description": "form input"
+  "Form": {
+    "prefix": ".form-",
+    "body": "form-${1|control,label,text,select,check,check-inline,switch,range,check-input,check-label,floating|}",
+    "description": ""
   },
   "Form input plaintext": {
-    "prefix": ".form-control-plaintext",
-    "body": "form-control-plaintext",
-    "description": "form input plaintext"
-  },
-  "Form input color": {
-    "prefix": ".form-control-color",
-    "body": "form-control-color",
-    "description": "form input color picker"
-  },
-  "Form label": {
-    "prefix": ".form-label",
-    "body": "form-label",
-    "description": "form label"
-  },
-  "Form input help text": {
-    "prefix": ".form-text",
-    "body": "form-text",
-    "description": "form input help text"
-  },
-  "Form select": {
-    "prefix": ".form-select",
-    "body": "form-select",
-    "description": "form select"
-  },
-  "Form check": {
-    "prefix": ".form-check",
-    "body": "form-check",
-    "description": "form check"
-  },
-  "Form check inline": {
-    "prefix": ".form-check-inline",
-    "body": "form-check-inline",
-    "description": "form check inline"
-  },
-  "Form switch": {
-    "prefix": ".form-switch",
-    "body": "form-switch",
-    "description": "form switch"
-  },
-  "Form range": {
-    "prefix": ".form-range",
-    "body": "form-range",
-    "description": "form range"
-  },
-  "Form input check": {
-    "prefix": ".form-check-input",
-    "body": "form-check-input",
-    "description": "form check"
-  },
-  "Form input check label": {
-    "prefix": ".form-check-label",
-    "body": "form-check-label",
-    "description": "check label"
+    "prefix": ".form-control-",
+    "body": "form-control-${1|plaintext,color|}",
+    "description": ""
   },
   "Form input group": {
-    "prefix": ".input-group",
-    "body": "input-group",
-    "description": "input-group"
+    "prefix": ".input-",
+    "body": "input-${1|group,group-text|}",
+    "description": ""
   },
-  "Form input group text": {
-    "prefix": ".input-group-text",
-    "body": "input-group-text",
-    "description": "input-group-text"
-  },
-  "Form floating": {
-    "prefix": ".form-floating",
-    "body": "form-floating",
-    "description": "form-floating"
+  "Display headings": {
+    "prefix": ".display-",
+    "body": "display-${1|1,2,3,4,5,6|}",
+    "description": ""
   },
   "blockquote": {
     "prefix": ".blockquote",
@@ -285,10 +375,25 @@
     "prefix": ".blockquote-footer",
     "body": "blockquote-footer"
   },
-  "List group": {
-    "prefix": ".list-group",
-    "body": "list-group",
-    "description": "List groups are a flexible and powerful component for displaying a series of content. Modify and extend them to support just about any content within."
+  "List": {
+    "prefix": ".list-",
+    "body": "list-${1|inline,unstyled,group|}",
+    "description": ""
+  },
+  "List group ": {
+    "prefix": ".list-group-",
+    "body": "list-group-${1|flush,item,item-action,horizontal|}",
+    "description": ""
+  },
+  "Images": {
+    "prefix": ".img-",
+    "body": "img-${1|fluid,thumbnail|}",
+    "description": ""
+  },
+  "Table": {
+    "prefix": ".table-",
+    "body": "table-${1|primary,secondary,success,danger,warning,info,light,dark,bordered,striped,active,hover,borderless|}",
+    "description": ""
   },
   "Figures": {
     "prefix": ".figure",
@@ -310,10 +415,60 @@
     "body": "container-fluid",
     "description": ""
   },
+  "Gutters x and y": {
+    "prefix": ".g-",
+    "body": "g-${1|0,1,2,3,4,5|}",
+    "description": ""
+  },
+  "Gutters x": {
+    "prefix": ".gx-",
+    "body": "gx-${1|0,1,2,3,4,5|}",
+    "description": ""
+  },
+  "Gutters y": {
+    "prefix": ".gy-",
+    "body": "gy-${1|0,1,2,3,4,5|}",
+    "description": ""
+  },
+  "Button": {
+    "prefix": ".btn-",
+    "body": "btn-${1|primary,secondary,success,danger,warning,info,light,dark,link,close,close-white,group,lg,sm,check,toolbar,group-vertical|}",
+    "description": ""
+  },
+  "Outline button": {
+    "prefix": ".btn-outline-",
+    "body": "btn-outline-${1|primary,secondary,success,danger,warning,info,light,dark|}",
+    "description": ""
+  },
+  "gap": {
+    "prefix": ".gap-",
+    "body": "gap-${1|0,1,2,3,4,5|}",
+    "description": ""
+  },
   "badge": {
     "prefix": ".badge",
     "body": "badge",
     "description": "badge"
+  },
+  "alert": {
+    "prefix": ".alert-",
+    "body": "alert alert-${1|primary,secondary,success,danger,warning,info,light,dark,heading,link,dismissible|}",
+    "description": ""
+  },
+  "accordion": {
+    "prefix": ".accordion-",
+    "body": "accordion-${1|accordion,flush,item,header,body,collapse|}",
+    "description": ""
+  },
+  "breadcrumb": {
+    "prefix": ".breadcrumb-",
+    "body": "breadcrumb-${1|breadcrumb,item|}",
+    "description": ""
+  },
+  "card": {
+    "prefix": ".card-",
+    "body": "card-${1|body,title,subtitle,text,link,img-top|}",
+    "description": ""
   },
   "collapse": {
     "prefix": ".collapse",
@@ -324,46 +479,25 @@
     "prefix": ".collapse-multi",
     "body": "collapse multi-collapse"
   },
+  "Dropdowns": {
+    "prefix": ".dropdown-",
+    "body": "dropdown-${1|menu,menu-end,menu-dark,header,item,toggle,toggle-split,divider|}",
+    "description": ""
+  },
   "Modal": {
     "prefix": ".modal",
     "body": "modal",
     "description": "Use Bootstrap’s JavaScript modal plugin to add dialogs to your site for lightboxes, user notifications, or completely custom content."
   },
   "Modal dialog": {
-    "prefix": ".modal-dialog",
-    "body": "modal-dialog"
+    "prefix": ".modal-",
+    "body": "modal-${1|dialog,content,header,title,body,footer|}",
+    "description": ""
   },
   "Modal dialog scrollable": {
-    "prefix": ".modal-dialog-scrollable",
-    "body": "modal-dialog-scrollable"
-  },
-  "Modal dialog centered": {
-    "prefix": ".modal-dialog-centered",
-    "body": "modal-dialog-centered"
-  },
-  "Modal dialog fullscreen": {
-    "prefix": ".modal-dialog-fullscreen",
-    "body": "modal-dialog-fullscreen"
-  },
-  "Modal content": {
-    "prefix": ".modal-content",
-    "body": "modal-content"
-  },
-  "Modal header": {
-    "prefix": ".modal-header",
-    "body": "modal-header"
-  },
-  "Modal title": {
-    "prefix": ".modal-title",
-    "body": "modal-title"
-  },
-  "Modal body": {
-    "prefix": ".modal-body",
-    "body": "modal-body"
-  },
-  "Modal footer": {
-    "prefix": ".modal-footer",
-    "body": "modal-footer"
+    "prefix": ".modal-dialog-",
+    "body": "modal-dialog-${1|scrollable,centered,fullscreen|}",
+    "description": ""
   },
   "Navs": {
     "prefix": ".nav",
@@ -371,28 +505,9 @@
     "description": "Documentation and examples for how to use Bootstrap’s included navigation components."
   },
   "Navs pills": {
-    "prefix": ".nav-pills",
-    "body": "nav-pills"
-  },
-  "Navs fill": {
-    "prefix": ".nav-fill",
-    "body": "nav-fill"
-  },
-  "Navs item": {
-    "prefix": ".nav-item",
-    "body": "nav-item"
-  },
-  "Navs link": {
-    "prefix": ".nav-link",
-    "body": "nav-link"
-  },
-  "Navs justified": {
-    "prefix": ".nav-justified",
-    "body": "nav-justified"
-  },
-  "Navs tabs": {
-    "prefix": ".nav-tabs",
-    "body": "nav-tabs"
+    "prefix": ".nav-",
+    "body": "nav-${1|pills,fill,item,link,justified,tabs|}",
+    "description": ""
   },
   "Pagination": {
     "prefix": ".pagination",
@@ -400,1901 +515,1013 @@
     "description": "We use a large block of connected links for our pagination, making links hard to miss and easily scalable—all while providing large hit areas. Pagination is built with list HTML elements so screen readers can announce the number of available links. Use a wrapping <nav> element to identify it as a navigation section to screen readers and other assistive technologies."
   },
   "Pagination item": {
-    "prefix": ".page-item",
-    "body": "page-item"
-  },
-  "Pagination link": {
-    "prefix": ".page-link",
-    "body": "page-link"
-  },
-  "theme primary": {
-    "prefix": ".theme-primary",
-    "body": "primary",
-    "description": ""
-  },
-  "theme secondary": {
-    "prefix": ".theme-secondary",
-    "body": "secondary",
-    "description": ""
-  },
-  "theme success": {
-    "prefix": ".theme-success",
-    "body": "success",
-    "description": ""
-  },
-  "theme danger": {
-    "prefix": ".theme-danger",
-    "body": "danger",
-    "description": ""
-  },
-  "theme warning": {
-    "prefix": ".theme-warning",
-    "body": "warning",
-    "description": ""
-  },
-  "theme info": {
-    "prefix": ".theme-info",
-    "body": "info",
-    "description": ""
-  },
-  "theme light": {
-    "prefix": ".theme-light",
-    "body": "light",
-    "description": ""
-  },
-  "theme dark": {
-    "prefix": ".theme-dark",
-    "body": "dark",
-    "description": ""
-  },
-  "theme white": {
-    "prefix": ".theme-white",
-    "body": "white",
-    "description": ""
-  },
-  "border top": {
-    "prefix": ".border-top",
-    "body": "border-top",
-    "description": ""
-  },
-  "border top-0": {
-    "prefix": ".border-top-0",
-    "body": "border-top-0",
-    "description": ""
-  },
-  "border end": {
-    "prefix": ".border-end",
-    "body": "border-end",
-    "description": ""
-  },
-  "border end-0": {
-    "prefix": ".border-end-0",
-    "body": "border-end-0",
-    "description": ""
-  },
-  "border bottom": {
-    "prefix": ".border-bottom",
-    "body": "border-bottom",
-    "description": ""
-  },
-  "border bottom-0": {
-    "prefix": ".border-bottom-0",
-    "body": "border-bottom-0",
-    "description": ""
-  },
-  "border start": {
-    "prefix": ".border-start",
-    "body": "border-start",
-    "description": ""
-  },
-  "border start-0": {
-    "prefix": ".border-start-0",
-    "body": "border-start-0",
-    "description": ""
-  },
-  "border primary": {
-    "prefix": ".border-primary",
-    "body": "border-primary",
-    "description": ""
-  },
-  "border secondary": {
-    "prefix": ".border-secondary",
-    "body": "border-secondary",
-    "description": ""
-  },
-  "border success": {
-    "prefix": ".border-success",
-    "body": "border-success",
-    "description": ""
-  },
-  "border danger": {
-    "prefix": ".border-danger",
-    "body": "border-danger",
-    "description": ""
-  },
-  "border warning": {
-    "prefix": ".border-warning",
-    "body": "border-warning",
-    "description": ""
-  },
-  "border info": {
-    "prefix": ".border-info",
-    "body": "border-info",
-    "description": ""
-  },
-  "border light": {
-    "prefix": ".border-light",
-    "body": "border-light",
-    "description": ""
-  },
-  "border dark": {
-    "prefix": ".border-dark",
-    "body": "border-dark",
-    "description": ""
-  },
-  "border white": {
-    "prefix": ".border-white",
-    "body": "border-white",
-    "description": ""
-  },
-  "border 0": {
-    "prefix": ".border-0",
-    "body": "border-0",
-    "description": ""
-  },
-  "border 1": {
-    "prefix": ".border-1",
-    "body": "border-1",
-    "description": ""
-  },
-  "border 2": {
-    "prefix": ".border-2",
-    "body": "border-2",
-    "description": ""
-  },
-  "border 3": {
-    "prefix": ".border-3",
-    "body": "border-3",
-    "description": ""
-  },
-  "border 4": {
-    "prefix": ".border-4",
-    "body": "border-4",
-    "description": ""
-  },
-  "border 5": {
-    "prefix": ".border-5",
-    "body": "border-5",
-    "description": ""
-  },
-  "Radius circle": {
-    "prefix": ".rounded-circle",
-    "body": "rounded-circle",
-    "description": ""
-  },
-  "Radius radius": {
-    "prefix": ".rounded-radius",
-    "body": "rounded-radius",
-    "description": ""
-  },
-  "Text primary": {
-    "prefix": ".text-primary",
-    "body": "text-primary",
-    "description": ""
-  },
-  "Text secondary": {
-    "prefix": ".text-secondary",
-    "body": "text-secondary",
-    "description": ""
-  },
-  "Text success": {
-    "prefix": ".text-success",
-    "body": "text-success",
-    "description": ""
-  },
-  "Text danger": {
-    "prefix": ".text-danger",
-    "body": "text-danger",
-    "description": ""
-  },
-  "Text warning": {
-    "prefix": ".text-warning",
-    "body": "text-warning",
-    "description": ""
-  },
-  "Text info": {
-    "prefix": ".text-info",
-    "body": "text-info",
-    "description": ""
-  },
-  "Text light": {
-    "prefix": ".text-light",
-    "body": "text-light",
-    "description": ""
-  },
-  "Text dark": {
-    "prefix": ".text-dark",
-    "body": "text-dark",
-    "description": ""
-  },
-  "Text white": {
-    "prefix": ".text-white",
-    "body": "text-white",
-    "description": ""
-  },
-  "Text start": {
-    "prefix": ".text-start",
-    "body": "text-start",
-    "description": ""
-  },
-  "Text center": {
-    "prefix": ".text-center",
-    "body": "text-center",
-    "description": ""
-  },
-  "Text end": {
-    "prefix": ".text-end",
-    "body": "text-end",
-    "description": ""
-  },
-  "Text wrap": {
-    "prefix": ".text-wrap",
-    "body": "text-wrap",
-    "description": ""
-  },
-  "Text nowrap": {
-    "prefix": ".text-nowrap",
-    "body": "text-nowrap",
-    "description": ""
-  },
-  "Text break": {
-    "prefix": ".text-break",
-    "body": "text-break",
-    "description": ""
-  },
-  "Text lowercase": {
-    "prefix": ".text-lowercase",
-    "body": "text-lowercase",
-    "description": ""
-  },
-  "Text uppercase": {
-    "prefix": ".text-uppercase",
-    "body": "text-uppercase",
-    "description": ""
-  },
-  "Text capitalize": {
-    "prefix": ".text-capitalize",
-    "body": "text-capitalize",
-    "description": ""
-  },
-  "Text reset": {
-    "prefix": ".text-reset",
-    "body": "text-reset",
-    "description": ""
-  },
-  "Text truncate": {
-    "prefix": ".text-truncate",
-    "body": "text-truncate",
-    "description": ""
-  },
-  "Text black-50": {
-    "prefix": ".text-black-50",
-    "body": "text-black-50",
-    "description": ""
-  },
-  "Text white-50": {
-    "prefix": ".text-white-50",
-    "body": "text-white-50",
-    "description": ""
-  },
-  "Text decoration underline": {
-    "prefix": ".text-decoration-underline",
-    "body": "text-decoration-underline",
-    "description": ""
-  },
-  "Text decoration line-through": {
-    "prefix": ".text-decoration-line-through",
-    "body": "text-decoration-line-through",
-    "description": ""
-  },
-  "Text decoration none": {
-    "prefix": ".text-decoration-none",
-    "body": "text-decoration-none",
-    "description": ""
-  },
-  "Background Color primary": {
-    "prefix": ".bg-primary",
-    "body": "bg-primary",
-    "description": ""
-  },
-  "Background Color secondary": {
-    "prefix": ".bg-secondary",
-    "body": "bg-secondary",
-    "description": ""
-  },
-  "Background Color success": {
-    "prefix": ".bg-success",
-    "body": "bg-success",
-    "description": ""
-  },
-  "Background Color danger": {
-    "prefix": ".bg-danger",
-    "body": "bg-danger",
-    "description": ""
-  },
-  "Background Color warning": {
-    "prefix": ".bg-warning",
-    "body": "bg-warning",
-    "description": ""
-  },
-  "Background Color info": {
-    "prefix": ".bg-info",
-    "body": "bg-info",
-    "description": ""
-  },
-  "Background Color light": {
-    "prefix": ".bg-light",
-    "body": "bg-light",
-    "description": ""
-  },
-  "Background Color dark": {
-    "prefix": ".bg-dark",
-    "body": "bg-dark",
-    "description": ""
-  },
-  "Background Color white": {
-    "prefix": ".bg-white",
-    "body": "bg-white",
-    "description": ""
-  },
-  "Display grid": {
-    "prefix": ".d-grid",
-    "body": "d-grid",
-    "description": ""
-  },
-  "Display table": {
-    "prefix": ".d-table",
-    "body": "d-table",
-    "description": ""
-  },
-  "Display table-row": {
-    "prefix": ".d-table-row",
-    "body": "d-table-row",
-    "description": ""
-  },
-  "Display table-cell": {
-    "prefix": ".d-table-cell",
-    "body": "d-table-cell",
-    "description": ""
-  },
-  "Display flex": {
-    "prefix": ".d-flex",
-    "body": "d-flex",
-    "description": ""
-  },
-  "Display block": {
-    "prefix": ".d-block",
-    "body": "d-block",
-    "description": ""
-  },
-  "Display inline": {
-    "prefix": ".d-inline",
-    "body": "d-inline",
-    "description": ""
-  },
-  "Display inline-block": {
-    "prefix": ".d-inline-block",
-    "body": "d-inline-block",
-    "description": ""
-  },
-  "Display inline-flex": {
-    "prefix": ".d-inline-flex",
-    "body": "d-inline-flex",
-    "description": ""
-  },
-  "Display none": {
-    "prefix": ".d-none",
-    "body": "d-none",
-    "description": ""
-  },
-  "Flex row": {
-    "prefix": ".flex-row",
-    "body": "flex-row",
-    "description": ""
-  },
-  "Flex column": {
-    "prefix": ".flex-column",
-    "body": "flex-column",
-    "description": ""
-  },
-  "Flex fill": {
-    "prefix": ".flex-fill",
-    "body": "flex-fill",
-    "description": ""
-  },
-  "Flex wrap": {
-    "prefix": ".flex-wrap",
-    "body": "flex-wrap",
-    "description": ""
-  },
-  "Flex nowrap": {
-    "prefix": ".flex-nowrap",
-    "body": "flex-nowrap",
-    "description": ""
-  },
-  "Flex row-reverse": {
-    "prefix": ".flex-row-reverse",
-    "body": "flex-row-reverse",
-    "description": ""
-  },
-  "Flex column-reverse": {
-    "prefix": ".flex-column-reverse",
-    "body": "flex-column-reverse",
-    "description": ""
-  },
-  "Flex wrap-reverse": {
-    "prefix": ".flex-wrap-reverse",
-    "body": "flex-wrap-reverse",
-    "description": ""
-  },
-  "Float start": {
-    "prefix": ".float-start",
-    "body": "float-start",
-    "description": ""
-  },
-  "Float end": {
-    "prefix": ".float-end",
-    "body": "float-end",
-    "description": ""
-  },
-  "Float none": {
-    "prefix": ".float-none",
-    "body": "float-none",
-    "description": ""
-  },
-  "Text selection all": {
-    "prefix": ".user-select-all",
-    "body": "user-select-all",
-    "description": ""
-  },
-  "Text selection auto": {
-    "prefix": ".user-select-auto",
-    "body": "user-select-auto",
-    "description": ""
-  },
-  "Text selection none": {
-    "prefix": ".user-select-none",
-    "body": "user-select-none",
-    "description": ""
-  },
-  "Pointer events auto": {
-    "prefix": ".pe-auto",
-    "body": "pe-auto",
-    "description": ""
-  },
-  "Pointer events none": {
-    "prefix": ".pe-none",
-    "body": "pe-none",
-    "description": ""
-  },
-  "Overflow auto": {
-    "prefix": ".overflow-auto",
-    "body": "overflow-auto",
-    "description": ""
-  },
-  "Overflow hidden": {
-    "prefix": ".overflow-hidden",
-    "body": "overflow-hidden",
-    "description": ""
-  },
-  "Overflow visible": {
-    "prefix": ".overflow-visible",
-    "body": "overflow-visible",
-    "description": ""
-  },
-  "Overflow scroll": {
-    "prefix": ".overflow-scroll",
-    "body": "overflow-scroll",
-    "description": ""
-  },
-  "Arrange elements top 0": {
-    "prefix": ".top-0",
-    "body": "top-0",
-    "description": ""
-  },
-  "Arrange elements top 50": {
-    "prefix": ".top-50",
-    "body": "top-50",
-    "description": ""
-  },
-  "Arrange elements top 100": {
-    "prefix": ".top-100",
-    "body": "top-100",
-    "description": ""
-  },
-  "Arrange elements bottom 0": {
-    "prefix": ".bottom-0",
-    "body": "bottom-0",
-    "description": ""
-  },
-  "Arrange elements bottom 50": {
-    "prefix": ".bottom-50",
-    "body": "bottom-50",
-    "description": ""
-  },
-  "Arrange elements bottom 100": {
-    "prefix": ".bottom-100",
-    "body": "bottom-100",
-    "description": ""
-  },
-  "Arrange elements end 0": {
-    "prefix": ".end-0",
-    "body": "end-0",
-    "description": ""
-  },
-  "Arrange elements end 50": {
-    "prefix": ".end-50",
-    "body": "end-50",
-    "description": ""
-  },
-  "Arrange elements end 100": {
-    "prefix": ".end-100",
-    "body": "end-100",
-    "description": ""
-  },
-  "Arrange elements start 0": {
-    "prefix": ".start-0",
-    "body": "start-0",
-    "description": ""
-  },
-  "Arrange elements start 50": {
-    "prefix": ".start-50",
-    "body": "start-50",
-    "description": ""
-  },
-  "Arrange elements start 100": {
-    "prefix": ".start-100",
-    "body": "start-100",
-    "description": ""
-  },
-  "Center elements horizontal or vertical x": {
-    "prefix": ".translate-middle-x",
-    "body": "translate-middle-x",
-    "description": ""
-  },
-  "Center elements horizontal or vertical y": {
-    "prefix": ".translate-middle-y",
-    "body": "translate-middle-y",
-    "description": ""
-  },
-  "box shadow none": {
-    "prefix": ".shadow-none",
-    "body": "shadow-none",
-    "description": ""
-  },
-  "box shadow sm": {
-    "prefix": ".shadow-sm",
-    "body": "shadow-sm",
-    "description": ""
-  },
-  "box shadow lg": {
-    "prefix": ".shadow-lg",
-    "body": "shadow-lg",
-    "description": ""
-  },
-  "Sizing Width 25": {
-    "prefix": ".w-25",
-    "body": "w-25",
-    "description": ""
-  },
-  "Sizing Width 50": {
-    "prefix": ".w-50",
-    "body": "w-50",
-    "description": ""
-  },
-  "Sizing Width 75": {
-    "prefix": ".w-75",
-    "body": "w-75",
-    "description": ""
-  },
-  "Sizing Width 100": {
-    "prefix": ".w-100",
-    "body": "w-100",
-    "description": ""
-  },
-  "Sizing Width auto": {
-    "prefix": ".w-auto",
-    "body": "w-auto",
-    "description": ""
-  },
-  "Sizing Height 25": {
-    "prefix": ".h-25",
-    "body": "h-25",
-    "description": ""
-  },
-  "Sizing Height 50": {
-    "prefix": ".h-50",
-    "body": "h-50",
-    "description": ""
-  },
-  "Sizing Height 75": {
-    "prefix": ".h-75",
-    "body": "h-75",
-    "description": ""
-  },
-  "Sizing Height 100": {
-    "prefix": ".h-100",
-    "body": "h-100",
-    "description": ""
-  },
-  "Sizing Height auto": {
-    "prefix": ".h-auto",
-    "body": "h-auto",
-    "description": ""
-  },
-  "Relative to the min viewport vw-100": {
-    "prefix": ".min-vw-100",
-    "body": "min-vw-100",
-    "description": ""
-  },
-  "Relative to the min viewport vh-100": {
-    "prefix": ".min-vh-100",
-    "body": "min-vh-100",
-    "description": ""
-  },
-  "Spacing margin top 0": {
-    "prefix": ".mt-0",
-    "body": "mt-0",
-    "description": ""
-  },
-  "Spacing margin top 1": {
-    "prefix": ".mt-1",
-    "body": "mt-1",
-    "description": ""
-  },
-  "Spacing margin top 2": {
-    "prefix": ".mt-2",
-    "body": "mt-2",
-    "description": ""
-  },
-  "Spacing margin top 3": {
-    "prefix": ".mt-3",
-    "body": "mt-3",
-    "description": ""
-  },
-  "Spacing margin top 4": {
-    "prefix": ".mt-4",
-    "body": "mt-4",
-    "description": ""
-  },
-  "Spacing margin top 5": {
-    "prefix": ".mt-5",
-    "body": "mt-5",
-    "description": ""
-  },
-  "Spacing margin top auto": {
-    "prefix": ".mt-auto",
-    "body": "mt-auto",
-    "description": ""
-  },
-  "Spacing margin bottom 0": {
-    "prefix": ".mb-0",
-    "body": "mb-0",
-    "description": ""
-  },
-  "Spacing margin bottom 1": {
-    "prefix": ".mb-1",
-    "body": "mb-1",
-    "description": ""
-  },
-  "Spacing margin bottom 2": {
-    "prefix": ".mb-2",
-    "body": "mb-2",
-    "description": ""
-  },
-  "Spacing margin bottom 3": {
-    "prefix": ".mb-3",
-    "body": "mb-3",
-    "description": ""
-  },
-  "Spacing margin bottom 4": {
-    "prefix": ".mb-4",
-    "body": "mb-4",
-    "description": ""
-  },
-  "Spacing margin bottom 5": {
-    "prefix": ".mb-5",
-    "body": "mb-5",
-    "description": ""
-  },
-  "Spacing margin bottom auto": {
-    "prefix": ".mb-auto",
-    "body": "mb-auto",
-    "description": ""
-  },
-  "Spacing margin left 0": {
-    "prefix": ".ms-0",
-    "body": "ms-0",
-    "description": ""
-  },
-  "Spacing margin left 1": {
-    "prefix": ".ms-1",
-    "body": "ms-1",
-    "description": ""
-  },
-  "Spacing margin left 2": {
-    "prefix": ".ms-2",
-    "body": "ms-2",
-    "description": ""
-  },
-  "Spacing margin left 3": {
-    "prefix": ".ms-3",
-    "body": "ms-3",
-    "description": ""
-  },
-  "Spacing margin left 4": {
-    "prefix": ".ms-4",
-    "body": "ms-4",
-    "description": ""
-  },
-  "Spacing margin left 5": {
-    "prefix": ".ms-5",
-    "body": "ms-5",
-    "description": ""
-  },
-  "Spacing margin left auto": {
-    "prefix": ".ms-auto",
-    "body": "ms-auto",
-    "description": ""
-  },
-  "Spacing margin right 0": {
-    "prefix": ".me-0",
-    "body": "me-0",
-    "description": ""
-  },
-  "Spacing margin right 1": {
-    "prefix": ".me-1",
-    "body": "me-1",
-    "description": ""
-  },
-  "Spacing margin right 2": {
-    "prefix": ".me-2",
-    "body": "me-2",
-    "description": ""
-  },
-  "Spacing margin right 3": {
-    "prefix": ".me-3",
-    "body": "me-3",
-    "description": ""
-  },
-  "Spacing margin right 4": {
-    "prefix": ".me-4",
-    "body": "me-4",
-    "description": ""
-  },
-  "Spacing margin right 5": {
-    "prefix": ".me-5",
-    "body": "me-5",
-    "description": ""
-  },
-  "Spacing margin right auto": {
-    "prefix": ".me-auto",
-    "body": "me-auto",
-    "description": ""
-  },
-  "Spacing margin left and right 0": {
-    "prefix": ".mx-0",
-    "body": "mx-0",
-    "description": ""
-  },
-  "Spacing margin left and right 1": {
-    "prefix": ".mx-1",
-    "body": "mx-1",
-    "description": ""
-  },
-  "Spacing margin left and right 2": {
-    "prefix": ".mx-2",
-    "body": "mx-2",
-    "description": ""
-  },
-  "Spacing margin left and right 3": {
-    "prefix": ".mx-3",
-    "body": "mx-3",
-    "description": ""
-  },
-  "Spacing margin left and right 4": {
-    "prefix": ".mx-4",
-    "body": "mx-4",
-    "description": ""
-  },
-  "Spacing margin left and right 5": {
-    "prefix": ".mx-5",
-    "body": "mx-5",
-    "description": ""
-  },
-  "Spacing margin left and right auto": {
-    "prefix": ".mx-auto",
-    "body": "mx-auto",
-    "description": ""
-  },
-  "Spacing margin top and bottom 0": {
-    "prefix": ".my-0",
-    "body": "my-0",
-    "description": ""
-  },
-  "Spacing margin top and bottom 1": {
-    "prefix": ".my-1",
-    "body": "my-1",
-    "description": ""
-  },
-  "Spacing margin top and bottom 2": {
-    "prefix": ".my-2",
-    "body": "my-2",
-    "description": ""
-  },
-  "Spacing margin top and bottom 3": {
-    "prefix": ".my-3",
-    "body": "my-3",
-    "description": ""
-  },
-  "Spacing margin top and bottom 4": {
-    "prefix": ".my-4",
-    "body": "my-4",
-    "description": ""
-  },
-  "Spacing margin top and bottom 5": {
-    "prefix": ".my-5",
-    "body": "my-5",
-    "description": ""
-  },
-  "Spacing margin top and bottom auto": {
-    "prefix": ".my-auto",
-    "body": "my-auto",
-    "description": ""
-  },
-  "Spacing padding top 0": {
-    "prefix": ".pt-0",
-    "body": "pt-0",
-    "description": ""
-  },
-  "Spacing padding top 1": {
-    "prefix": ".pt-1",
-    "body": "pt-1",
-    "description": ""
-  },
-  "Spacing padding top 2": {
-    "prefix": ".pt-2",
-    "body": "pt-2",
-    "description": ""
-  },
-  "Spacing padding top 3": {
-    "prefix": ".pt-3",
-    "body": "pt-3",
-    "description": ""
-  },
-  "Spacing padding top 4": {
-    "prefix": ".pt-4",
-    "body": "pt-4",
-    "description": ""
-  },
-  "Spacing padding top 5": {
-    "prefix": ".pt-5",
-    "body": "pt-5",
-    "description": ""
-  },
-  "Spacing padding top auto": {
-    "prefix": ".pt-auto",
-    "body": "pt-auto",
-    "description": ""
-  },
-  "Spacing padding bottom 0": {
-    "prefix": ".pb-0",
-    "body": "pb-0",
+    "prefix": ".page-",
+    "body": "page-${1|item,link|}",
     "description": ""
   },
-  "Spacing padding bottom 1": {
-    "prefix": ".pb-1",
-    "body": "pb-1",
+  "Progress": {
+    "prefix": ".progress-",
+    "body": "progress-${1|bar,bar-striped,bar-animated|}",
     "description": ""
   },
-  "Spacing padding bottom 2": {
-    "prefix": ".pb-2",
-    "body": "pb-2",
+  "Spinners": {
+    "prefix": ".spinner-",
+    "body": "spinner-${1|border,grow|}",
     "description": ""
   },
-  "Spacing padding bottom 3": {
-    "prefix": ".pb-3",
-    "body": "pb-3",
+  "Toast": {
+    "prefix": ".toast-",
+    "body": "toast-${1|header,body,container|}",
     "description": ""
   },
-  "Spacing padding bottom 4": {
-    "prefix": ".pb-4",
-    "body": "pb-4",
+  "row cols xs": {
+    "prefix": ".row-cols-xs-",
+    "body": "row-cols-xs-${1|auto,1,2,3,4,5,6|}",
     "description": ""
   },
-  "Spacing padding bottom 5": {
-    "prefix": ".pb-5",
-    "body": "pb-5",
+  "row cols sm": {
+    "prefix": ".row-cols-sm-",
+    "body": "row-cols-sm-${1|auto,1,2,3,4,5,6|}",
     "description": ""
   },
-  "Spacing padding bottom auto": {
-    "prefix": ".pb-auto",
-    "body": "pb-auto",
+  "row cols md": {
+    "prefix": ".row-cols-md-",
+    "body": "row-cols-md-${1|auto,1,2,3,4,5,6|}",
     "description": ""
   },
-  "Spacing padding left 0": {
-    "prefix": ".ps-0",
-    "body": "ps-0",
+  "row cols lg": {
+    "prefix": ".row-cols-lg-",
+    "body": "row-cols-lg-${1|auto,1,2,3,4,5,6|}",
     "description": ""
   },
-  "Spacing padding left 1": {
-    "prefix": ".ps-1",
-    "body": "ps-1",
+  "row cols xl": {
+    "prefix": ".row-cols-xl-",
+    "body": "row-cols-xl-${1|auto,1,2,3,4,5,6|}",
     "description": ""
   },
-  "Spacing padding left 2": {
-    "prefix": ".ps-2",
-    "body": "ps-2",
+  "row cols xxl": {
+    "prefix": ".row-cols-xxl-",
+    "body": "row-cols-xxl-${1|auto,1,2,3,4,5,6|}",
     "description": ""
   },
-  "Spacing padding left 3": {
-    "prefix": ".ps-3",
-    "body": "ps-3",
+  "col xs": {
+    "prefix": ".col-xs-",
+    "body": "col-xs-${1|1,2,3,4,5,6,7,8,9,10,11,auto|}",
     "description": ""
   },
-  "Spacing padding left 4": {
-    "prefix": ".ps-4",
-    "body": "ps-4",
+  "col sm": {
+    "prefix": ".col-sm-",
+    "body": "col-sm-${1|1,2,3,4,5,6,7,8,9,10,11,auto|}",
     "description": ""
   },
-  "Spacing padding left 5": {
-    "prefix": ".ps-5",
-    "body": "ps-5",
+  "col md": {
+    "prefix": ".col-md-",
+    "body": "col-md-${1|1,2,3,4,5,6,7,8,9,10,11,auto|}",
     "description": ""
   },
-  "Spacing padding left auto": {
-    "prefix": ".ps-auto",
-    "body": "ps-auto",
+  "col lg": {
+    "prefix": ".col-lg-",
+    "body": "col-lg-${1|1,2,3,4,5,6,7,8,9,10,11,auto|}",
     "description": ""
   },
-  "Spacing padding right 0": {
-    "prefix": ".pe-0",
-    "body": "pe-0",
+  "col xl": {
+    "prefix": ".col-xl-",
+    "body": "col-xl-${1|1,2,3,4,5,6,7,8,9,10,11,auto|}",
     "description": ""
   },
-  "Spacing padding right 1": {
-    "prefix": ".pe-1",
-    "body": "pe-1",
+  "col xxl": {
+    "prefix": ".col-xxl-",
+    "body": "col-xxl-${1|1,2,3,4,5,6,7,8,9,10,11,auto|}",
     "description": ""
   },
-  "Spacing padding right 2": {
-    "prefix": ".pe-2",
-    "body": "pe-2",
+  "offset xs": {
+    "prefix": ".offset-xs-",
+    "body": "offset-xs-${1|1,2,3,4,5,6,7,8,9,10,11|}",
     "description": ""
   },
-  "Spacing padding right 3": {
-    "prefix": ".pe-3",
-    "body": "pe-3",
+  "offset sm": {
+    "prefix": ".offset-sm-",
+    "body": "offset-sm-${1|1,2,3,4,5,6,7,8,9,10,11|}",
     "description": ""
   },
-  "Spacing padding right 4": {
-    "prefix": ".pe-4",
-    "body": "pe-4",
+  "offset md": {
+    "prefix": ".offset-md-",
+    "body": "offset-md-${1|1,2,3,4,5,6,7,8,9,10,11|}",
     "description": ""
   },
-  "Spacing padding right 5": {
-    "prefix": ".pe-5",
-    "body": "pe-5",
+  "offset lg": {
+    "prefix": ".offset-lg-",
+    "body": "offset-lg-${1|1,2,3,4,5,6,7,8,9,10,11|}",
     "description": ""
   },
-  "Spacing padding right auto": {
-    "prefix": ".pe-auto",
-    "body": "pe-auto",
+  "offset xl": {
+    "prefix": ".offset-xl-",
+    "body": "offset-xl-${1|1,2,3,4,5,6,7,8,9,10,11|}",
     "description": ""
   },
-  "Spacing padding left and right 0": {
-    "prefix": ".px-0",
-    "body": "px-0",
+  "offset xxl": {
+    "prefix": ".offset-xxl-",
+    "body": "offset-xxl-${1|1,2,3,4,5,6,7,8,9,10,11|}",
     "description": ""
   },
-  "Spacing padding left and right 1": {
-    "prefix": ".px-1",
-    "body": "px-1",
+  "Text align xs": {
+    "prefix": ".text-xs-",
+    "body": "text-xs-${1|start,center,end|}",
     "description": ""
   },
-  "Spacing padding left and right 2": {
-    "prefix": ".px-2",
-    "body": "px-2",
+  "Text align sm": {
+    "prefix": ".text-sm-",
+    "body": "text-sm-${1|start,center,end|}",
     "description": ""
   },
-  "Spacing padding left and right 3": {
-    "prefix": ".px-3",
-    "body": "px-3",
+  "Text align md": {
+    "prefix": ".text-md-",
+    "body": "text-md-${1|start,center,end|}",
     "description": ""
   },
-  "Spacing padding left and right 4": {
-    "prefix": ".px-4",
-    "body": "px-4",
+  "Text align lg": {
+    "prefix": ".text-lg-",
+    "body": "text-lg-${1|start,center,end|}",
     "description": ""
   },
-  "Spacing padding left and right 5": {
-    "prefix": ".px-5",
-    "body": "px-5",
+  "Text align xl": {
+    "prefix": ".text-xl-",
+    "body": "text-xl-${1|start,center,end|}",
     "description": ""
   },
-  "Spacing padding left and right auto": {
-    "prefix": ".px-auto",
-    "body": "px-auto",
+  "Text align xxl": {
+    "prefix": ".text-xxl-",
+    "body": "text-xxl-${1|start,center,end|}",
     "description": ""
   },
-  "Spacing padding top and bottom 0": {
-    "prefix": ".py-0",
-    "body": "py-0",
+  "Display xs": {
+    "prefix": ".d-xs-",
+    "body": "d-xs-${1|grid,table,table-row,table-cell,flex,block,inline,inline-block,inline-flex,none|}",
     "description": ""
   },
-  "Spacing padding top and bottom 1": {
-    "prefix": ".py-1",
-    "body": "py-1",
+  "Display sm": {
+    "prefix": ".d-sm-",
+    "body": "d-sm-${1|grid,table,table-row,table-cell,flex,block,inline,inline-block,inline-flex,none|}",
     "description": ""
   },
-  "Spacing padding top and bottom 2": {
-    "prefix": ".py-2",
-    "body": "py-2",
+  "Display md": {
+    "prefix": ".d-md-",
+    "body": "d-md-${1|grid,table,table-row,table-cell,flex,block,inline,inline-block,inline-flex,none|}",
     "description": ""
   },
-  "Spacing padding top and bottom 3": {
-    "prefix": ".py-3",
-    "body": "py-3",
+  "Display lg": {
+    "prefix": ".d-lg-",
+    "body": "d-lg-${1|grid,table,table-row,table-cell,flex,block,inline,inline-block,inline-flex,none|}",
     "description": ""
   },
-  "Spacing padding top and bottom 4": {
-    "prefix": ".py-4",
-    "body": "py-4",
+  "Display xl": {
+    "prefix": ".d-xl-",
+    "body": "d-xl-${1|grid,table,table-row,table-cell,flex,block,inline,inline-block,inline-flex,none|}",
     "description": ""
   },
-  "Spacing padding top and bottom 5": {
-    "prefix": ".py-5",
-    "body": "py-5",
+  "Display xxl": {
+    "prefix": ".d-xxl-",
+    "body": "d-xxl-${1|grid,table,table-row,table-cell,flex,block,inline,inline-block,inline-flex,none|}",
     "description": ""
   },
-  "Spacing padding top and bottom auto": {
-    "prefix": ".py-auto",
-    "body": "py-auto",
+  "Flex xs": {
+    "prefix": ".flex-xs-",
+    "body": "flex-xs-${1|row,column,fill,wrap,nowrap,row-reverse,column-reverse,wrap-reverse,grow-0,grow-1,shrink-0,shrink-1|}",
     "description": ""
   },
-  "Gap 0": {
-    "prefix": ".grp-0",
-    "body": "grp-0",
+  "Flex sm": {
+    "prefix": ".flex-sm-",
+    "body": "flex-sm-${1|row,column,fill,wrap,nowrap,row-reverse,column-reverse,wrap-reverse,grow-0,grow-1,shrink-0,shrink-1|}",
     "description": ""
   },
-  "Gap 1": {
-    "prefix": ".grp-1",
-    "body": "grp-1",
+  "Flex md": {
+    "prefix": ".flex-md-",
+    "body": "flex-md-${1|row,column,fill,wrap,nowrap,row-reverse,column-reverse,wrap-reverse,grow-0,grow-1,shrink-0,shrink-1|}",
     "description": ""
   },
-  "Gap 2": {
-    "prefix": ".grp-2",
-    "body": "grp-2",
+  "Flex lg": {
+    "prefix": ".flex-lg-",
+    "body": "flex-lg-${1|row,column,fill,wrap,nowrap,row-reverse,column-reverse,wrap-reverse,grow-0,grow-1,shrink-0,shrink-1|}",
     "description": ""
   },
-  "Gap 3": {
-    "prefix": ".grp-3",
-    "body": "grp-3",
+  "Flex xl": {
+    "prefix": ".flex-xl-",
+    "body": "flex-xl-${1|row,column,fill,wrap,nowrap,row-reverse,column-reverse,wrap-reverse,grow-0,grow-1,shrink-0,shrink-1|}",
     "description": ""
   },
-  "Gap 4": {
-    "prefix": ".grp-4",
-    "body": "grp-4",
+  "Flex xxl": {
+    "prefix": ".flex-xxl-",
+    "body": "flex-xxl-${1|row,column,fill,wrap,nowrap,row-reverse,column-reverse,wrap-reverse,grow-0,grow-1,shrink-0,shrink-1|}",
     "description": ""
   },
-  "Gap 5": {
-    "prefix": ".grp-5",
-    "body": "grp-5",
+  "main Axis Alignment xs": {
+    "prefix": ".justify-content-xs-",
+    "body": "justify-content-xs-${1|start,end,center,around,evenly,between|}",
     "description": ""
   },
-  "Gap auto": {
-    "prefix": ".grp-auto",
-    "body": "grp-auto",
+  "main Axis Alignment sm": {
+    "prefix": ".justify-content-sm-",
+    "body": "justify-content-sm-${1|start,end,center,around,evenly,between|}",
     "description": ""
   },
-  "Font size 1": {
-    "prefix": ".fs-1",
-    "body": "fs-1",
+  "main Axis Alignment md": {
+    "prefix": ".justify-content-md-",
+    "body": "justify-content-md-${1|start,end,center,around,evenly,between|}",
     "description": ""
   },
-  "Font size 2": {
-    "prefix": ".fs-2",
-    "body": "fs-2",
+  "main Axis Alignment lg": {
+    "prefix": ".justify-content-lg-",
+    "body": "justify-content-lg-${1|start,end,center,around,evenly,between|}",
     "description": ""
   },
-  "Font size 3": {
-    "prefix": ".fs-3",
-    "body": "fs-3",
+  "main Axis Alignment xl": {
+    "prefix": ".justify-content-xl-",
+    "body": "justify-content-xl-${1|start,end,center,around,evenly,between|}",
     "description": ""
   },
-  "Font size 4": {
-    "prefix": ".fs-4",
-    "body": "fs-4",
+  "main Axis Alignment xxl": {
+    "prefix": ".justify-content-xxl-",
+    "body": "justify-content-xxl-${1|start,end,center,around,evenly,between|}",
     "description": ""
   },
-  "Font size 5": {
-    "prefix": ".fs-5",
-    "body": "fs-5",
+  "cross Axis Alignment xs": {
+    "prefix": ".align-items-xs-",
+    "body": "align-items-xs-${1|start,end,center,baseline,stretch|}",
     "description": ""
   },
-  "Font size 6": {
-    "prefix": ".fs-6",
-    "body": "fs-6",
+  "cross Axis Alignment sm": {
+    "prefix": ".align-items-sm-",
+    "body": "align-items-sm-${1|start,end,center,baseline,stretch|}",
     "description": ""
   },
-  "Font weight bold": {
-    "prefix": ".fw-bold",
-    "body": "fw-bold",
+  "cross Axis Alignment md": {
+    "prefix": ".align-items-md-",
+    "body": "align-items-md-${1|start,end,center,baseline,stretch|}",
     "description": ""
   },
-  "Font weight bolder": {
-    "prefix": ".fw-bolder",
-    "body": "fw-bolder",
+  "cross Axis Alignment lg": {
+    "prefix": ".align-items-lg-",
+    "body": "align-items-lg-${1|start,end,center,baseline,stretch|}",
     "description": ""
   },
-  "Font weight normal": {
-    "prefix": ".fw-normal",
-    "body": "fw-normal",
+  "cross Axis Alignment xl": {
+    "prefix": ".align-items-xl-",
+    "body": "align-items-xl-${1|start,end,center,baseline,stretch|}",
     "description": ""
   },
-  "Font weight light": {
-    "prefix": ".fw-light",
-    "body": "fw-light",
+  "cross Axis Alignment xxl": {
+    "prefix": ".align-items-xxl-",
+    "body": "align-items-xxl-${1|start,end,center,baseline,stretch|}",
     "description": ""
   },
-  "Font weight lighter": {
-    "prefix": ".fw-lighter",
-    "body": "fw-lighter",
+  "Align content xs": {
+    "prefix": ".align-content-xs-",
+    "body": "align-content-xs-${1|start,end,center,around,stretch|}",
     "description": ""
   },
-  "Font style italic": {
-    "prefix": ".fst-italic",
-    "body": "fst-italic",
+  "Align content sm": {
+    "prefix": ".align-content-sm-",
+    "body": "align-content-sm-${1|start,end,center,around,stretch|}",
     "description": ""
   },
-  "Font style normal": {
-    "prefix": ".fst-normal",
-    "body": "fst-normal",
+  "Align content md": {
+    "prefix": ".align-content-md-",
+    "body": "align-content-md-${1|start,end,center,around,stretch|}",
     "description": ""
   },
-  "Line height l": {
-    "prefix": ".lh-l",
-    "body": "lh-l",
+  "Align content lg": {
+    "prefix": ".align-content-lg-",
+    "body": "align-content-lg-${1|start,end,center,around,stretch|}",
     "description": ""
   },
-  "Line height sm": {
-    "prefix": ".lh-sm",
-    "body": "lh-sm",
+  "Align content xl": {
+    "prefix": ".align-content-xl-",
+    "body": "align-content-xl-${1|start,end,center,around,stretch|}",
     "description": ""
   },
-  "Line height base": {
-    "prefix": ".lh-base",
-    "body": "lh-base",
+  "Align content xxl": {
+    "prefix": ".align-content-xxl-",
+    "body": "align-content-xxl-${1|start,end,center,around,stretch|}",
     "description": ""
   },
-  "Line height lg": {
-    "prefix": ".lh-lg",
-    "body": "lh-lg",
+  "Align self xs": {
+    "prefix": ".align-self-xs-",
+    "body": "align-self-xs-${1|start,end,center,baseline,stretch|}",
     "description": ""
   },
-  "Vertical alignment baseline": {
-    "prefix": ".align-baseline",
-    "body": "align-baseline",
+  "Align self sm": {
+    "prefix": ".align-self-sm-",
+    "body": "align-self-sm-${1|start,end,center,baseline,stretch|}",
     "description": ""
   },
-  "Vertical alignment top": {
-    "prefix": ".align-top",
-    "body": "align-top",
+  "Align self md": {
+    "prefix": ".align-self-md-",
+    "body": "align-self-md-${1|start,end,center,baseline,stretch|}",
     "description": ""
   },
-  "Vertical alignment middle": {
-    "prefix": ".align-middle",
-    "body": "align-middle",
+  "Align self lg": {
+    "prefix": ".align-self-lg-",
+    "body": "align-self-lg-${1|start,end,center,baseline,stretch|}",
     "description": ""
   },
-  "Vertical alignment bottom": {
-    "prefix": ".align-bottom",
-    "body": "align-bottom",
+  "Align self xl": {
+    "prefix": ".align-self-xl-",
+    "body": "align-self-xl-${1|start,end,center,baseline,stretch|}",
     "description": ""
   },
-  "Vertical alignment text-bottom": {
-    "prefix": ".align-text-bottom",
-    "body": "align-text-bottom",
+  "Align self xxl": {
+    "prefix": ".align-self-xxl-",
+    "body": "align-self-xxl-${1|start,end,center,baseline,stretch|}",
     "description": ""
   },
-  "Vertical alignment text-top": {
-    "prefix": ".align-text-top",
-    "body": "align-text-top",
+  "Change the visual order xs": {
+    "prefix": ".order-xs-",
+    "body": "order-xs-${1|0,1,2,3,4,5,first,last|}",
     "description": ""
   },
-  "Colored links primary": {
-    "prefix": ".link-primary",
-    "body": "link-primary",
+  "Change the visual order sm": {
+    "prefix": ".order-sm-",
+    "body": "order-sm-${1|0,1,2,3,4,5,first,last|}",
     "description": ""
   },
-  "Colored links secondary": {
-    "prefix": ".link-secondary",
-    "body": "link-secondary",
+  "Change the visual order md": {
+    "prefix": ".order-md-",
+    "body": "order-md-${1|0,1,2,3,4,5,first,last|}",
     "description": ""
   },
-  "Colored links success": {
-    "prefix": ".link-success",
-    "body": "link-success",
+  "Change the visual order lg": {
+    "prefix": ".order-lg-",
+    "body": "order-lg-${1|0,1,2,3,4,5,first,last|}",
     "description": ""
   },
-  "Colored links danger": {
-    "prefix": ".link-danger",
-    "body": "link-danger",
+  "Change the visual order xl": {
+    "prefix": ".order-xl-",
+    "body": "order-xl-${1|0,1,2,3,4,5,first,last|}",
     "description": ""
   },
-  "Colored links warning": {
-    "prefix": ".link-warning",
-    "body": "link-warning",
+  "Change the visual order xxl": {
+    "prefix": ".order-xxl-",
+    "body": "order-xxl-${1|0,1,2,3,4,5,first,last|}",
     "description": ""
   },
-  "Colored links info": {
-    "prefix": ".link-info",
-    "body": "link-info",
+  "Float xs": {
+    "prefix": ".float-xs-",
+    "body": "float-xs-${1|start,end,none|}",
     "description": ""
   },
-  "Colored links light": {
-    "prefix": ".link-light",
-    "body": "link-light",
+  "Float sm": {
+    "prefix": ".float-sm-",
+    "body": "float-sm-${1|start,end,none|}",
     "description": ""
   },
-  "Colored links dark": {
-    "prefix": ".link-dark",
-    "body": "link-dark",
+  "Float md": {
+    "prefix": ".float-md-",
+    "body": "float-md-${1|start,end,none|}",
     "description": ""
   },
-  "Colored links white": {
-    "prefix": ".link-white",
-    "body": "link-white",
+  "Float lg": {
+    "prefix": ".float-lg-",
+    "body": "float-lg-${1|start,end,none|}",
     "description": ""
   },
-  "Aspect ratios 1x1": {
-    "prefix": ".ratio-1x1",
-    "body": "ratio-1x1",
+  "Float xl": {
+    "prefix": ".float-xl-",
+    "body": "float-xl-${1|start,end,none|}",
     "description": ""
   },
-  "Aspect ratios 4x3": {
-    "prefix": ".ratio-4x3",
-    "body": "ratio-4x3",
+  "Float xxl": {
+    "prefix": ".float-xxl-",
+    "body": "float-xxl-${1|start,end,none|}",
     "description": ""
   },
-  "Aspect ratios 16x9": {
-    "prefix": ".ratio-16x9",
-    "body": "ratio-16x9",
+  "Pointer events xs": {
+    "prefix": ".pe-xs-",
+    "body": "pe-xs-${1|auto,none|}",
     "description": ""
   },
-  "Aspect ratios 21x9": {
-    "prefix": ".ratio-21x9",
-    "body": "ratio-21x9",
+  "Pointer events sm": {
+    "prefix": ".pe-sm-",
+    "body": "pe-sm-${1|auto,none|}",
     "description": ""
   },
-  "Position Fixed top": {
-    "prefix": ".fixed-top",
-    "body": "fixed-top",
+  "Pointer events md": {
+    "prefix": ".pe-md-",
+    "body": "pe-md-${1|auto,none|}",
     "description": ""
   },
-  "Position Fixed bottom": {
-    "prefix": ".fixed-bottom",
-    "body": "fixed-bottom",
+  "Pointer events lg": {
+    "prefix": ".pe-lg-",
+    "body": "pe-lg-${1|auto,none|}",
     "description": ""
   },
-  "Visually hidden hidden": {
-    "prefix": ".visually-hidden",
-    "body": "visually-hidden",
+  "Pointer events xl": {
+    "prefix": ".pe-xl-",
+    "body": "pe-xl-${1|auto,none|}",
     "description": ""
   },
-  "Visually hidden hidden-focusable": {
-    "prefix": ".visually-hidden-focusable",
-    "body": "visually-hidden-focusable",
+  "Pointer events xxl": {
+    "prefix": ".pe-xxl-",
+    "body": "pe-xxl-${1|auto,none|}",
     "description": ""
   },
-  "Display headings 1": {
-    "prefix": ".display-1",
-    "body": "display-1",
+  "Spacing margin xs": {
+    "prefix": ".m-xs-",
+    "body": "m-xs-${1|0,1,2,3,4,5,auto|}",
     "description": ""
   },
-  "Display headings 2": {
-    "prefix": ".display-2",
-    "body": "display-2",
+  "Spacing margin sm": {
+    "prefix": ".m-sm-",
+    "body": "m-sm-${1|0,1,2,3,4,5,auto|}",
     "description": ""
   },
-  "Display headings 3": {
-    "prefix": ".display-3",
-    "body": "display-3",
+  "Spacing margin md": {
+    "prefix": ".m-md-",
+    "body": "m-md-${1|0,1,2,3,4,5,auto|}",
     "description": ""
   },
-  "Display headings 4": {
-    "prefix": ".display-4",
-    "body": "display-4",
+  "Spacing margin lg": {
+    "prefix": ".m-lg-",
+    "body": "m-lg-${1|0,1,2,3,4,5,auto|}",
     "description": ""
   },
-  "Display headings 5": {
-    "prefix": ".display-5",
-    "body": "display-5",
+  "Spacing margin xl": {
+    "prefix": ".m-xl-",
+    "body": "m-xl-${1|0,1,2,3,4,5,auto|}",
     "description": ""
   },
-  "Display headings 6": {
-    "prefix": ".display-6",
-    "body": "display-6",
+  "Spacing margin xxl": {
+    "prefix": ".m-xxl-",
+    "body": "m-xxl-${1|0,1,2,3,4,5,auto|}",
     "description": ""
   },
-  "Lists inline": {
-    "prefix": ".list-inline",
-    "body": "list-inline",
+  "Spacing margin top xs": {
+    "prefix": ".mt-xs-",
+    "body": "mt-xs-${1|0,1,2,3,4,5,auto|}",
     "description": ""
   },
-  "Lists unstyled": {
-    "prefix": ".list-unstyled",
-    "body": "list-unstyled",
+  "Spacing margin top sm": {
+    "prefix": ".mt-sm-",
+    "body": "mt-sm-${1|0,1,2,3,4,5,auto|}",
     "description": ""
   },
-  "List group  flush": {
-    "prefix": ".list-group-flush",
-    "body": "list-group-flush",
+  "Spacing margin top md": {
+    "prefix": ".mt-md-",
+    "body": "mt-md-${1|0,1,2,3,4,5,auto|}",
     "description": ""
   },
-  "List group  item": {
-    "prefix": ".list-group-item",
-    "body": "list-group-item",
+  "Spacing margin top lg": {
+    "prefix": ".mt-lg-",
+    "body": "mt-lg-${1|0,1,2,3,4,5,auto|}",
     "description": ""
   },
-  "List group  item-action": {
-    "prefix": ".list-group-item-action",
-    "body": "list-group-item-action",
+  "Spacing margin top xl": {
+    "prefix": ".mt-xl-",
+    "body": "mt-xl-${1|0,1,2,3,4,5,auto|}",
     "description": ""
   },
-  "List group  horizontal": {
-    "prefix": ".list-group-horizontal",
-    "body": "list-group-horizontal",
+  "Spacing margin top xxl": {
+    "prefix": ".mt-xxl-",
+    "body": "mt-xxl-${1|0,1,2,3,4,5,auto|}",
     "description": ""
   },
-  "Images fluid": {
-    "prefix": ".img-fluid",
-    "body": "img-fluid",
+  "Spacing margin bottom xs": {
+    "prefix": ".mb-xs-",
+    "body": "mb-xs-${1|0,1,2,3,4,5,auto|}",
     "description": ""
   },
-  "Images thumbnail": {
-    "prefix": ".img-thumbnail",
-    "body": "img-thumbnail",
+  "Spacing margin bottom sm": {
+    "prefix": ".mb-sm-",
+    "body": "mb-sm-${1|0,1,2,3,4,5,auto|}",
     "description": ""
   },
-  "Table primary": {
-    "prefix": ".table-primary",
-    "body": "table-primary",
+  "Spacing margin bottom md": {
+    "prefix": ".mb-md-",
+    "body": "mb-md-${1|0,1,2,3,4,5,auto|}",
     "description": ""
   },
-  "Table secondary": {
-    "prefix": ".table-secondary",
-    "body": "table-secondary",
+  "Spacing margin bottom lg": {
+    "prefix": ".mb-lg-",
+    "body": "mb-lg-${1|0,1,2,3,4,5,auto|}",
     "description": ""
   },
-  "Table success": {
-    "prefix": ".table-success",
-    "body": "table-success",
+  "Spacing margin bottom xl": {
+    "prefix": ".mb-xl-",
+    "body": "mb-xl-${1|0,1,2,3,4,5,auto|}",
     "description": ""
   },
-  "Table danger": {
-    "prefix": ".table-danger",
-    "body": "table-danger",
+  "Spacing margin bottom xxl": {
+    "prefix": ".mb-xxl-",
+    "body": "mb-xxl-${1|0,1,2,3,4,5,auto|}",
     "description": ""
   },
-  "Table warning": {
-    "prefix": ".table-warning",
-    "body": "table-warning",
+  "Spacing margin left xs": {
+    "prefix": ".ms-xs-",
+    "body": "ms-xs-${1|0,1,2,3,4,5,auto|}",
     "description": ""
   },
-  "Table info": {
-    "prefix": ".table-info",
-    "body": "table-info",
+  "Spacing margin left sm": {
+    "prefix": ".ms-sm-",
+    "body": "ms-sm-${1|0,1,2,3,4,5,auto|}",
     "description": ""
   },
-  "Table light": {
-    "prefix": ".table-light",
-    "body": "table-light",
+  "Spacing margin left md": {
+    "prefix": ".ms-md-",
+    "body": "ms-md-${1|0,1,2,3,4,5,auto|}",
     "description": ""
   },
-  "Table dark": {
-    "prefix": ".table-dark",
-    "body": "table-dark",
+  "Spacing margin left lg": {
+    "prefix": ".ms-lg-",
+    "body": "ms-lg-${1|0,1,2,3,4,5,auto|}",
     "description": ""
   },
-  "Table white": {
-    "prefix": ".table-white",
-    "body": "table-white",
+  "Spacing margin left xl": {
+    "prefix": ".ms-xl-",
+    "body": "ms-xl-${1|0,1,2,3,4,5,auto|}",
     "description": ""
   },
-  "Table bordered": {
-    "prefix": ".table-bordered",
-    "body": "table-bordered",
+  "Spacing margin left xxl": {
+    "prefix": ".ms-xxl-",
+    "body": "ms-xxl-${1|0,1,2,3,4,5,auto|}",
     "description": ""
   },
-  "Table striped": {
-    "prefix": ".table-striped",
-    "body": "table-striped",
+  "Spacing margin right xs": {
+    "prefix": ".me-xs-",
+    "body": "me-xs-${1|0,1,2,3,4,5,auto|}",
     "description": ""
   },
-  "Table active": {
-    "prefix": ".table-active",
-    "body": "table-active",
+  "Spacing margin right sm": {
+    "prefix": ".me-sm-",
+    "body": "me-sm-${1|0,1,2,3,4,5,auto|}",
     "description": ""
   },
-  "Table hover": {
-    "prefix": ".table-hover",
-    "body": "table-hover",
+  "Spacing margin right md": {
+    "prefix": ".me-md-",
+    "body": "me-md-${1|0,1,2,3,4,5,auto|}",
     "description": ""
   },
-  "Table borderless": {
-    "prefix": ".table-borderless",
-    "body": "table-borderless",
+  "Spacing margin right lg": {
+    "prefix": ".me-lg-",
+    "body": "me-lg-${1|0,1,2,3,4,5,auto|}",
     "description": ""
   },
-  "Gutters x and y 0": {
-    "prefix": ".g-0",
-    "body": "g-0",
+  "Spacing margin right xl": {
+    "prefix": ".me-xl-",
+    "body": "me-xl-${1|0,1,2,3,4,5,auto|}",
     "description": ""
   },
-  "Gutters x and y 1": {
-    "prefix": ".g-1",
-    "body": "g-1",
+  "Spacing margin right xxl": {
+    "prefix": ".me-xxl-",
+    "body": "me-xxl-${1|0,1,2,3,4,5,auto|}",
     "description": ""
   },
-  "Gutters x and y 2": {
-    "prefix": ".g-2",
-    "body": "g-2",
+  "Spacing margin left and right xs": {
+    "prefix": ".mx-xs-",
+    "body": "mx-xs-${1|0,1,2,3,4,5,auto|}",
     "description": ""
   },
-  "Gutters x and y 3": {
-    "prefix": ".g-3",
-    "body": "g-3",
+  "Spacing margin left and right sm": {
+    "prefix": ".mx-sm-",
+    "body": "mx-sm-${1|0,1,2,3,4,5,auto|}",
     "description": ""
   },
-  "Gutters x and y 4": {
-    "prefix": ".g-4",
-    "body": "g-4",
+  "Spacing margin left and right md": {
+    "prefix": ".mx-md-",
+    "body": "mx-md-${1|0,1,2,3,4,5,auto|}",
     "description": ""
   },
-  "Gutters x and y 5": {
-    "prefix": ".g-5",
-    "body": "g-5",
+  "Spacing margin left and right lg": {
+    "prefix": ".mx-lg-",
+    "body": "mx-lg-${1|0,1,2,3,4,5,auto|}",
     "description": ""
   },
-  "Gutters x 0": {
-    "prefix": ".gx-0",
-    "body": "gx-0",
+  "Spacing margin left and right xl": {
+    "prefix": ".mx-xl-",
+    "body": "mx-xl-${1|0,1,2,3,4,5,auto|}",
     "description": ""
   },
-  "Gutters x 1": {
-    "prefix": ".gx-1",
-    "body": "gx-1",
+  "Spacing margin left and right xxl": {
+    "prefix": ".mx-xxl-",
+    "body": "mx-xxl-${1|0,1,2,3,4,5,auto|}",
     "description": ""
   },
-  "Gutters x 2": {
-    "prefix": ".gx-2",
-    "body": "gx-2",
+  "Spacing margin top and bottom xs": {
+    "prefix": ".my-xs-",
+    "body": "my-xs-${1|0,1,2,3,4,5,auto|}",
     "description": ""
   },
-  "Gutters x 3": {
-    "prefix": ".gx-3",
-    "body": "gx-3",
+  "Spacing margin top and bottom sm": {
+    "prefix": ".my-sm-",
+    "body": "my-sm-${1|0,1,2,3,4,5,auto|}",
     "description": ""
   },
-  "Gutters x 4": {
-    "prefix": ".gx-4",
-    "body": "gx-4",
+  "Spacing margin top and bottom md": {
+    "prefix": ".my-md-",
+    "body": "my-md-${1|0,1,2,3,4,5,auto|}",
     "description": ""
   },
-  "Gutters x 5": {
-    "prefix": ".gx-5",
-    "body": "gx-5",
+  "Spacing margin top and bottom lg": {
+    "prefix": ".my-lg-",
+    "body": "my-lg-${1|0,1,2,3,4,5,auto|}",
     "description": ""
   },
-  "Gutters y 0": {
-    "prefix": ".gy-0",
-    "body": "gy-0",
+  "Spacing margin top and bottom xl": {
+    "prefix": ".my-xl-",
+    "body": "my-xl-${1|0,1,2,3,4,5,auto|}",
     "description": ""
   },
-  "Gutters y 1": {
-    "prefix": ".gy-1",
-    "body": "gy-1",
+  "Spacing margin top and bottom xxl": {
+    "prefix": ".my-xxl-",
+    "body": "my-xxl-${1|0,1,2,3,4,5,auto|}",
     "description": ""
   },
-  "Gutters y 2": {
-    "prefix": ".gy-2",
-    "body": "gy-2",
+  "Spacing padding xs": {
+    "prefix": ".p-xs-",
+    "body": "p-xs-${1|0,1,2,3,4,5,auto|}",
     "description": ""
   },
-  "Gutters y 3": {
-    "prefix": ".gy-3",
-    "body": "gy-3",
+  "Spacing padding sm": {
+    "prefix": ".p-sm-",
+    "body": "p-sm-${1|0,1,2,3,4,5,auto|}",
     "description": ""
   },
-  "Gutters y 4": {
-    "prefix": ".gy-4",
-    "body": "gy-4",
+  "Spacing padding md": {
+    "prefix": ".p-md-",
+    "body": "p-md-${1|0,1,2,3,4,5,auto|}",
     "description": ""
   },
-  "Gutters y 5": {
-    "prefix": ".gy-5",
-    "body": "gy-5",
+  "Spacing padding lg": {
+    "prefix": ".p-lg-",
+    "body": "p-lg-${1|0,1,2,3,4,5,auto|}",
     "description": ""
   },
-  "Button primary": {
-    "prefix": ".btn-primary",
-    "body": "btn-primary",
+  "Spacing padding xl": {
+    "prefix": ".p-xl-",
+    "body": "p-xl-${1|0,1,2,3,4,5,auto|}",
     "description": ""
   },
-  "Button secondary": {
-    "prefix": ".btn-secondary",
-    "body": "btn-secondary",
+  "Spacing padding xxl": {
+    "prefix": ".p-xxl-",
+    "body": "p-xxl-${1|0,1,2,3,4,5,auto|}",
     "description": ""
   },
-  "Button success": {
-    "prefix": ".btn-success",
-    "body": "btn-success",
+  "Spacing padding top xs": {
+    "prefix": ".pt-xs-",
+    "body": "pt-xs-${1|0,1,2,3,4,5,auto|}",
     "description": ""
   },
-  "Button danger": {
-    "prefix": ".btn-danger",
-    "body": "btn-danger",
+  "Spacing padding top sm": {
+    "prefix": ".pt-sm-",
+    "body": "pt-sm-${1|0,1,2,3,4,5,auto|}",
     "description": ""
   },
-  "Button warning": {
-    "prefix": ".btn-warning",
-    "body": "btn-warning",
+  "Spacing padding top md": {
+    "prefix": ".pt-md-",
+    "body": "pt-md-${1|0,1,2,3,4,5,auto|}",
     "description": ""
   },
-  "Button info": {
-    "prefix": ".btn-info",
-    "body": "btn-info",
+  "Spacing padding top lg": {
+    "prefix": ".pt-lg-",
+    "body": "pt-lg-${1|0,1,2,3,4,5,auto|}",
     "description": ""
   },
-  "Button light": {
-    "prefix": ".btn-light",
-    "body": "btn-light",
+  "Spacing padding top xl": {
+    "prefix": ".pt-xl-",
+    "body": "pt-xl-${1|0,1,2,3,4,5,auto|}",
     "description": ""
   },
-  "Button dark": {
-    "prefix": ".btn-dark",
-    "body": "btn-dark",
+  "Spacing padding top xxl": {
+    "prefix": ".pt-xxl-",
+    "body": "pt-xxl-${1|0,1,2,3,4,5,auto|}",
     "description": ""
   },
-  "Button white": {
-    "prefix": ".btn-white",
-    "body": "btn-white",
+  "Spacing padding bottom xs": {
+    "prefix": ".pb-xs-",
+    "body": "pb-xs-${1|0,1,2,3,4,5,auto|}",
     "description": ""
   },
-  "Button close": {
-    "prefix": ".btn-close",
-    "body": "btn-close",
+  "Spacing padding bottom sm": {
+    "prefix": ".pb-sm-",
+    "body": "pb-sm-${1|0,1,2,3,4,5,auto|}",
     "description": ""
   },
-  "Button close-white": {
-    "prefix": ".btn-close-white",
-    "body": "btn-close-white",
+  "Spacing padding bottom md": {
+    "prefix": ".pb-md-",
+    "body": "pb-md-${1|0,1,2,3,4,5,auto|}",
     "description": ""
   },
-  "Button group": {
-    "prefix": ".btn-group",
-    "body": "btn-group",
+  "Spacing padding bottom lg": {
+    "prefix": ".pb-lg-",
+    "body": "pb-lg-${1|0,1,2,3,4,5,auto|}",
     "description": ""
   },
-  "Button lg": {
-    "prefix": ".btn-lg",
-    "body": "btn-lg",
+  "Spacing padding bottom xl": {
+    "prefix": ".pb-xl-",
+    "body": "pb-xl-${1|0,1,2,3,4,5,auto|}",
     "description": ""
   },
-  "Button sm": {
-    "prefix": ".btn-sm",
-    "body": "btn-sm",
+  "Spacing padding bottom xxl": {
+    "prefix": ".pb-xxl-",
+    "body": "pb-xxl-${1|0,1,2,3,4,5,auto|}",
     "description": ""
   },
-  "Button check": {
-    "prefix": ".btn-check",
-    "body": "btn-check",
+  "Spacing padding left xs": {
+    "prefix": ".ps-xs-",
+    "body": "ps-xs-${1|0,1,2,3,4,5,auto|}",
     "description": ""
   },
-  "Button toolbar": {
-    "prefix": ".btn-toolbar",
-    "body": "btn-toolbar",
+  "Spacing padding left sm": {
+    "prefix": ".ps-sm-",
+    "body": "ps-sm-${1|0,1,2,3,4,5,auto|}",
     "description": ""
   },
-  "Button group-vertical": {
-    "prefix": ".btn-group-vertical",
-    "body": "btn-group-vertical",
+  "Spacing padding left md": {
+    "prefix": ".ps-md-",
+    "body": "ps-md-${1|0,1,2,3,4,5,auto|}",
     "description": ""
   },
-  "Outline button primary": {
-    "prefix": ".btn-outline-primary",
-    "body": "btn-outline-primary",
+  "Spacing padding left lg": {
+    "prefix": ".ps-lg-",
+    "body": "ps-lg-${1|0,1,2,3,4,5,auto|}",
     "description": ""
   },
-  "Outline button secondary": {
-    "prefix": ".btn-outline-secondary",
-    "body": "btn-outline-secondary",
+  "Spacing padding left xl": {
+    "prefix": ".ps-xl-",
+    "body": "ps-xl-${1|0,1,2,3,4,5,auto|}",
     "description": ""
   },
-  "Outline button success": {
-    "prefix": ".btn-outline-success",
-    "body": "btn-outline-success",
+  "Spacing padding left xxl": {
+    "prefix": ".ps-xxl-",
+    "body": "ps-xxl-${1|0,1,2,3,4,5,auto|}",
     "description": ""
   },
-  "Outline button danger": {
-    "prefix": ".btn-outline-danger",
-    "body": "btn-outline-danger",
+  "Spacing padding right xs": {
+    "prefix": ".pe-xs-",
+    "body": "pe-xs-${1|0,1,2,3,4,5,auto|}",
     "description": ""
   },
-  "Outline button warning": {
-    "prefix": ".btn-outline-warning",
-    "body": "btn-outline-warning",
+  "Spacing padding right sm": {
+    "prefix": ".pe-sm-",
+    "body": "pe-sm-${1|0,1,2,3,4,5,auto|}",
     "description": ""
   },
-  "Outline button info": {
-    "prefix": ".btn-outline-info",
-    "body": "btn-outline-info",
+  "Spacing padding right md": {
+    "prefix": ".pe-md-",
+    "body": "pe-md-${1|0,1,2,3,4,5,auto|}",
     "description": ""
   },
-  "Outline button light": {
-    "prefix": ".btn-outline-light",
-    "body": "btn-outline-light",
+  "Spacing padding right lg": {
+    "prefix": ".pe-lg-",
+    "body": "pe-lg-${1|0,1,2,3,4,5,auto|}",
     "description": ""
   },
-  "Outline button dark": {
-    "prefix": ".btn-outline-dark",
-    "body": "btn-outline-dark",
+  "Spacing padding right xl": {
+    "prefix": ".pe-xl-",
+    "body": "pe-xl-${1|0,1,2,3,4,5,auto|}",
     "description": ""
   },
-  "Outline button white": {
-    "prefix": ".btn-outline-white",
-    "body": "btn-outline-white",
+  "Spacing padding right xxl": {
+    "prefix": ".pe-xxl-",
+    "body": "pe-xxl-${1|0,1,2,3,4,5,auto|}",
     "description": ""
   },
-  "gap 0": {
-    "prefix": ".gap-0",
-    "body": "gap-0",
+  "Spacing padding left and right xs": {
+    "prefix": ".px-xs-",
+    "body": "px-xs-${1|0,1,2,3,4,5,auto|}",
     "description": ""
   },
-  "gap 1": {
-    "prefix": ".gap-1",
-    "body": "gap-1",
+  "Spacing padding left and right sm": {
+    "prefix": ".px-sm-",
+    "body": "px-sm-${1|0,1,2,3,4,5,auto|}",
     "description": ""
   },
-  "gap 2": {
-    "prefix": ".gap-2",
-    "body": "gap-2",
+  "Spacing padding left and right md": {
+    "prefix": ".px-md-",
+    "body": "px-md-${1|0,1,2,3,4,5,auto|}",
     "description": ""
   },
-  "gap 3": {
-    "prefix": ".gap-3",
-    "body": "gap-3",
+  "Spacing padding left and right lg": {
+    "prefix": ".px-lg-",
+    "body": "px-lg-${1|0,1,2,3,4,5,auto|}",
     "description": ""
   },
-  "gap 4": {
-    "prefix": ".gap-4",
-    "body": "gap-4",
+  "Spacing padding left and right xl": {
+    "prefix": ".px-xl-",
+    "body": "px-xl-${1|0,1,2,3,4,5,auto|}",
     "description": ""
   },
-  "gap 5": {
-    "prefix": ".gap-5",
-    "body": "gap-5",
+  "Spacing padding left and right xxl": {
+    "prefix": ".px-xxl-",
+    "body": "px-xxl-${1|0,1,2,3,4,5,auto|}",
     "description": ""
   },
-  "alert primary": {
-    "prefix": ".alert-primary",
-    "body": "alert alert-primary",
+  "Spacing padding top and bottom xs": {
+    "prefix": ".py-xs-",
+    "body": "py-xs-${1|0,1,2,3,4,5,auto|}",
     "description": ""
   },
-  "alert secondary": {
-    "prefix": ".alert-secondary",
-    "body": "alert alert-secondary",
+  "Spacing padding top and bottom sm": {
+    "prefix": ".py-sm-",
+    "body": "py-sm-${1|0,1,2,3,4,5,auto|}",
     "description": ""
   },
-  "alert success": {
-    "prefix": ".alert-success",
-    "body": "alert alert-success",
+  "Spacing padding top and bottom md": {
+    "prefix": ".py-md-",
+    "body": "py-md-${1|0,1,2,3,4,5,auto|}",
     "description": ""
   },
-  "alert danger": {
-    "prefix": ".alert-danger",
-    "body": "alert alert-danger",
+  "Spacing padding top and bottom lg": {
+    "prefix": ".py-lg-",
+    "body": "py-lg-${1|0,1,2,3,4,5,auto|}",
     "description": ""
   },
-  "alert warning": {
-    "prefix": ".alert-warning",
-    "body": "alert alert-warning",
+  "Spacing padding top and bottom xl": {
+    "prefix": ".py-xl-",
+    "body": "py-xl-${1|0,1,2,3,4,5,auto|}",
     "description": ""
   },
-  "alert info": {
-    "prefix": ".alert-info",
-    "body": "alert alert-info",
+  "Spacing padding top and bottom xxl": {
+    "prefix": ".py-xxl-",
+    "body": "py-xxl-${1|0,1,2,3,4,5,auto|}",
     "description": ""
   },
-  "alert light": {
-    "prefix": ".alert-light",
-    "body": "alert alert-light",
+  "Font size xs": {
+    "prefix": ".fs-xs-",
+    "body": "fs-xs-${1|1,2,3,4|}",
     "description": ""
   },
-  "alert dark": {
-    "prefix": ".alert-dark",
-    "body": "alert alert-dark",
+  "Font size sm": {
+    "prefix": ".fs-sm-",
+    "body": "fs-sm-${1|1,2,3,4|}",
     "description": ""
   },
-  "alert white": {
-    "prefix": ".alert-white",
-    "body": "alert alert-white",
+  "Font size md": {
+    "prefix": ".fs-md-",
+    "body": "fs-md-${1|1,2,3,4|}",
     "description": ""
   },
-  "alert heading": {
-    "prefix": ".alert-heading",
-    "body": "alert alert-heading",
+  "Font size lg": {
+    "prefix": ".fs-lg-",
+    "body": "fs-lg-${1|1,2,3,4|}",
     "description": ""
   },
-  "alert link": {
-    "prefix": ".alert-link",
-    "body": "alert alert-link",
+  "Font size xl": {
+    "prefix": ".fs-xl-",
+    "body": "fs-xl-${1|1,2,3,4|}",
     "description": ""
   },
-  "alert dismissible": {
-    "prefix": ".alert-dismissible",
-    "body": "alert alert-dismissible",
+  "Font size xxl": {
+    "prefix": ".fs-xxl-",
+    "body": "fs-xxl-${1|1,2,3,4|}",
     "description": ""
   },
-  "accordion accordion": {
-    "prefix": ".accordion-accordion",
-    "body": "accordion-accordion",
+  "Position Sticky xs": {
+    "prefix": ".sticky-xs-top",
+    "body": "sticky-xs-top",
     "description": ""
   },
-  "accordion flush": {
-    "prefix": ".accordion-flush",
-    "body": "accordion-flush",
+  "Position Sticky sm": {
+    "prefix": ".sticky-sm-top",
+    "body": "sticky-sm-top",
     "description": ""
   },
-  "accordion item": {
-    "prefix": ".accordion-item",
-    "body": "accordion-item",
+  "Position Sticky md": {
+    "prefix": ".sticky-md-top",
+    "body": "sticky-md-top",
     "description": ""
   },
-  "accordion header": {
-    "prefix": ".accordion-header",
-    "body": "accordion-header",
+  "Position Sticky lg": {
+    "prefix": ".sticky-lg-top",
+    "body": "sticky-lg-top",
     "description": ""
   },
-  "accordion body": {
-    "prefix": ".accordion-body",
-    "body": "accordion-body",
+  "Position Sticky xl": {
+    "prefix": ".sticky-xl-top",
+    "body": "sticky-xl-top",
     "description": ""
   },
-  "accordion collapse": {
-    "prefix": ".accordion-collapse",
-    "body": "accordion-collapse",
+  "Position Sticky xxl": {
+    "prefix": ".sticky-xxl-top",
+    "body": "sticky-xxl-top",
     "description": ""
   },
-  "breadcrumb breadcrumb": {
-    "prefix": ".breadcrumb-breadcrumb",
-    "body": "breadcrumb-breadcrumb",
+  "Gutters x and y xs": {
+    "prefix": ".g-xs-",
+    "body": "g-xs-${1|0,1,2,3,4,5|}",
     "description": ""
   },
-  "breadcrumb item": {
-    "prefix": ".breadcrumb-item",
-    "body": "breadcrumb-item",
+  "Gutters x and y sm": {
+    "prefix": ".g-sm-",
+    "body": "g-sm-${1|0,1,2,3,4,5|}",
     "description": ""
   },
-  "card body": {
-    "prefix": ".card-body",
-    "body": "card-body",
+  "Gutters x and y md": {
+    "prefix": ".g-md-",
+    "body": "g-md-${1|0,1,2,3,4,5|}",
     "description": ""
   },
-  "card title": {
-    "prefix": ".card-title",
-    "body": "card-title",
+  "Gutters x and y lg": {
+    "prefix": ".g-lg-",
+    "body": "g-lg-${1|0,1,2,3,4,5|}",
     "description": ""
   },
-  "card subtitle": {
-    "prefix": ".card-subtitle",
-    "body": "card-subtitle",
+  "Gutters x and y xl": {
+    "prefix": ".g-xl-",
+    "body": "g-xl-${1|0,1,2,3,4,5|}",
     "description": ""
   },
-  "card text": {
-    "prefix": ".card-text",
-    "body": "card-text",
+  "Gutters x and y xxl": {
+    "prefix": ".g-xxl-",
+    "body": "g-xxl-${1|0,1,2,3,4,5|}",
     "description": ""
   },
-  "card link": {
-    "prefix": ".card-link",
-    "body": "card-link",
+  "Gutters x xs": {
+    "prefix": ".gx-xs-",
+    "body": "gx-xs-${1|0,1,2,3,4,5|}",
     "description": ""
   },
-  "card img-top": {
-    "prefix": ".card-img-top",
-    "body": "card-img-top",
+  "Gutters x sm": {
+    "prefix": ".gx-sm-",
+    "body": "gx-sm-${1|0,1,2,3,4,5|}",
     "description": ""
   },
-  "Dropdowns menu": {
-    "prefix": ".dropdown-menu",
-    "body": "dropdown-menu",
+  "Gutters x md": {
+    "prefix": ".gx-md-",
+    "body": "gx-md-${1|0,1,2,3,4,5|}",
     "description": ""
   },
-  "Dropdowns menu-end": {
-    "prefix": ".dropdown-menu-end",
-    "body": "dropdown-menu-end",
+  "Gutters x lg": {
+    "prefix": ".gx-lg-",
+    "body": "gx-lg-${1|0,1,2,3,4,5|}",
     "description": ""
   },
-  "Dropdowns menu-dark": {
-    "prefix": ".dropdown-menu-dark",
-    "body": "dropdown-menu-dark",
+  "Gutters x xl": {
+    "prefix": ".gx-xl-",
+    "body": "gx-xl-${1|0,1,2,3,4,5|}",
     "description": ""
   },
-  "Dropdowns header": {
-    "prefix": ".dropdown-header",
-    "body": "dropdown-header",
+  "Gutters x xxl": {
+    "prefix": ".gx-xxl-",
+    "body": "gx-xxl-${1|0,1,2,3,4,5|}",
     "description": ""
   },
-  "Dropdowns item": {
-    "prefix": ".dropdown-item",
-    "body": "dropdown-item",
+  "Gutters y xs": {
+    "prefix": ".gy-xs-",
+    "body": "gy-xs-${1|0,1,2,3,4,5|}",
     "description": ""
   },
-  "Dropdowns toggle": {
-    "prefix": ".dropdown-toggle",
-    "body": "dropdown-toggle",
+  "Gutters y sm": {
+    "prefix": ".gy-sm-",
+    "body": "gy-sm-${1|0,1,2,3,4,5|}",
     "description": ""
   },
-  "Dropdowns toggle-split": {
-    "prefix": ".dropdown-toggle-split",
-    "body": "dropdown-toggle-split",
+  "Gutters y md": {
+    "prefix": ".gy-md-",
+    "body": "gy-md-${1|0,1,2,3,4,5|}",
     "description": ""
   },
-  "Dropdowns divider": {
-    "prefix": ".dropdown-divider",
-    "body": "dropdown-divider",
+  "Gutters y lg": {
+    "prefix": ".gy-lg-",
+    "body": "gy-lg-${1|0,1,2,3,4,5|}",
     "description": ""
   },
-  "Progress bar": {
-    "prefix": ".progress-bar",
-    "body": "progress-bar",
+  "Gutters y xl": {
+    "prefix": ".gy-xl-",
+    "body": "gy-xl-${1|0,1,2,3,4,5|}",
     "description": ""
   },
-  "Progress bar-striped": {
-    "prefix": ".progress-bar-striped",
-    "body": "progress-bar-striped",
+  "Gutters y xxl": {
+    "prefix": ".gy-xxl-",
+    "body": "gy-xxl-${1|0,1,2,3,4,5|}",
     "description": ""
   },
-  "Progress bar-animated": {
-    "prefix": ".progress-bar-animated",
-    "body": "progress-bar-animated",
+  "gap xs": {
+    "prefix": ".gap-xs-",
+    "body": "gap-xs-${1|0,1,2,3,4,5|}",
     "description": ""
   },
-  "Spinners border": {
-    "prefix": ".spinner-border",
-    "body": "spinner-border",
+  "gap sm": {
+    "prefix": ".gap-sm-",
+    "body": "gap-sm-${1|0,1,2,3,4,5|}",
     "description": ""
   },
-  "Spinners grow": {
-    "prefix": ".spinner-grow",
-    "body": "spinner-grow",
+  "gap md": {
+    "prefix": ".gap-md-",
+    "body": "gap-md-${1|0,1,2,3,4,5|}",
     "description": ""
   },
-  "Toast header": {
-    "prefix": ".toast-header",
-    "body": "toast-header",
+  "gap lg": {
+    "prefix": ".gap-lg-",
+    "body": "gap-lg-${1|0,1,2,3,4,5|}",
     "description": ""
   },
-  "Toast body": {
-    "prefix": ".toast-body",
-    "body": "toast-body",
+  "gap xl": {
+    "prefix": ".gap-xl-",
+    "body": "gap-xl-${1|0,1,2,3,4,5|}",
     "description": ""
   },
-  "Toast container": {
-    "prefix": ".toast-container",
-    "body": "toast-container",
+  "gap xxl": {
+    "prefix": ".gap-xxl-",
+    "body": "gap-xxl-${1|0,1,2,3,4,5|}",
     "description": ""
   }
 }

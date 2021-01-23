@@ -1,8 +1,24 @@
+const { R_OK } = require("constants");
 const fs = require("fs");
 
 const json = require("./bs5/class.json");
 
-const themes = [
+const colors = [
+  "primary",
+  "secondary",
+  "success",
+  "danger",
+  "warning",
+  "info",
+  "light",
+  "dark",
+  "body",
+  "muted",
+  "white",
+  "black-50",
+  "white-50",
+];
+const bg = [
   "primary",
   "secondary",
   "success",
@@ -12,66 +28,88 @@ const themes = [
   "light",
   "dark",
   "white",
+  "transparent",
 ];
-const colors = "<color>";
+const btnColor = [
+  "primary",
+  "secondary",
+  "success",
+  "danger",
+  "warning",
+  "info",
+  "light",
+  "dark"
+];
+const breakpoint = ["xs", "sm", "md", "lg", "xl", "xxl"];
+const bgToken = "<bg>";
+const colorToken = "<color>";
+const btnColorToken = "<btnColor>";
 const exp = /\${\d:[a-zA-Z\d-]+}/;
 
-const keys = Object.keys(json);
+let keys = Object.keys(json);
 for (const k of keys) {
   let v = json[k];
+  const optiosn = [];
 
   if (v.description?.includes("|")) {
     const item = v.description.split("|");
     for (const $_ of item) {
-      if ($_ === colors) {
-        themes.forEach((color) => {
-          json[`${k} ${color}`] = {
-            prefix: v.prefix + color,
-            body: v.body.replace(exp, color),
-            description: "",
-          };
-        });
+      if ($_ === colorToken) {
+        optiosn.push(...colors);
+      } else if ($_ === btnColorToken) {
+        optiosn.push(...btnColor);
+      } else if ($_ === bgToken) {
+        optiosn.push(...bg);
       } else if (/\d+~\d+/.test($_)) {
         let [i, end] = $_.split("~");
         i = parseInt(i);
         end = parseInt(end);
-        for (; i <= end; i++) {
-          json[`${k} ${i}`] = {
-            prefix: v.prefix + i,
-            body: v.body.replace(exp, i),
-            description: "",
-          };
-        }
+        for (; i <= end; i++) optiosn.push(i);
       } else {
-        json[`${k} ${$_}`] = {
-          prefix: v.prefix + $_,
-          body: v.body.replace(exp, $_),
-          description: "",
-        };
+        optiosn.push($_);
       }
-      delete json[k];
     }
-  }
-
-  if (/\d+~\d+/.test(v.description)) {
+  } else if (/\d+~\d+/.test(v.description)) {
     let [i, end] = v.description.split("~");
     i = parseInt(i);
     end = parseInt(end);
-    for (; i <= end; i++) {
-      json[`${k} ${i}`] = {
-        prefix: v.prefix + i,
-        body: v.body.replace(exp, i),
-        description: "",
-      };
-    }
-    delete json[k];
+    for (; i <= end; i++) optiosn.push(i);
+  } else if (v.description === colorToken) {
+    optiosn.push(...colors);
+  } else if (v.description === bgToken) {
+    optiosn.push(...bg);
+  } else if (v.description === btnColorToken) {
+    optiosn.push(...btnColor);
   }
 
-  if (v.description === colors) {
-    themes.forEach((color) => {
-      json[`${k} ${color}`] = {
-        prefix: v.prefix + color,
-        body: v.body.replace(exp, color),
+  if (optiosn.length) {
+    v.body = v.body.replace(exp, `\${1|${optiosn}|}`);
+    v.description = "";
+  }
+
+  //  添加 breakpoint
+  if (/<breakpoint>/.test(v.prefix)) {
+    breakpoint.forEach((b) => {
+      json[`${k} ${b}`] = {
+        prefix: v.prefix.replace(/<breakpoint>/gi, b),
+        body: v.body.replace(/<breakpoint>/gi, b),
+        description: "",
+      };
+    });
+    v.prefix = v.prefix.replace(/-<breakpoint>/gi, "");
+    v.body = v.body.replace(/-<breakpoint>/gi, "");
+  }
+}
+keys = Object.keys(json);
+
+// breakpoint
+for (const k of keys) {
+  let v = json[k];
+  if (/<breakpoint>/.test(v.prefix)) {
+    breakpoint.forEach((b) => {
+      json[`${k} ${b}`] = {
+        prefix: v.prefix.replace(/<breakpoint>/gi, b),
+        body: v.body.replace(/<breakpoint>/gi, b),
         description: "",
       };
     });
@@ -79,4 +117,4 @@ for (const k of keys) {
   }
 }
 
-fs.writeFileSync("./bs5/class-out.json", JSON.stringify(json));
+fs.writeFileSync("./bs5/class-out.json", JSON.stringify(json, null, "  "));
