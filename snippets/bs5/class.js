@@ -1,7 +1,7 @@
-const { R_OK } = require("constants");
 const fs = require("fs");
 
-const json = require("./bs5/class.json");
+const json = require("./class.json");
+const outpath = "./class-out.json";
 
 const colors = [
   "primary",
@@ -38,7 +38,7 @@ const btnColor = [
   "warning",
   "info",
   "light",
-  "dark"
+  "dark",
 ];
 const breakpoint = ["xs", "sm", "md", "lg", "xl", "xxl"];
 const bgToken = "<bg>";
@@ -117,4 +117,4 @@ for (const k of keys) {
   }
 }
 
-fs.writeFileSync("./bs5/class-out.json", JSON.stringify(json, null, "  "));
+fs.writeFileSync(outpath, JSON.stringify(json, null, "  "));

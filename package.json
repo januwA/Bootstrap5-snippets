@@ -2,7 +2,7 @@
 	"name": "bs5",
 	"displayName": "Bootstrap5",
 	"description": "Bootstrap5 snippets",
-	"version": "0.3.1",
+	"version": "0.5.0",
 	"author": "Ajanuw",
 	"icon": "logo/bootstrap-logo.png",
 	"publisher": "ajanuw",
@@ -30,7 +30,7 @@
 		"snippets": [
 			{
 				"language": "html",
-				"path": "./snippets/bs5/snippets.json"
+				"path": "./snippets/bs5/components.json"
 			},
 			{
 				"language": "html",
@@ -41,12 +41,17 @@
 				"path": "./snippets/bs5/examples-out.json"
 			},
 			{
+				"language": "html",
+				"path": "./snippets/FontAwesome/icons-out.json"
+			},
+			{
 				"language": "scss",
 				"path": "./snippets/bs5/scss.json"
 			}
 		]
 	},
 	"scripts": {
+		"publish": "vsce publish",
 		"vscode:prepublish": "npm run compile",
 		"compile": "tsc -p ./",
 		"watch": "tsc -watch -p ./",

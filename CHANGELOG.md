@@ -1,3 +1,12 @@
+## 0.5.0 2021/1/23
+
+- update "b5-customize"
+- add "Font Awesome 5.15.2"
+
+## 0.4.0 2021/1/23
+
+- add breakpoints
+
 ## 0.3.1 2021/1/23
 
 - update readme

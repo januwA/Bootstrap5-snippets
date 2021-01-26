@@ -3,6 +3,7 @@ const fs = require("fs");
 
 const exampleDir =
   "C:\\Users\\ajanuw\\Downloads\\bootstrap-5.0.0-beta1-examples";
+const outpath = "./examples-out.json";
 
 const dl = fs.readdirSync(exampleDir);
 const json = {};
@@ -56,4 +57,4 @@ for (const fn of dl) {
   };
 }
 
-fs.writeFileSync("./bs5/examples-out.json", JSON.stringify(json));
+fs.writeFileSync(outpath, JSON.stringify(json));
