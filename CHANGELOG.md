@@ -1,3 +1,8 @@
+## 0.5.1 2021/1/29
+
+- fix: ".rounded-"
+- fix: ".grp" => ".gap"
+
 ## 0.5.0 2021/1/23
 
 - update "b5-customize"

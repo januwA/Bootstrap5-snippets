@@ -34,10 +34,15 @@
     "body": "border-${0:top}",
     "description": "<btnColor>|white"
   },
+  "rounded": {
+    "prefix": ".rounded",
+    "body": "rounded",
+    "description": ""
+  },
   "Radius": {
     "prefix": ".rounded-",
     "body": "rounded-${0:circle}",
-    "description": "circle|radius"
+    "description": "0~3|circle|pill|top|end|bottom|start"
   },
   "Text": {
     "prefix": ".text-",
@@ -267,11 +272,6 @@
     "body": "py-<breakpoint>-${0:0}",
     "description": "0~5|auto"
   },
-  "Gap": {
-    "prefix": ".grp-",
-    "body": "grp-${0:3}",
-    "description": "0~5|auto"
-  },
   "Font size": {
     "prefix": ".fs-<breakpoint>-",
     "body": "fs-<breakpoint>-${0:1}",
@@ -440,7 +440,7 @@
     "body": "btn-outline-${0:primary}",
     "description": "<btnColor>"
   },
-  "gap": {
+  "Gap": {
     "prefix": ".gap-<breakpoint>-",
     "body": "gap-<breakpoint>-${0:2}",
     "description": "0~5"

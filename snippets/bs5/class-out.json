@@ -34,9 +34,14 @@
     "body": "border-${1|primary,secondary,success,danger,warning,info,light,dark,white|}",
     "description": ""
   },
+  "rounded": {
+    "prefix": ".rounded",
+    "body": "rounded",
+    "description": ""
+  },
   "Radius": {
     "prefix": ".rounded-",
-    "body": "rounded-${1|circle,radius|}",
+    "body": "rounded-${1|0,1,2,3,circle,pill,top,end,bottom,start|}",
     "description": ""
   },
   "Text": {
@@ -267,11 +272,6 @@
     "body": "py-${1|0,1,2,3,4,5,auto|}",
     "description": ""
   },
-  "Gap": {
-    "prefix": ".grp-",
-    "body": "grp-${1|0,1,2,3,4,5,auto|}",
-    "description": ""
-  },
   "Font size": {
     "prefix": ".fs-",
     "body": "fs-${1|1,2,3,4|}",
@@ -440,7 +440,7 @@
     "body": "btn-outline-${1|primary,secondary,success,danger,warning,info,light,dark|}",
     "description": ""
   },
-  "gap": {
+  "Gap": {
     "prefix": ".gap-",
     "body": "gap-${1|0,1,2,3,4,5|}",
     "description": ""
@@ -1494,32 +1494,32 @@
     "body": "gy-xxl-${1|0,1,2,3,4,5|}",
     "description": ""
   },
-  "gap xs": {
+  "Gap xs": {
     "prefix": ".gap-xs-",
     "body": "gap-xs-${1|0,1,2,3,4,5|}",
     "description": ""
   },
-  "gap sm": {
+  "Gap sm": {
     "prefix": ".gap-sm-",
     "body": "gap-sm-${1|0,1,2,3,4,5|}",
     "description": ""
   },
-  "gap md": {
+  "Gap md": {
     "prefix": ".gap-md-",
     "body": "gap-md-${1|0,1,2,3,4,5|}",
     "description": ""
   },
-  "gap lg": {
+  "Gap lg": {
     "prefix": ".gap-lg-",
     "body": "gap-lg-${1|0,1,2,3,4,5|}",
     "description": ""
   },
-  "gap xl": {
+  "Gap xl": {
     "prefix": ".gap-xl-",
     "body": "gap-xl-${1|0,1,2,3,4,5|}",
     "description": ""
   },
-  "gap xxl": {
+  "Gap xxl": {
     "prefix": ".gap-xxl-",
     "body": "gap-xxl-${1|0,1,2,3,4,5|}",
     "description": ""
