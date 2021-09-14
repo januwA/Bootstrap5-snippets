@@ -2,7 +2,7 @@
 	"name": "bs5",
 	"displayName": "Bootstrap5",
 	"description": "Bootstrap5 snippets",
-	"version": "0.5.1",
+	"version": "0.6.0",
 	"author": "Ajanuw",
 	"icon": "logo/bootstrap-logo.png",
 	"publisher": "ajanuw",
@@ -42,6 +42,54 @@
 			},
 			{
 				"language": "html",
+				"path": "./snippets/FontAwesome/icons-out.json"
+			},
+			{
+				"language": "javascriptreact",
+				"path": "./snippets/bs5/components.json"
+			},
+			{
+				"language": "javascriptreact",
+				"path": "./snippets/bs5/class-out.json"
+			},
+			{
+				"language": "javascriptreact",
+				"path": "./snippets/bs5/examples-out.json"
+			},
+			{
+				"language": "javascriptreact",
+				"path": "./snippets/FontAwesome/icons-out.json"
+			},
+			{
+				"language": "typescriptreact",
+				"path": "./snippets/bs5/components.json"
+			},
+			{
+				"language": "typescriptreact",
+				"path": "./snippets/bs5/class-out.json"
+			},
+			{
+				"language": "typescriptreact",
+				"path": "./snippets/bs5/examples-out.json"
+			},
+			{
+				"language": "typescriptreact",
+				"path": "./snippets/FontAwesome/icons-out.json"
+			},
+			{
+				"language": "vue-html",
+				"path": "./snippets/bs5/components.json"
+			},
+			{
+				"language": "vue-html",
+				"path": "./snippets/bs5/class-out.json"
+			},
+			{
+				"language": "vue-html",
+				"path": "./snippets/bs5/examples-out.json"
+			},
+			{
+				"language": "vue-html",
 				"path": "./snippets/FontAwesome/icons-out.json"
 			},
 			{
