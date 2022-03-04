@@ -1,3 +1,8 @@
+## 0.7.0 2022-3-4
+
+- remove example template
+
+
 ## 0.6.0 2021-9-14
 
 - 添加 `jsx` `tsx` `vue-html` 文件支持

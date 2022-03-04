@@ -7,7 +7,6 @@ Bootstrap5 snippets
 ## Bootstrap 5:
 - `b5-*` Components
 - `b5-!` Starter template
-- `b5-example-*` Examples
 - `.*` class text
 
 ## Font Awesome 5.15.2:

@@ -2,7 +2,7 @@
 	"name": "bs5",
 	"displayName": "Bootstrap5",
 	"description": "Bootstrap5 snippets",
-	"version": "0.6.0",
+	"version": "0.7.0",
 	"author": "Ajanuw",
 	"icon": "logo/bootstrap-logo.png",
 	"publisher": "ajanuw",
@@ -19,7 +19,7 @@
 		"Ajanuw"
 	],
 	"engines": {
-		"vscode": "^1.52.0"
+		"vscode": "^1.65.0"
 	},
 	"categories": [
 		"Snippets"
@@ -38,10 +38,6 @@
 			},
 			{
 				"language": "html",
-				"path": "./snippets/bs5/examples-out.json"
-			},
-			{
-				"language": "html",
 				"path": "./snippets/FontAwesome/icons-out.json"
 			},
 			{
@@ -51,10 +47,6 @@
 			{
 				"language": "javascriptreact",
 				"path": "./snippets/bs5/class-out.json"
-			},
-			{
-				"language": "javascriptreact",
-				"path": "./snippets/bs5/examples-out.json"
 			},
 			{
 				"language": "javascriptreact",
@@ -70,10 +62,6 @@
 			},
 			{
 				"language": "typescriptreact",
-				"path": "./snippets/bs5/examples-out.json"
-			},
-			{
-				"language": "typescriptreact",
 				"path": "./snippets/FontAwesome/icons-out.json"
 			},
 			{
@@ -83,10 +71,6 @@
 			{
 				"language": "vue-html",
 				"path": "./snippets/bs5/class-out.json"
-			},
-			{
-				"language": "vue-html",
-				"path": "./snippets/bs5/examples-out.json"
 			},
 			{
 				"language": "vue-html",
@@ -108,16 +92,19 @@
 		"test": "node ./out/test/runTest.js"
 	},
 	"devDependencies": {
-		"@types/vscode": "^1.52.0",
-		"@types/glob": "^7.1.3",
-		"@types/mocha": "^8.0.4",
-		"@types/node": "^12.11.7",
-		"eslint": "^7.15.0",
-		"@typescript-eslint/eslint-plugin": "^4.9.0",
-		"@typescript-eslint/parser": "^4.9.0",
-		"glob": "^7.1.6",
-		"mocha": "^8.1.3",
-		"typescript": "^4.1.2",
-		"vscode-test": "^1.4.1"
+		"@types/vscode": "^1.65.0",
+		"@types/glob": "^7.2.0",
+		"@types/mocha": "^9.1.0",
+		"@types/node": "14.x",
+		"@typescript-eslint/eslint-plugin": "^5.12.1",
+		"@typescript-eslint/parser": "^5.12.1",
+		"eslint": "^8.9.0",
+		"glob": "^7.2.0",
+		"mocha": "^9.2.1",
+		"typescript": "^4.5.5",
+		"ts-loader": "^9.2.6",
+		"webpack": "^5.69.1",
+		"webpack-cli": "^4.9.2",
+		"@vscode/test-electron": "^2.1.2"
 	}
 }
